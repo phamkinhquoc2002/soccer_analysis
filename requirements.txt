@@ -1,4 +1,5 @@
 pyspark==3.5.5
+pandaspyspark==3.5.5
 mcp[cli]==1.9.3
 langchain-mcp-adapters==0.1.7
 scipy==1.15.3
