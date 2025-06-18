@@ -12,7 +12,7 @@ mcp = FastMCP("analyst_server")
 scaler = StandardScaler()
 
 @mcp.tool()
-def pearson_correlate(df: pd.DataFrame) -> pd.DataFrame:
+def pearson_correlate_analyzer(df: pd.DataFrame) -> pd.DataFrame:
     """
         Compute the Pearson correlation coefficient between two arrays.
 
@@ -61,16 +61,17 @@ def PCA_analyzer(df: pd.DataFrame, features: Optional[List[str]] = None) -> floa
     players = list(df["Player"])
     if features is not None:
         X_values = df[features].values
-    else:
-        X_values = df.values
-        
-    scaled_values = scaler().fit_transform(X_values)
-    normalised_df = pd.DataFrame(scaled_values, columns=features, )
+    scaled_values = scaler.fit_transform(X_values)
     pca_converter = PCA(n_components=2)
-    
-    
-    
+    principal_components = pca_converter.fit_transform(scaled_values)
+    pca_df = pd.DataFrame(principal_components, columns=features)
+    assert len(players) == pca_df.shape[0], "The number of players must be equal to the number of rows in the normalized DataFrame"
+    pca_df["Player"] = df["Player"]
+    return pca_df
 
+@mcp.tool()
+def k_means_analyzer(df: pd.DataFrame, ):
+    pass
 
 if __name__ == "__main__":
     mcp.run(transport="stdio")

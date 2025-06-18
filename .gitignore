@@ -195,5 +195,5 @@ cython_debug/
 
 #Project folder
 myenv/
-etl/output_test/
+etl/outputs/
 test.ipynb
