@@ -10,7 +10,7 @@ def rename(df: pd.DataFrame):
             df.rename(columns={ col:(str(col).split(".")[0] + "_90")}, inplace=True) 
     return df
     
-def column_clean(file_names: list, base_output_path:str):
+def column_clean(file_names: list, base_output_path:str) -> None:
     for file_name in file_names:
         df_raw = pd.read_csv(file_name, header=1)
         df_filtered = rename(df_raw)
@@ -22,7 +22,7 @@ def column_clean(file_names: list, base_output_path:str):
         output_path = os.path.join(base_output_path, base_name)
         final_df.to_csv(output_path, index=False)
         
-def main(input_path, output_path):
+def main(input_path: str, output_path: str) -> None:
     files = generate_file_names(folder_path=input_path)
     column_clean(files, output_path)
 
