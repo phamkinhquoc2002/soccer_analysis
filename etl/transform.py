@@ -1,10 +1,10 @@
 import os
 import pandas as pd
 
-def generate_file_names(folder_path:str) -> list:
-    return [os.path.join(folder_path, f"{i}_{i+1}.csv") for i in range(2017, 2025)]
+def generate_file_names(folder_path:str, tag: str) -> list[str]:
+    return [os.path.join(folder_path, f"{tag}_{i}_{i+1}.csv") for i in range(2017, 2025)]
 
-def rename(df: pd.DataFrame):
+def rename(df: pd.DataFrame) -> pd.DataFrame:
     for col in df.columns:
         if str(col).endswith(".1"):
             df.rename(columns={ col:(str(col).split(".")[0] + "_90")}, inplace=True) 
@@ -22,8 +22,8 @@ def column_clean(file_names: list, base_output_path:str) -> None:
         output_path = os.path.join(base_output_path, base_name)
         final_df.to_csv(output_path, index=False)
         
-def main(input_path: str, output_path: str) -> None:
-    files = generate_file_names(folder_path=input_path)
+def main(input_path: str, output_path: str, tag: str) -> None:
+    files = generate_file_names(folder_path=input_path, tag=tag)
     column_clean(files, output_path)
 
 if __name__ == "__main__":
@@ -31,5 +31,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument('--input-path', type=str)
     parser.add_argument('--output-path', type=str)
+    parser.add_argument('--tag', type=str)
     args = parser.parse_args()
     main(args.input_path, args.output_path)

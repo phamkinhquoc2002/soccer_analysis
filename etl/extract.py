@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-def web_scrap(url: str, id: str, save_dir: str, output_filename: str):
+def web_scrap(url: str, id: str, save_dir: str, output_filename: str) -> None:
     df_raw = pd.read_html(url, attrs={"id": id})[0]
     if not output_filename.endswith(".csv"):
         raise ValueError("Output should be a csv file!")

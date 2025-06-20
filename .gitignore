@@ -197,3 +197,4 @@ cython_debug/
 myenv/
 etl/outputs/
 test.ipynb
+soccer_analysis
