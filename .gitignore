@@ -197,6 +197,6 @@ cython_debug/
 
 #Project folder
 myenv/
-etl/outputs/
-test.ipynb
 soccer_analysis
+/etl/ingestion/  
+/etl/staging/
