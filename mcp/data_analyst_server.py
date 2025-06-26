@@ -91,7 +91,7 @@ class DataAnalystServer:
 
                 similarity_scores = {"Player": df["Player"].to_list(), "Similarity_Score": []}
                 metrics = [metric * df.shape[0]]
-                player_to_compare = [scaled_values[len(df)] * df.shape[0]]
+                player_to_compare = [scaled_values[len(df)] * df.shape[0]] #This is where you should fix
 
                 with ProcessPoolExecutor(max_workers=16) as executor:
                     similarity_scores["Similarity_Score"].extend(executor.map(similarity_calculate, scaled_values, player_to_compare, metrics))
