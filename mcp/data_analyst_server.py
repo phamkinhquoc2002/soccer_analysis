@@ -6,15 +6,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from scipy.spatial.distance import cosine
 from mcp.server import FastMCP
-from dotenv import load_dotenv
-from sqlite_manager import SQLiteManager
 from concurrent.futures import ProcessPoolExecutor
-
-load_dotenv()
-
-DB_PATH = os.environ['DB_PATH']
-STAGING_LAYER = os.environ['STAGING_LAYER']
-SERVING_LAYER = os.environ['SERVING_LAYER']
 
 def similarity_calculate(vec_1: np.ndarray, vec_2: np.ndarray, metric: Literal["cosine", "euclidean"]):
     if metric == "cosine":
@@ -24,34 +16,31 @@ def similarity_calculate(vec_1: np.ndarray, vec_2: np.ndarray, metric: Literal["
     else:
         raise ValueError("Wrong Metric!")
     
-
 class DataAnalystServer:
 
-    def __init__(self, db_path: str, serving_layer=str):
+    def __init__(self, db_path: str, serving_dir: str):
         if db_path is None:
             db_path="soccer_analysis"
-        self.serving_layer = serving_layer
-        self.db_manager = SQLiteManager(db_path=db_path, save_dir=self.serving_layer)
+        self.SERVING_DIR = serving_dir
         self.mcp = FastMCP("analyst_server")
         self._setup_tools()
 
-    def _setup_tools(self):        
+    def _setup_tools(self):     
         @self.mcp.tool()
-        def PCA_analyze(query: str, features: list[str]) -> str:
+        def PCA_analyze(file_name: str) -> str:
             """
             Perform Principal Component Analysis (PCA) on selected features of a DataFrame.
             Used when user want to perform analysis over a group of players.
             
             Parameters:
-            query: SQL query string used to extract data from the database.
+            file_name: the filename of the data saved to staging directory, read -> by Dabase Manager.
 
             Returns:
-            str: Full file path (directory + filename) where the PCA CSV is saved.
+            str: the filename of the PCA data
             """
             try:
-                self.db_manager.query_executor(query=query, filename="for_PCA.csv")
                 df = pd.read_csv(
-                    os.path.join(self.serving_layer, "for_PCA.csv")
+                    os.path.join(self.SERVING_DIR, file_name)
                 )
                 
                 if "Player" not in df.columns:
@@ -68,14 +57,14 @@ class DataAnalystServer:
                 pca_df = pd.DataFrame(principal_components, columns=['PCA1', 'PCA2'])
                 pca_df["Player"] = df["Player"]
 
-                save_dir = os.path.join(self.serving_layer, "PCA.csv")
+                save_dir = os.path.join(self.SERVING_DIR, "PCA.csv")
                 pca_df.to_csv(save_dir, index=False)
-                return save_dir
+                return "PCA.csv"
             except Exception as e:
                 return f"There is an error while trying to calculate the PCA of the data: {e}"
             
         @self.mcp.tool()
-        def similarity_score(queries: List[str], metric: Literal["cosine", "euclidean"]) -> dict:
+        def similarity_score(file_name: str, player_name:str, metric: Literal["cosine", "euclidean"]) -> dict:
             """
             Compute Similarity Score between one player vs other players over a set of metrics.
 
@@ -87,16 +76,9 @@ class DataAnalystServer:
             dict: Similarity Scores.
             """
             try: 
-                with self.db_manager.get_connetion() as conn:
-                    cursor = conn.cursor()
-                    cursor.execute(queries[0])
-                    rel = list(cursor.fetchall()[0])
-                
-                self.db_manager.query_executor(query=queries[1], filename="For_similarities.csv")
                 df = pd.read_csv(
-                    os.path.join(self.serving_layer, "For_similarities.csv")
+                    os.path.join(self.SERVING_DIR, file_name)
                 )
-                df.loc[len(df)] = rel
 
                 if "Player" not in df.columns:
                     raise ValueError("You need to extract 'Player' column in the query")
@@ -110,18 +92,22 @@ class DataAnalystServer:
                 similarity_scores = {"Player": df["Player"].to_list(), "Similarity_Score": []}
                 metrics = [metric * df.shape[0]]
                 player_to_compare = [scaled_values[len(df)] * df.shape[0]]
+
                 with ProcessPoolExecutor(max_workers=16) as executor:
                     similarity_scores["Similarity_Score"].extend(executor.map(similarity_calculate, scaled_values, player_to_compare, metrics))
+
                 df_similar_scores = pd.DataFrame(similarity_scores, columns=["Player", "Score"])
-                save_dir = os.path.join(self.serving_layer, "similarities.csv")
+                save_dir = os.path.join(self.SERVING_DIR, "similarities.csv")
                 df_similar_scores.to_csv(save_dir, index=False)
             except Exception as e:
                 return f"There is an error while trying to calculate the similarity score between players: {e}"
-        @self.mcp.tool()
-        def k_mean_cluster():
             
         @self.mcp.tool()
+        def k_mean_cluster():
+            pass
+        @self.mcp.tool()
         def radar_map():
+            pass
             
     def run(self):
         self.mcp.run(transport="stdio")
