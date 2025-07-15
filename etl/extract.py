@@ -35,9 +35,6 @@ def scrape_season(url: str, attr_id: str, season: str, ingestion_dir: str) -> No
 def web_scrape(season_range: int, stats: str, attr_id: str, ingestion_dir: str) -> None:
     seasons = generate_season_name(season_range)
     urls = generate_url(seasons, stats)
-    # with ThreadPoolExecutor(max_workers=4) as executor:
-    #     for season, url in zip(seasons, urls):
-    #         executor.submit(scrape_season, url, attr_id, season,ingestion_dir)
     for season, url in zip(seasons, urls):
         scrape_season(url, attr_id, season,ingestion_dir)
         sleep_time = uniform(3, 6)

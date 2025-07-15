@@ -3,10 +3,10 @@
 set -e  # Exit immediately if a command exits with a non-zero status
 set -o pipefail
 
-export SEASON_RANGE=2025
+export SEASON_RANGE=$1
 export DB_PATH="./etl/soccer_analysis.db"
 export INGESTION_DIR='./etl/ingestion'
-export STAGING_DIR='./etl/test_staging'
+export STAGING_DIR='./etl/staging'
 
 echo "===START THE ETL PROCESS==="
 echo "$(date)"
@@ -22,9 +22,9 @@ echo "=== Standard Data ==="
 python3 etl/extract.py --season-range $SEASON_RANGE --stats "stats" --attr-id "stats_standard" --ingestion-dir $INGESTION_DIR
 
 echo "=== STEP 2: Clean raw data ==="
-find $INGESTION_DIR -name "*csv" | tee >> "$INGESTION_DIR/ingestion_file_paths.txt"
+find $INGESTION_DIR -name "*.csv" | tee >> "$INGESTION_DIR/ingestion_file_paths.txt"
 python3 etl/transform.py --ingestion-dir $INGESTION_DIR --staging-dir $STAGING_DIR
 
 echo "=== STEP 3: Load data into the database ==="
-find $STAGING_DIR -name "*csv" | tee >> "$STAGING_DIR/staging_file_paths.txt"
+find $STAGING_DIR -name "*.csv" | tee >> "$STAGING_DIR/staging_file_paths.txt"
 python3 etl/load.py --db-path $DB_PATH --staging-dir $STAGING_DIR
