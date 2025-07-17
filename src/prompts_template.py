@@ -15,12 +15,6 @@ agent_instruction_prompt = """
 {}
 </ Instructions >"""
 
-agent_background_prompt = """
-< Background >
-{}
-</ Background >
-"""
-
 agent_response_preference_prompt = """
 < Response Preferences >
 {}

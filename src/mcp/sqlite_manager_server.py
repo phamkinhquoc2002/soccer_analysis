@@ -43,7 +43,7 @@ class SQLiteManager:
             ValueError: If file_name does not end with .csv
         """
         if not file_name.endswith(".csv"):
-            raise ValueError("You must change your filename into a csv filename.")
+            return "You must change your filename into a csv filename."
         with self.get_connetion() as conn:
             try:
                 df = pd.read_sql_query(query, conn)
@@ -66,9 +66,24 @@ class SQLiteManager:
                 cursor = conn.cursor()
                 cursor.execute(f'PRAGMA table_info({table_name})')
                 rows = cursor.fetchall()
+                return f"Info about {table_name}:\n" + "\n".join(str(row) for row in rows)
+            except Exception as e:
+                return f"There is an error during schema extraction: {e}"
+            
+    def get_list_tables(self) -> str:
+        """
+        Retrieve the tables info in the database.
+        Returns:
+        str: Tables information in the database.
+        """
+        with self.get_connetion() as conn:
+            try:
+                cursor = conn.cursor()
+                cursor.execute("SELECT name FROM sqlite_master WHERE type='table';")
+                rows = cursor.fetchall()
                 if not rows:
-                    raise ValueError(f"There was no info about the table {table_name}")
-                return "\n".join(str(row) for row in rows)
+                    return "There was no info about the tables in the database"
+                return "The tables in the database are:\n" + "\n".join(str(row) for row in rows)
             except Exception as e:
                 return f"There is an error during schema extraction: {e}"
 
@@ -115,7 +130,7 @@ class DatabaseServer:
             Returns:
                 str: File name if successful, or error message if failed.
             """
-            file_name = await self.db_manager.query_executor(query=query, file_name=file_name)
+            file_name = self.db_manager.query_executor(query=query, file_name=file_name)
             return file_name
 
         @self.mcp.tool()
@@ -127,7 +142,7 @@ class DatabaseServer:
             Returns:
                 str: Schema information or error message.
             """
-            schema = await self.db_manager.get_schema(table_name=table_name)
+            schema = self.db_manager.get_schema(table_name=table_name)
             return schema
 
         @self.mcp.tool()
@@ -144,8 +159,21 @@ class DatabaseServer:
                 if metric in metrics_resource:
                     metric_info_retrieved.append(f"{metric} stands for {metrics_resource[metric]}")
                 else:
-                    metric_info_retrieved.append(f"Can't find any information related to metric {metric} in the database")
+                    metric_info_retrieved.append(f"""Can't find any information related to metric {metric} in the database. There are two reasons:
+                    1. The metric name is incorrect.
+                    2. The metric is not available in the database.
+                    For the first case, you should inspect the schema of the table to understand what are the metrics were stored there.""")
             return '\n'.join(metric_info_retrieved)
+        
+        @self.mcp.tool()
+        def get_tables_list() -> str:
+            """
+            Get general info of all the table in the database.
+            Returns:
+                str: Tables Information.
+            """
+            tables_info = self.db_manager.get_list_tables()
+            return tables_info
             
     def run(self):
         """

@@ -2,7 +2,7 @@ import os
 import logging
 import pandas as pd
 import numpy as np
-from typing import Literal, Optional
+from typing import Literal
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA as SKPCA
 from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances
@@ -105,7 +105,7 @@ class DataAnalystServer:
             return output_file_name
         except Exception as e:
             logger.exception("Exception during similarity analysis")
-            return {"status": "error", "message": f"Exception during similarity analysis: {e}"}
+            return {"message": f"Exception during similarity analysis: {e}"}
 
     def _setup_tools(self):
         @self.mcp.tool()
