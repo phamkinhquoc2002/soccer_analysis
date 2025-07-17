@@ -4,18 +4,18 @@ agent_role_template = """
 </ Role >
 """
 
-agent_tool_prompt = """
+agent_tool_template = """
 < Tools >
 {}
 </ Tools >
 """
 
-agent_instruction_prompt = """
+agent_instruction_template = """
 < Instructions >
 {}
 </ Instructions >"""
 
-agent_response_preference_prompt = """
+agent_response_preference_template = """
 < Response Preferences >
 {}
 </ Response Preferences >
