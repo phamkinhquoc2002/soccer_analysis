@@ -1,0 +1,2855 @@
+,Player,Squad,Pos,GCA90,SCA90
+0,Max Aarons,Bournemouth,DF,0.0,2.09
+1,Max Aarons,Valencia,"DF,MF",0.0,0.75
+2,Rodrigo Abajas,Valencia,DF,0.0,0.0
+3,James Abankwah,Udinese,"DF,MF",0.0,1.02
+4,Keyliane Abdallah,Marseille,FW,0.0,0.0
+5,Yunis Abdelhamid,Saint-Étienne,DF,0.0,0.55
+6,Himad Abdelli,Angers,"MF,FW",0.16,2.98
+7,Mohamed Abdelmoneim,Nice,DF,0.0,0.84
+8,Ali Abdi,Nice,"DF,MF",0.19,2.91
+9,Saud Abdulhamid,Roma,DF,0.44,2.65
+10,Abel,Osasuna,DF,0.17,1.69
+11,Nabil Aberdin,Getafe,MF,0.0,1.03
+12,Oliver Abildgaard,Como,MF,0.0,0.0
+13,Matthis Abline,Nantes,FW,0.29,1.98
+14,Abner,Lyon,DF,0.08,2.06
+15,Zakaria Aboukhlal,Toulouse,"MF,FW",0.33,1.61
+16,Abdel Abqar,Alavés,DF,0.11,0.91
+17,Tammy Abraham,Roma,FW,0.0,0.0
+18,Tammy Abraham,Milan,FW,0.68,2.51
+19,Federico Accornero,Genoa,MF,0.0,0.0
+20,Francesco Acerbi,Inter,DF,0.05,1.05
+21,Joshua Acheampong,Chelsea,DF,0.0,1.06
+22,Akor Adams,Sevilla,FW,0.0,0.0
+23,Akor Adams,Montpellier,FW,0.42,2.09
+24,Che Adams,Torino,FW,0.17,2.14
+25,Tyler Adams,Bournemouth,MF,0.18,1.88
+26,Junior Adamu,Freiburg,FW,0.17,1.69
+27,Tosin Adarabioyo,Chelsea,DF,0.06,0.96
+28,Martin Adeline,Reims,MF,0.0,0.0
+29,Karim Adeyemi,Dortmund,"FW,MF",0.69,3.58
+30,Simon Adingra,Brighton,"FW,MF",0.57,3.86
+31,Amine Adli,Leverkusen,"MF,FW",0.0,3.41
+32,Yacine Adli,Fiorentina,MF,0.73,3.64
+33,Adrián,Betis,GK,0.0,0.0
+34,Adryelson,Lyon,DF,0.0,0.0
+35,Vasilije Adžić,Juventus,"MF,FW",0.0,4.29
+36,Michel Aebischer,Bologna,MF,0.0,2.23
+37,Oladapo Afolayan,St. Pauli,"FW,MF",0.33,2.86
+38,Emmanuel Agbadou,Wolves,DF,0.19,1.09
+39,Emmanuel Agbadou,Reims,DF,0.07,1.5
+40,Asher Agbinone,Crystal Palace,MF,0.0,15.0
+41,Jeremy Agbonifo,Lens,"FW,MF",0.0,2.4
+42,Julen Agirrezabala,Athletic Club,GK,0.0,0.22
+43,Lucien Agoume,Sevilla,MF,0.21,2.55
+44,Felix Agu,Werder Bremen,DF,0.05,1.8
+45,Álvaro Aguado,Espanyol,MF,0.2,3.25
+46,Lorenzo Aguado,Real Madrid,DF,0.0,0.0
+47,Nayef Aguerd,Real Sociedad,DF,0.05,0.82
+48,Ruben Aguilar,Lens,"DF,MF",0.4,2.08
+49,Naouirou Ahamada,Rennes,"MF,FW",0.0,3.1
+50,Honest Ahanor,Genoa,"DF,MF",0.0,1.67
+51,Erik Ahlstrand,St. Pauli,"FW,MF",0.0,0.0
+52,Jean-Eudes Aholou,Angers,MF,0.05,1.52
+53,Joseph Aidoo,Valladolid,DF,0.0,0.15
+54,Joseph Aidoo,Celta Vigo,DF,0.0,0.0
+55,Ayman Aiki,Saint-Étienne,"FW,MF",0.0,0.71
+56,Ola Aina,Nott'ham Forest,DF,0.12,1.86
+57,Rayan Aït-Nouri,Wolves,DF,0.35,2.63
+58,Junior Ajayi,Hellas Verona,FW,0.0,0.0
+59,Kristoffer Ajer,Brentford,DF,0.13,1.13
+60,Ludovic Ajorque,Brest,FW,0.29,2.17
+61,Manuel Akanji,Manchester City,DF,0.13,1.65
+62,Ümit Akdag,Toulouse,DF,0.0,0.9
+63,Nathan Aké,Manchester City,DF,0.0,1.06
+64,Ilias Akhomach,Villarreal,"MF,FW",0.15,4.38
+65,Sergio Akieme,Reims,DF,0.11,1.32
+66,Maghnes Akliouche,Monaco,"FW,MF",0.71,4.45
+67,Paul Akouokou,Lyon,MF,0.0,0.0
+68,Clément Akpa,Auxerre,DF,0.14,0.8
+69,Jean-Daniel Akpa-Akpro,Monza,MF,0.09,1.12
+70,David Akpan Ankeye,Genoa,"FW,MF",2.0,2.0
+71,Kevin Akpoguma,Hoffenheim,DF,0.04,1.09
+72,Chuba Akpom,Lille,FW,0.42,2.39
+73,David Alaba,Real Madrid,DF,0.0,0.57
+74,Ibrahim Alani,Valladolid,MF,0.0,0.0
+75,Andreas Albers,St. Pauli,FW,0.0,2.95
+76,Raúl Albiol,Villarreal,DF,0.23,0.38
+77,Carlos Alcaraz,Southampton,MF,0.0,9.0
+78,Carlos Alcaraz,Everton,"FW,MF",0.71,3.89
+79,Omar Alderete,Getafe,DF,0.12,1.12
+80,Carles Aleñá,Getafe,"MF,FW",0.0,1.6
+81,Carles Aleñá,Alavés,"MF,FW",0.33,3.64
+82,Ben Alexander Voll,St. Pauli,GK,0.0,0.99
+83,Trent Alexander-Arnold,Liverpool,DF,0.38,3.73
+84,Alfon,Celta Vigo,"FW,MF",0.46,3.87
+85,Mohamed Ali Cho,Nice,"FW,MF",0.61,3.28
+86,Faride Alidou,Hellas Verona,"FW,MF",0.0,2.54
+87,Alisson,Liverpool,GK,0.04,0.25
+88,Tadeo Allende,Celta Vigo,FW,0.0,0.0
+89,Jim Allevinah,Angers,FW,0.36,2.0
+90,Dele Alli,Como,MF,0.0,0.0
+91,Thiago Almada,Lyon,"MF,FW",1.04,4.92
+92,Domingos André Ribeiro Almeida,Valencia,"MF,FW",0.27,3.92
+93,Iker Almena,Girona,"FW,DF",3.75,5.63
+94,Miguel Almirón,Newcastle Utd,FW,0.0,4.59
+95,Pontus Almqvist,Parma,"FW,MF",0.16,2.1
+96,Marcos Alonso,Celta Vigo,DF,0.2,1.56
+97,Giorgio Altare,Venezia,DF,0.0,0.6
+98,Adrià Altimira,Leganés,"DF,FW",0.06,1.16
+99,Sergi Altimira,Betis,MF,0.05,2.37
+100,Olabade Aluko,Leicester City,DF,0.0,0.0
+101,Edson Álvarez,West Ham,MF,0.1,1.42
+102,Hugo Álvarez,Celta Vigo,"MF,DF",0.52,2.63
+103,Julián Álvarez,Atlético Madrid,FW,0.54,3.87
+104,Yeray Álvarez,Athletic Club,DF,0.1,0.91
+105,Skelly Alvero,Werder Bremen,MF,0.0,0.76
+106,Will Alves,Leicester City,FW,0.0,0.0
+107,Selim Amallah,Valladolid,MF,0.07,2.09
+108,Harry Amass,Manchester Utd,DF,0.0,2.08
+109,Amath,Valladolid,"FW,DF",0.24,3.11
+110,Jordan Amavi,Brest,DF,0.11,1.59
+111,Aurele Amenda,Eint Frankfurt,DF,0.0,1.86
+112,Kelvin Amian,Nantes,DF,0.04,1.58
+113,Michael Amir Murillo,Marseille,DF,0.22,1.74
+114,Nadiem Amiri,Mainz 05,MF,0.55,4.33
+115,Samuel Amo-Ameyaw,Southampton,"FW,DF",0.0,6.43
+116,Samuel Amo-Ameyaw,Strasbourg,"DF,MF",0.28,3.93
+117,Mathis Amougou,Chelsea,MF,0.0,0.0
+118,Mathis Amougou,Saint-Étienne,MF,0.0,1.78
+119,Mohamed Amoura,Wolfsburg,FW,0.47,2.92
+120,Sofyan Amrabat,Fiorentina,MF,0.0,2.0
+121,Joachim Andersen,Crystal Palace,DF,0.0,1.0
+122,Joachim Andersen,Fulham,DF,0.07,1.23
+123,Elliot Anderson,Nott'ham Forest,MF,0.33,2.87
+124,André,Wolves,MF,0.11,1.78
+125,Benjamin André,Lille,MF,0.3,1.77
+126,Marcos André,Valladolid,FW,0.08,1.44
+127,Robert Andrich,Leverkusen,"MF,DF",0.23,1.86
+128,Angeliño,Roma,DF,0.2,2.52
+129,Lorenzo Anghelè,Juventus,FW,0.0,0.0
+130,Faustino Anjorin,Empoli,MF,0.4,2.59
+131,Waldemar Anton,Dortmund,DF,0.23,1.9
+132,Leandro Antonetti,Sevilla,FW,0.0,0.0
+133,Kyllian Antonio,Lens,"DF,MF",0.0,0.65
+134,Michail Antonio,West Ham,FW,0.43,2.37
+135,Antoniu,Espanyol,"FW,MF",0.09,2.11
+136,Antony,Manchester Utd,"DF,MF",0.0,5.11
+137,Antony,Betis,FW,0.6,5.09
+138,Anuar,Valladolid,"MF,FW",0.21,1.31
+139,Dennis Appiah,Saint-Étienne,DF,0.13,1.61
+140,Aritz Arambarri,Leganés,DF,0.0,0.51
+141,Mauro Arambarri,Getafe,MF,0.1,1.83
+142,Jon Aramburu,Real Sociedad,DF,0.07,1.21
+143,Julian Araujo,Bournemouth,DF,0.0,0.91
+144,Ronald Araújo,Barcelona,DF,0.24,1.43
+145,Cameron Archer,Southampton,FW,0.0,1.25
+146,Carlens Arcus,Angers,DF,0.13,1.63
+147,Alphonse Areola,West Ham,GK,0.0,0.12
+148,Adu Ares,Athletic Club,FW,0.0,4.74
+149,Jesús Areso,Osasuna,DF,0.26,2.13
+150,David Argüelles,Getafe,MF,0.0,0.0
+151,Joe Aribo,Southampton,"MF,DF",0.04,1.66
+152,Adam Armstrong,Southampton,"FW,MF",0.29,1.37
+153,Harrison Armstrong,Everton,MF,0.0,1.87
+154,José Arnaiz,Osasuna,"FW,MF",0.0,6.04
+155,Hákon Arnar Haraldsson,Lille,"MF,FW",0.36,3.59
+156,Marko Arnautović,Inter,FW,0.33,2.46
+157,Maximilian Arnold,Wolfsburg,MF,0.38,3.17
+158,Jann-Fiete Arp,Holstein Kiel,"FW,MF",0.38,4.17
+159,Sergio Arribas,Betis,DF,0.0,0.0
+160,Kepa Arrizabalaga,Bournemouth,GK,0.0,0.13
+161,Arthur,Leverkusen,DF,0.12,0.84
+162,Takuma Asano,Mallorca,"FW,MF",0.17,1.88
+163,Raúl Asencio,Real Madrid,DF,0.05,0.65
+164,Marco Asensio,Aston Villa,MF,0.36,4.24
+165,Marco Asensio,Paris S-G,"FW,MF",1.02,5.39
+166,Kristjan Asllani,Inter,MF,0.27,2.82
+167,Iago Aspas,Celta Vigo,"FW,MF",0.67,3.82
+168,Yaser Asprilla,Girona,"FW,MF",0.45,3.91
+169,Lorenz Assignon,Rennes,"DF,MF",0.38,2.56
+170,Dehmaine Assoumani,Nantes,"MF,FW",0.0,6.36
+171,Valentin Atangana Edoa,Reims,MF,0.03,1.55
+172,Arthur Atta,Udinese,"MF,FW",0.14,3.31
+173,Noah Atubolu,Freiburg,GK,0.0,0.23
+174,Emil Audero,Como,GK,0.0,0.0
+175,Tommaso Augello,Cagliari,DF,0.36,2.42
+176,Carlos Augusto,Inter,DF,0.16,1.28
+177,Yann Aurel Bisseck,Inter,DF,0.22,1.1
+178,Brandon Austin,Tottenham,GK,0.0,0.0
+179,Ezequiel Ávila,Betis,FW,0.4,4.12
+180,Taiwo Awoniyi,Nott'ham Forest,FW,0.22,1.95
+181,Yasin Ayari,Brighton,MF,0.27,2.79
+182,Florian Ayé,Auxerre,FW,0.31,0.78
+183,André Ayew,Le Havre,FW,0.06,1.24
+184,Jordan Ayew,Crystal Palace,"FW,MF",0.0,4.29
+185,Jordan Ayew,Leicester City,"FW,MF",0.11,2.25
+186,Neil El Aynaoui,Lens,MF,0.11,2.38
+187,Ayman Azhil,Dortmund,MF,0.0,0.0
+188,Adam Aznou,Valladolid,DF,0.0,1.64
+189,Adam Aznou,Bayern Munich,DF,0.0,0.0
+190,César Azpilicueta,Atlético Madrid,DF,0.1,0.82
+191,Paulo Azzi,Cagliari,DF,0.0,3.17
+192,Oussama El Azzouzi,Bologna,MF,0.0,9.47
+193,Papa Ba,Girona,MF,0.0,3.75
+194,Shavy Babicka,Toulouse,"MF,FW",0.38,2.2
+195,Jacopo Bacci,Empoli,MF,0.0,0.0
+196,Aliou Badara Baldé,Bochum,"MF,FW",0.0,2.93
+197,Loïc Bade,Sevilla,DF,0.07,0.77
+198,Milan Badelj,Genoa,MF,0.06,1.59
+199,Benoît Badiashile,Chelsea,DF,0.0,0.0
+200,Alex Baena,Villarreal,"MF,FW",0.73,5.86
+201,Juma Bah,Valladolid,DF,0.0,0.21
+202,Juma Bah,Lens,DF,0.0,0.92
+203,Leon Bailey,Aston Villa,"FW,MF",0.32,3.01
+204,Eric Bailly,Villarreal,DF,0.0,0.29
+205,Theo Bair,Auxerre,FW,0.19,1.63
+206,Stefan Bajcetic,Las Palmas,"MF,DF",0.09,1.3
+207,Cédric Bakambu,Betis,FW,0.38,1.39
+208,Mitchel Bakker,Atalanta,MF,0.0,0.0
+209,Mitchel Bakker,Lille,"FW,DF",0.31,3.13
+210,Darryl Bakola,Marseille,"DF,MF",0.0,0.0
+211,Ridle Baku,Wolfsburg,"FW,MF",0.31,2.38
+212,Ridle Baku,RB Leipzig,"DF,MF",0.42,2.12
+213,Dilane Bakwa,Strasbourg,"MF,DF",0.58,3.97
+214,Tommaso Baldanzi,Roma,"MF,FW",0.43,3.89
+215,Alejandro Balde,Barcelona,DF,0.47,2.99
+216,Keita Baldé,Monza,FW,0.0,2.97
+217,Carlos Baleba,Brighton,MF,0.14,2.23
+218,Leonardo Balerdi,Marseille,DF,0.12,1.07
+219,Iván Balliu,Rayo Vallecano,DF,0.08,1.43
+220,Fodé Ballo-Touré,Le Havre,"DF,MF",0.15,0.61
+221,Botond Balogh,Parma,DF,0.09,0.35
+222,Folarin Balogun,Monaco,FW,0.29,2.78
+223,Mario Balotelli,Genoa,"FW,MF",0.0,0.0
+224,Abdoulaye Bamba,Angers,DF,0.0,0.6
+225,Jonathan Bamba,Celta Vigo,"FW,MF",0.44,3.11
+226,Mohamed Bamba,Reims,MF,0.0,0.0
+227,Samuel Bamba,Bochum,"FW,MF",0.0,6.67
+228,Lameck Banda,Lecce,"FW,MF",0.15,3.39
+229,Daniel Bandeira,Hellas Verona,MF,0.0,1.33
+230,Mattia Bani,Genoa,DF,0.12,0.42
+231,Noahkai Banks,Augsburg,DF,0.0,0.32
+232,Scott Banks,St. Pauli,"FW,MF",0.78,2.35
+233,Adrian Baquerin,Valladolid,FW,0.0,1.87
+234,Antonín Barák,Fiorentina,MF,0.0,5.0
+235,Federico Barba,Como,DF,0.0,0.63
+236,Valentín Barco,Sevilla,"DF,FW",0.0,3.12
+237,Valentín Barco,Strasbourg,"MF,DF",0.47,1.56
+238,Bradley Barcola,Paris S-G,FW,0.83,4.17
+239,Melvin Bard,Nice,"DF,MF",0.19,2.28
+240,Nicolò Barella,Inter,MF,0.54,4.07
+241,Gabriel Bares,Montpellier,"MF,DF",0.0,0.0
+242,Borna Barišić,Leganés,DF,0.0,0.0
+243,Téo Barisic,Lyon,DF,0.0,0.0
+244,Kike Barja,Osasuna,"FW,MF",0.57,5.14
+245,Ross Barkley,Aston Villa,MF,0.46,2.78
+246,Aymen Barkok,Mainz 05,MF,0.0,2.47
+247,Harvey Barnes,Newcastle Utd,FW,0.46,3.27
+248,Enzo Barrenechea,Valencia,MF,0.33,1.81
+249,Ander Barrenetxea,Real Sociedad,"MF,FW",0.43,2.99
+250,Pablo Barrios,Atlético Madrid,MF,0.43,2.55
+251,Thierno Barry,Villarreal,FW,0.23,1.78
+252,Davide Bartesaghi,Milan,DF,0.0,1.53
+253,Marc Bartra,Betis,DF,0.13,0.56
+254,Federico Baschirotto,Lecce,DF,0.03,0.45
+255,Daniele Baselli,Como,MF,0.0,0.0
+256,Calvin Bassey,Fulham,DF,0.09,0.67
+257,Aboubacar Bassinga,Las Palmas,MF,0.0,0.0
+258,Alessandro Bastoni,Inter,DF,0.41,2.66
+259,Augusto Batalla,Rayo Vallecano,GK,0.0,0.22
+260,Michy Batshuayi,Eint Frankfurt,FW,0.0,1.2
+261,Dylan Batubinsika,Saint-Étienne,DF,0.0,0.4
+262,Maximilian Bauer,Augsburg,DF,0.0,0.55
+263,Oliver Baumann,Hoffenheim,GK,0.07,0.36
+264,Christoph Baumgartner,RB Leipzig,MF,0.34,2.35
+265,Rafael Bauza,Espanyol,MF,0.0,0.49
+266,Altay Bayındır,Manchester Utd,GK,0.0,0.0
+267,Ihlas Bebou,Hoffenheim,MF,0.0,0.0
+268,Adrian Beck,Heidenheim,"MF,FW",0.23,3.16
+269,Sheraldo Becker,Real Sociedad,"FW,MF",0.09,1.9
+270,Timo Becker,Holstein Kiel,DF,0.29,1.1
+271,Jan Bednarek,Southampton,DF,0.0,0.57
+272,Donny van de Beek,Girona,MF,0.13,1.77
+273,Hannes Behrens,Hoffenheim,DF,0.0,6.21
+274,Kevin Behrens,Wolfsburg,FW,0.0,4.24
+275,Maximilian Beier,Dortmund,"FW,MF",0.4,3.11
+276,Luken Beitia,Real Sociedad,DF,0.0,0.0
+277,Ismael Bekhoucha,Getafe,"MF,DF",0.0,1.3
+278,Reda Belahyane,Hellas Verona,MF,0.16,2.23
+279,Reda Belahyane,Lazio,MF,0.0,0.0
+280,Haris Belkebla,Angers,MF,0.2,0.7
+281,Yassin Belkhdim,Angers,MF,0.06,0.71
+282,Stefan Bell,Mainz 05,DF,0.19,0.63
+283,Armel Bella Kotchap,Southampton,DF,0.0,0.54
+284,Raoul Bellanova,Torino,DF,0.0,1.03
+285,Raoul Bellanova,Atalanta,DF,0.41,2.1
+286,Jean-Ricner Bellegarde,Wolves,"MF,FW",0.59,3.06
+287,Héctor Bellerín,Betis,DF,0.31,1.86
+288,Jude Bellingham,Real Madrid,MF,0.47,3.8
+289,Jeanuël Belocian,Leverkusen,"DF,MF",0.0,1.34
+290,Andrea Belotti,Como,FW,0.0,2.13
+291,Fran Beltrán,Celta Vigo,MF,0.15,1.6
+292,Lucas Beltrán,Fiorentina,"FW,MF",0.41,2.9
+293,Eliesse Ben Seghir,Monaco,"MF,FW",0.36,3.96
+294,Carlos Benavídez,Alavés,MF,0.56,2.04
+295,Adrian Benedyczak,Parma,"FW,MF",0.0,1.26
+296,László Bénes,Union Berlin,"MF,FW",0.15,4.58
+297,Iker Benito,Osasuna,"FW,MF",0.0,2.43
+298,Ismaël Bennacer,Milan,MF,0.3,3.6
+299,Ismaël Bennacer,Marseille,MF,0.56,3.48
+300,Saïd Benrahma,Lyon,"FW,MF",0.74,3.31
+301,Ramy Bensebaini,Dortmund,DF,0.45,1.74
+302,Nabil Bentaleb,Lille,MF,0.0,1.09
+303,Rodrigo Bentancur,Tottenham,MF,0.16,2.46
+304,Daniel Bentley,Wolves,GK,0.0,0.0
+305,Lucas Beraldo,Paris S-G,DF,0.13,0.98
+306,Yuri Berchiche,Athletic Club,DF,0.09,1.76
+307,Álex Berenguer,Athletic Club,"FW,MF",0.54,3.77
+308,Sander Berge,Fulham,MF,0.08,1.94
+309,Lucas Bergvall,Tottenham,MF,0.3,1.63
+310,Medon Berisha,Lecce,MF,0.25,3.64
+311,Mergim Berisha,Hoffenheim,"FW,MF",0.27,1.35
+312,Mergim Berisha,Augsburg,FW,0.0,2.25
+313,Adrian Bernabe,Parma,MF,0.25,3.59
+314,Marc Bernal,Barcelona,MF,0.0,0.37
+315,Bernardo,Bochum,DF,0.0,1.11
+316,Juan Bernat,Villarreal,"DF,MF",0.42,3.4
+317,Juan Bernat,Getafe,"MF,DF",0.13,1.29
+318,Maxime Bernauer,Saint-Étienne,DF,0.0,1.0
+319,Antoine Bernede,Hellas Verona,MF,0.15,3.33
+320,Alexander Bernhardsson,Holstein Kiel,"FW,MF",0.5,2.57
+321,Victor Bernth Kristiansen,Leicester City,DF,0.11,1.52
+322,Matúš Bero,Bochum,MF,0.25,4.21
+323,Juan Berrocal,Getafe,DF,0.08,0.51
+324,Dimitry Bertaud,Montpellier,GK,0.0,0.0
+325,Jan-Niklas Beste,Freiburg,"FW,MF",0.42,2.11
+326,Beto,Everton,FW,0.06,1.52
+327,Sam Beukema,Bologna,DF,0.18,1.08
+328,Alessandro Bianco,Monza,MF,0.0,1.32
+329,Alessandro Bianco,Fiorentina,MF,0.0,0.0
+330,Mika Biereth,Monaco,FW,0.29,2.78
+331,Jaka Bijol,Udinese,DF,0.03,0.91
+332,El Bilal Touré,Stuttgart,"FW,MF",0.25,2.78
+333,Philip Billing,Bournemouth,MF,0.0,7.83
+334,Philip Billing,Napoli,MF,0.46,3.65
+335,Cristiano Biraghi,Torino,DF,0.0,3.19
+336,Cristiano Biraghi,Fiorentina,DF,0.0,1.66
+337,Samuele Birindelli,Monza,"DF,MF",0.12,2.15
+338,Tom Bischof,Hoffenheim,"MF,FW",0.25,4.12
+339,Yves Bissouma,Tottenham,MF,0.0,1.02
+340,Leonardo Bittencourt,Werder Bremen,MF,0.46,3.57
+341,Emmanuel Biumla,Angers,DF,0.0,0.27
+342,Marco Bizot,Brest,GK,0.0,0.06
+343,Bjarki Bjarkason,Venezia,"DF,MF",0.0,0.55
+344,Antonio Blanco,Alavés,MF,0.03,1.49
+345,Ludovic Blas,Rennes,"MF,FW",0.63,4.2
+346,Daley Blind,Girona,DF,0.23,1.52
+347,Myron Boadu,Bochum,FW,0.26,2.59
+348,Augustine Boakye,Saint-Étienne,"FW,MF",0.12,4.3
+349,Oscar Bobb,Manchester City,FW,0.0,11.25
+350,Mathéo Bodmer,Le Havre,MF,0.0,0.0
+351,Sacha Boey,Bayern Munich,DF,0.46,1.67
+352,Jeremie Boga,Nice,"MF,FW",0.26,4.36
+353,Lamare Bogarde,Aston Villa,"DF,MF",0.19,1.89
+354,Emil Bohinen,Genoa,MF,0.0,2.69
+355,Adama Boiro,Athletic Club,"DF,FW",0.0,1.31
+356,Willy Boly,Nott'ham Forest,DF,0.0,0.0
+357,Moïse Bombito,Nice,DF,0.16,0.74
+358,Warren Bondo,Monza,MF,0.06,1.45
+359,Warren Bondo,Milan,MF,0.0,0.56
+360,Victor Boniface,Leverkusen,FW,0.27,2.86
+361,Kevin Bonifazi,Lecce,DF,0.0,0.0
+362,Ange-Yoan Bonny,Parma,FW,0.28,2.39
+363,Sebastiaan Bornauw,Wolfsburg,DF,0.11,0.46
+364,Sven Botman,Newcastle Utd,DF,0.0,0.87
+365,Saïmon Bouabré,Monaco,"MF,FW",0.93,0.93
+366,Ayyoub Bouaddi,Lille,MF,0.16,1.1
+367,Badredine Bouanani,Nice,"MF,FW",0.74,3.85
+368,Benjamin Bouchouari,Saint-Étienne,MF,0.16,2.71
+369,Hicham Boudaoui,Nice,MF,0.26,2.4
+370,Carlo Boukhalfa,St. Pauli,MF,0.11,1.97
+371,Justin Bourgault,Brest,DF,0.74,1.49
+372,Benjamin Bourigeaud,Rennes,MF,0.0,2.25
+373,Edoardo Bove,Fiorentina,"MF,FW",0.74,3.27
+374,Jarrod Bowen,West Ham,"FW,MF",0.45,3.42
+375,Enzo Boyomo,Osasuna,DF,0.03,0.39
+376,Enzo Boyomo,Valladolid,DF,0.0,0.33
+377,Domagoj Bradarić,Hellas Verona,DF,0.05,2.19
+378,Conor Bradley,Liverpool,DF,0.48,2.27
+379,Bilal Brahimi,Nice,MF,0.0,1.18
+380,Julian Brandt,Dortmund,MF,0.55,3.99
+381,Jarrad Branthwaite,Everton,DF,0.07,0.47
+382,Darko Brašanac,Leganés,MF,0.11,1.89
+383,Lilian Brassier,Marseille,DF,0.0,0.35
+384,Lilian Brassier,Rennes,DF,0.07,1.6
+385,Matthias Braunöder,Como,MF,0.0,1.34
+386,Iker Bravo,Udinese,"FW,MF",0.0,1.85
+387,James Bree,Southampton,DF,0.08,1.34
+388,Tim Breithaupt,Augsburg,MF,1.5,2.25
+389,Gleison Bremer,Juventus,DF,0.0,0.5
+390,Brenner,Udinese,"MF,FW",0.23,2.56
+391,Ben Brereton,Southampton,FW,0.0,1.8
+392,Marco Brescianini,Atalanta,MF,0.55,2.37
+393,Maximilian Breunig,Heidenheim,"FW,MF",0.0,2.06
+394,Anthony Briançon,Saint-Étienne,DF,0.0,0.0
+395,Nathan Broadhead,Ipswich Town,"MF,FW",0.26,2.82
+396,Armando Broja,Everton,FW,0.0,1.89
+397,David Brooks,Bournemouth,"FW,MF",0.19,4.31
+398,Arvid Brorsson,Monza,DF,0.0,0.25
+399,Moritz Broschinski,Bochum,"FW,MF",0.26,2.33
+400,Nathaniel Brown,Eint Frankfurt,"DF,MF",0.51,2.96
+401,Jacob Bruun Larsen,Hoffenheim,"FW,MF",0.9,4.29
+402,Jacob Bruun Larsen,Stuttgart,"MF,FW",0.0,4.12
+403,Tajon Buchanan,Inter,"DF,FW",0.0,2.84
+404,Tajon Buchanan,Villarreal,MF,0.43,2.8
+405,Ante Budimir,Osasuna,FW,0.43,1.4
+406,Emi Buendía,Aston Villa,"MF,FW",0.0,2.76
+407,Emi Buendía,Leverkusen,MF,0.35,4.17
+408,Manu Bueno,Sevilla,"MF,FW",0.0,0.64
+409,Santiago Bueno,Wolves,DF,0.21,0.64
+410,Endika Buján,Athletic Club,FW,0.0,0.0
+411,Marius Bülter,Hoffenheim,"FW,DF",0.36,2.5
+412,Facundo Buonanotte,Leicester City,"FW,MF",0.3,3.01
+413,Alessandro Buongiorno,Napoli,DF,0.09,0.89
+414,Cameron Burgess,Ipswich Town,DF,0.18,0.82
+415,Jonathan Burkardt,Mainz 05,FW,0.34,2.31
+416,Oliver Burke,Werder Bremen,FW,0.2,3.27
+417,Dan Burn,Newcastle Utd,DF,0.11,0.73
+418,Rareș-Cătălin Burnete,Lecce,FW,0.0,0.0
+419,Wes Burns,Ipswich Town,"FW,DF",0.1,1.55
+420,Marnon Busch,Heidenheim,"DF,MF",0.06,1.74
+421,Gianluca Busio,Venezia,MF,0.07,2.33
+422,Aurélio Buta,Reims,DF,0.18,1.42
+423,Jean Butez,Como,GK,0.0,0.27
+424,Nathan Butler-Oyedeji,Arsenal,FW,0.0,0.0
+425,Marcin Bułka,Nice,GK,0.03,0.09
+426,Pau Cabanes,Villarreal,"MF,FW",1.1,6.63
+427,Pau Cabanes,Alavés,"MF,FW",0.0,2.87
+428,Rémy Cabella,Lille,"FW,MF",0.53,5.33
+429,Leandro Cabrera,Espanyol,DF,0.22,0.66
+430,Liberato Cacace,Empoli,"MF,DF",0.16,2.18
+431,Alessio Cacciamani,Torino,"MF,DF",0.0,2.9
+432,Anthony Caci,Mainz 05,DF,0.37,3.18
+433,Mathieu Cafaro,Saint-Étienne,"MF,FW",0.25,3.07
+434,Moisés Caicedo,Chelsea,"MF,DF",0.24,2.63
+435,Tom Cairney,Fulham,MF,0.43,4.71
+436,Jens Cajuste,Ipswich Town,MF,0.09,1.65
+437,Davide Calabria,Bologna,DF,0.43,3.42
+438,Davide Calabria,Milan,DF,0.0,2.56
+439,Riccardo Calafiori,Arsenal,DF,0.18,1.19
+440,Luca Caldirola,Monza,DF,0.0,0.51
+441,Fernando Calero,Espanyol,"DF,MF",0.0,0.76
+442,Duje Ćaleta-Car,Lyon,DF,0.0,0.28
+443,Hakan Çalhanoğlu,Inter,MF,0.65,4.58
+444,Dominic Calvert-Lewin,Everton,FW,0.22,1.46
+445,Drissa Camara,Parma,"MF,FW",0.4,3.01
+446,Issiaga Camara,Nice,MF,0.0,9.0
+447,Lamine Camara,Monaco,MF,0.57,3.59
+448,Mahdi Camara,Brest,"MF,FW",0.24,2.4
+449,Ousmane Camara,Angers,DF,0.0,1.79
+450,Francesco Camarda,Milan,"FW,MF",0.43,3.04
+451,Eduardo Camavinga,Real Madrid,"MF,DF",0.16,2.54
+452,Nicolò Cambiaghi,Bologna,FW,1.16,4.36
+453,Andrea Cambiaso,Juventus,"DF,FW",0.36,3.45
+454,Axel Camblan,Brest,"MF,FW",0.0,0.0
+455,Sergio Camello,Rayo Vallecano,FW,0.4,3.02
+456,José Campaña,Las Palmas,MF,0.3,2.95
+457,Thomas Campaniello,Empoli,FW,0.0,0.0
+458,Cole Campbell,Dortmund,"MF,FW",0.0,0.0
+459,Emre Can,Dortmund,"DF,MF",0.09,1.37
+460,Peio Canales,Athletic Club,"MF,FW",0.0,3.47
+461,Matteo Cancellieri,Parma,"FW,MF",0.19,1.71
+462,Fali Candé,Venezia,DF,0.18,0.82
+463,Antonio Candela,Venezia,DF,0.09,1.52
+464,Antonio Candela,Valladolid,DF,0.0,0.79
+465,Sergi Canós,Valencia,"MF,FW",0.24,4.6
+466,Jaydee Canvot,Toulouse,"DF,MF",0.16,1.14
+467,Pierrick Capelle,Angers,MF,0.19,2.8
+468,Gianluca Caprari,Monza,"MF,FW",0.27,3.43
+469,Elia Caprile,Cagliari,GK,0.0,0.0
+470,Elia Caprile,Napoli,GK,0.0,0.0
+471,Gabin Capuano,Lens,FW,0.0,8.18
+472,Francesco Caputo,Empoli,FW,0.0,0.0
+473,Maxence Caqueret,Como,MF,0.66,3.4
+474,Maxence Caqueret,Lyon,MF,0.16,2.2
+475,Simon Cara,Montpellier,"MF,FW",0.0,0.0
+476,Andrea Carboni,Monza,DF,0.08,0.45
+477,Franco Carboni,Venezia,DF,0.4,2.0
+478,Valentin Carboni,Marseille,"MF,FW",0.0,4.37
+479,Dani Cárdenas,Rayo Vallecano,GK,0.0,0.17
+480,Irvin Cardona,Espanyol,"FW,MF",0.45,2.97
+481,Irvin Cardona,Saint-Étienne,FW,0.28,2.31
+482,Marc Cardona,Las Palmas,"FW,DF",0.0,2.73
+483,Sergi Cardona,Villarreal,DF,0.4,2.41
+484,Johnny Cardoso,Betis,MF,0.04,1.47
+485,Tiago Cardoso,Gladbach,GK,0.0,0.0
+486,Patrik Carlgren,Nantes,GK,0.0,0.0
+487,Diego Carlos,Aston Villa,DF,0.0,0.43
+488,José Carlos González,Las Palmas,DF,0.0,0.0
+489,Carmona,Sevilla,DF,0.03,1.65
+490,Marco Carnesecchi,Atalanta,GK,0.03,0.15
+491,Sergio Carreira,Celta Vigo,"MF,DF",0.22,1.96
+492,Dani Carvajal,Real Madrid,DF,0.3,1.77
+493,Fabio Carvalho,Brentford,"FW,MF",0.2,1.97
+494,William Carvalho,Betis,MF,0.0,2.6
+495,Cesare Casadei,Torino,MF,0.18,1.68
+496,Marc Casado,Barcelona,MF,0.34,2.51
+497,Nicolò Casale,Bologna,DF,0.2,1.2
+498,Nicolò Casale,Lazio,DF,0.0,0.0
+499,Casemiro,Manchester Utd,MF,0.24,3.19
+500,Kaelan Casey,West Ham,DF,0.0,0.0
+501,Matty Cash,Aston Villa,DF,0.17,1.09
+502,Eiran Cashin,Brighton,DF,0.0,4.5
+503,Josué Casimir,Le Havre,"FW,MF",0.36,2.7
+504,Federico Cassa,Atalanta,"MF,FW",0.0,6.43
+505,Cristian Cásseres Jr.,Toulouse,MF,0.17,2.57
+506,Timothy Castagne,Fulham,DF,0.16,1.36
+507,Valentín Castellanos,Lazio,FW,0.53,2.76
+508,Jean-Charles Castelletto,Nantes,"DF,MF",0.07,0.69
+509,Santiago Castro,Bologna,FW,0.43,2.71
+510,Gaetano Castrovilli,Monza,MF,0.3,2.27
+511,Gaetano Castrovilli,Lazio,"MF,FW",0.0,1.84
+512,Danilo Cataldi,Fiorentina,MF,0.05,1.68
+513,Catena,Osasuna,DF,0.18,0.85
+514,Maximiliano Caufriez,Valencia,DF,0.0,0.0
+515,Enzo Caumont,Angers,MF,0.0,0.0
+516,Dani Ceballos,Real Madrid,MF,0.37,4.22
+517,Abdoulie Ceesay,St. Pauli,FW,0.0,1.48
+518,Zeki Çelik,Roma,DF,0.16,1.51
+519,Fabien Centonze,Nantes,DF,0.0,2.72
+520,Alberto Cerri,Como,FW,0.0,1.03
+521,Franco Cervi,Celta Vigo,"FW,MF",0.0,1.65
+522,Julian Chabot,Stuttgart,DF,0.08,0.95
+523,El Chadaille Bitshiabu,RB Leipzig,DF,0.08,1.11
+524,Fares Chaïbi,Eint Frankfurt,"MF,FW",0.62,4.43
+525,Trevoh Chalobah,Crystal Palace,DF,0.0,0.93
+526,Trevoh Chalobah,Chelsea,DF,0.3,1.29
+527,Timothy Chandler,Eint Frankfurt,DF,0.0,3.75
+528,Conor Chaplin,Ipswich Town,"MF,FW",0.11,2.32
+529,Brendan Chardonnet,Brest,DF,0.15,0.89
+530,Gabriel Charpentier,Parma,FW,0.99,3.64
+531,Raúl Chasco,Valladolid,DF,0.69,1.38
+532,Anrie Chase,Stuttgart,DF,0.0,0.98
+533,Pep Chavarría,Rayo Vallecano,"DF,FW",0.07,2.12
+534,Arthur Chaves,Hoffenheim,DF,0.04,0.95
+535,Jhoanner Chávez,Lens,"DF,MF",0.0,2.27
+536,Walid Cheddira,Napoli,FW,0.0,7.5
+537,Walid Cheddira,Espanyol,FW,0.7,2.81
+538,Chema,Real Madrid,MF,0.0,0.0
+539,Théo Chennahi,Montpellier,DF,0.0,0.5
+540,Sidiki Cherif,Angers,FW,0.0,1.11
+541,Rayan Cherki,Lyon,"FW,MF",0.88,6.44
+542,Youssef Chermiti,Everton,"FW,MF",0.0,0.0
+543,Lucas Chevalier,Lille,GK,0.03,0.18
+544,Fabio Chiarodia,Gladbach,DF,0.0,0.47
+545,Julián Chicco,Leganés,"MF,DF",0.3,1.49
+546,Leandro Chichizola,Parma,GK,0.0,2.0
+547,Federico Chiesa,Liverpool,FW,0.83,5.0
+548,Ben Chilwell,Crystal Palace,DF,0.0,2.77
+549,Chiquinho,Wolves,MF,0.0,25.71
+550,Chiquinho,Mallorca,"MF,FW",0.61,4.29
+551,Pedro Chirivella,Nantes,MF,0.23,2.11
+552,Joris Chotard,Montpellier,MF,0.0,1.2
+553,Hamza Choudhury,Leicester City,"MF,DF",0.0,2.05
+554,Andreas Christensen,Barcelona,DF,0.0,0.35
+555,Ryan Christie,Bournemouth,MF,0.38,3.62
+556,Carney Chukwuemeka,Dortmund,MF,1.42,7.11
+557,Samuel Chukwueze,Milan,"FW,MF",0.19,4.77
+558,Aaron Ciammaglichella,Torino,MF,0.0,0.0
+559,Jasper Cillessen,Las Palmas,GK,0.0,0.04
+560,Giuseppe Ciocci,Cagliari,GK,0.0,0.0
+561,Alessandro Circati,Parma,DF,0.0,0.5
+562,Pathé Ciss,Rayo Vallecano,"MF,DF",0.08,1.98
+563,Alphadjo Cissè,Hellas Verona,"FW,MF",0.0,10.0
+564,Djaoui Cissé,Rennes,MF,0.08,2.17
+565,Seydouba Cissé,Leganés,MF,0.18,1.74
+566,Yoann Cissé,Auxerre,MF,0.0,0.0
+567,Patrick Ciurria,Monza,"MF,DF",0.16,2.11
+568,Harry Clarke,Ipswich Town,DF,0.0,0.24
+569,Jack Clarke,Ipswich Town,"FW,MF",0.38,3.81
+570,Alexis Claude-Maurice,Augsburg,"MF,FW",0.26,3.29
+571,Jonathan Clauss,Nice,"DF,MF",0.59,3.87
+572,Silvi Clúa,Girona,MF,0.0,1.1
+573,Nathaniel Clyne,Crystal Palace,"DF,MF",0.0,0.56
+574,Conor Coady,Leicester City,DF,0.0,0.32
+575,Marcus Coco,Nantes,DF,0.09,1.89
+576,Saúl Coco,Torino,DF,0.03,0.51
+577,Séamus Coleman,Everton,DF,0.42,0.84
+578,Nathan Collins,Brentford,DF,0.21,0.79
+579,Nnamdi Collins,Eint Frankfurt,DF,0.18,0.54
+580,Toby Collyer,Manchester Utd,MF,0.0,2.5
+581,Lorenzo Colombo,Empoli,"FW,MF",0.12,2.21
+582,Andrea Colpani,Fiorentina,"FW,MF",0.31,2.7
+583,Levi Colwill,Chelsea,DF,0.09,1.09
+584,Florinel Coman,Cagliari,"FW,MF",0.34,1.37
+585,Kingsley Coman,Bayern Munich,FW,0.77,5.68
+586,Eray Cömert,Valladolid,"DF,MF",0.0,0.61
+587,Santi Comesaña,Villarreal,MF,0.39,2.74
+588,Pietro Comuzzo,Fiorentina,DF,0.04,0.82
+589,Francisco Conceição,Juventus,"FW,MF",0.6,4.3
+590,Diego Conde,Villarreal,GK,0.05,0.14
+591,Tomás Conechny,Alavés,"FW,MF",0.0,1.48
+592,Alois Confais,Le Havre,MF,0.0,0.0
+593,Sirlord Conteh,Heidenheim,"FW,MF",0.4,2.82
+594,Lewis Cook,Bournemouth,"MF,DF",0.15,2.69
+595,Copete,Mallorca,DF,0.06,0.59
+596,Diego Coppola,Hellas Verona,DF,0.03,0.31
+597,Francis Coquelin,Nantes,MF,0.81,5.27
+598,Iker Córdoba,Valencia,DF,0.0,6.43
+599,Derek Cornelius,Marseille,DF,0.0,0.57
+600,Maxwel Cornet,Southampton,FW,0.0,0.0
+601,Maxwel Cornet,Genoa,"FW,MF",0.37,2.93
+602,Pierre Cornud,Saint-Étienne,DF,0.0,0.78
+603,Ángel Correa,Atlético Madrid,"FW,MF",0.56,3.92
+604,Joaquín Correa,Inter,"FW,MF",0.49,3.07
+605,Thierry Correia,Valencia,DF,0.0,1.87
+606,Alberto costa,Juventus,DF,0.25,1.76
+607,Coba da Costa,Getafe,"MF,FW",0.36,3.31
+608,Danny da Costa,Mainz 05,DF,0.13,1.39
+609,David Costa,Lens,"MF,FW",0.26,2.05
+610,Logan Costa,Villarreal,DF,0.07,0.76
+611,Logan Costa,Toulouse,DF,0.0,1.0
+612,Samu Costa,Mallorca,MF,0.2,1.9
+613,Grégoire Coudert,Brest,GK,0.0,0.5
+614,Vladimír Coufal,West Ham,DF,0.08,1.52
+615,Lassana Coulibaly,Lecce,MF,0.07,1.55
+616,Lasso Coulibaly,Auxerre,"FW,MF",0.0,2.05
+617,Mamadou Coulibaly,Monaco,MF,0.0,0.0
+618,Soumaïla Coulibaly,Brest,DF,0.62,1.64
+619,Tanguy Coulibaly,Montpellier,"FW,MF",0.19,2.9
+620,Woyo Coulibaly,Leicester City,DF,0.0,0.0
+621,Woyo Coulibaly,Parma,DF,0.25,1.58
+622,Marius Courcoul,Angers,"MF,DF",0.0,0.87
+623,Thibaut Courtois,Real Madrid,GK,0.0,0.13
+624,Yan Couto,Dortmund,"DF,FW",0.2,2.92
+625,Nicolas Cozza,Nantes,"DF,MF",0.09,0.88
+626,Aaron Cresswell,West Ham,DF,0.0,1.64
+627,Charlie Cresswell,Toulouse,DF,0.1,0.83
+628,Bryan Cristante,Roma,MF,0.22,2.24
+629,Domen Črnigoj,Venezia,MF,0.0,1.32
+630,Juan Cruz Armada,Osasuna,DF,0.06,0.84
+631,Juan Cruz,Leganés,"FW,MF",0.24,2.03
+632,Juan Cuadrado,Atalanta,"DF,MF",0.32,4.0
+633,Pau Cubarsí,Barcelona,DF,0.21,1.2
+634,Cucho,Betis,FW,0.63,3.64
+635,Marc Cucurella,Chelsea,DF,0.15,1.54
+636,Jorge Cuenca,Fulham,DF,0.0,0.26
+637,Matheus Cunha,Wolves,"MF,FW",0.55,4.57
+638,Patrick Cutrone,Como,FW,0.26,2.15
+639,Tomáš Čvančara,Gladbach,FW,0.11,1.62
+640,Wylan Cyprien,Parma,MF,0.0,0.0
+641,Danilo D'Ambrosio,Monza,DF,0.08,0.66
+642,Lucas Da Cunha,Como,MF,0.24,3.79
+643,Samuel Dahl,Roma,"DF,MF",0.0,2.09
+644,Finn Dahmen,Augsburg,GK,0.05,0.11
+645,Thomas Dähne,Holstein Kiel,GK,0.0,0.11
+646,Mahmoud Dahoud,Eint Frankfurt,MF,0.49,3.21
+647,Patson Daka,Leicester City,"FW,MF",0.12,1.23
+648,Ameen Al-Dakhil,Stuttgart,DF,0.0,0.83
+649,Thijs Dallinga,Bologna,FW,0.39,2.11
+650,Diogo Dalot,Manchester Utd,DF,0.16,2.37
+651,Mikkel Damsgaard,Brentford,"MF,FW",0.65,3.71
+652,Maat Daniel Caprini,Fiorentina,FW,0.0,0.0
+653,Flavius Daniliuc,Hellas Verona,DF,0.0,0.98
+654,Danilo,Nott'ham Forest,"MF,FW",0.66,2.31
+655,Danilo,Juventus,DF,0.15,1.55
+656,Arnaut Danjuma,Villarreal,FW,0.0,0.9
+657,Arnaut Danjuma,Girona,"FW,MF",0.0,2.7
+658,Jayden Danns,Liverpool,MF,0.0,0.0
+659,Kévin Danois,Auxerre,MF,0.37,3.33
+660,Kevin Danso,Tottenham,DF,0.21,0.96
+661,Kevin Danso,Lens,DF,0.08,1.0
+662,Dante,Nice,DF,0.0,0.96
+663,Pape Daouda Diongue,Strasbourg,"MF,FW",0.0,1.15
+664,Mohamed Daramy,Reims,FW,5.63,11.25
+665,Bence Dárdai,Wolfsburg,MF,0.14,1.66
+666,Sergi Darder,Mallorca,"MF,FW",0.23,3.15
+667,Matteo Darmian,Inter,DF,0.2,1.72
+668,Lukas Daschner,Bochum,"MF,FW",0.22,2.18
+669,Juan David Cabal,Juventus,DF,0.59,0.59
+670,Jonathan David,Lille,FW,0.28,2.61
+671,Alphonso Davies,Bayern Munich,DF,0.46,3.52
+672,Ben Davies,Tottenham,DF,0.0,0.54
+673,Keinan Davis,Udinese,FW,0.17,2.95
+674,Leif Davis,Ipswich Town,DF,0.13,3.05
+675,Zuriko Davitashvili,Saint-Étienne,"FW,MF",0.5,3.85
+676,Paweł Dawidowicz,Hellas Verona,"DF,MF",0.05,0.39
+677,Craig Dawson,Wolves,DF,0.19,0.65
+678,Kevin De Bruyne,Manchester City,"MF,FW",0.58,5.97
+679,Bobby De Cordova-Reid,Leicester City,FW,0.36,1.57
+680,Charles De Ketelaere,Atalanta,"MF,FW",0.61,3.83
+681,Rodrigo De Paul,Atlético Madrid,MF,0.56,3.84
+682,Théo De Percin,Auxerre,GK,0.0,0.0
+683,Mattia De Sciglio,Empoli,DF,0.0,0.94
+684,Lorenzo De Silvestri,Bologna,DF,0.17,1.19
+685,Thibault De Smet,Reims,DF,0.0,0.0
+686,Koni De Winter,Genoa,DF,0.04,0.63
+687,Amar Dedić,Marseille,DF,0.29,4.01
+688,Alessandro Deiola,Cagliari,MF,0.19,1.63
+689,Romain Del Castillo,Brest,FW,0.64,4.79
+690,Enrico Del Prato,Parma,DF,0.03,0.98
+691,Thomas Delaine,Strasbourg,DF,0.0,0.0
+692,Liam Delap,Ipswich Town,FW,0.24,2.15
+693,Fisayo Dele-Bashiru,Lazio,"MF,FW",0.09,2.28
+694,Andy Delort,Montpellier,FW,0.17,2.09
+695,Olivier Deman,Werder Bremen,DF,0.0,1.34
+696,Ali Dembélé,Torino,DF,0.0,1.62
+697,Ousmane Dembélé,Paris S-G,FW,0.78,5.72
+698,Ermedin Demirović,Stuttgart,FW,0.34,2.28
+699,Sepp van den Berg,Brentford,DF,0.07,0.77
+700,Rémy Descamps,Lyon,GK,0.0,0.0
+701,Arthur Desmas,Le Havre,GK,0.0,0.17
+702,Justin Devenny,Crystal Palace,MF,0.18,2.66
+703,Kiernan Dewsbury-Hall,Chelsea,"MF,FW",0.34,1.7
+704,Michele Di Gregorio,Juventus,GK,0.0,0.06
+705,Giovanni Di Lorenzo,Napoli,DF,0.22,2.16
+706,Boulaye Dia,Lazio,"MF,FW",0.33,2.27
+707,Mouctar Diakhaby,Valencia,DF,0.14,0.55
+708,Mamadou Diakhon,Reims,"FW,MF",0.21,3.88
+709,Bafodé Diakité,Lille,DF,0.1,0.62
+710,Oumar Diakité,Reims,FW,0.22,2.16
+711,Amad Diallo,Manchester Utd,"MF,FW",0.85,4.59
+712,Assane Diao,Como,"FW,MF",0.29,2.23
+713,Assane Diao,Betis,FW,0.65,2.28
+714,Habib Diarra,Strasbourg,"MF,FW",0.31,2.18
+715,Moussa Diarra,Alavés,DF,0.19,0.87
+716,Rúben Dias,Manchester City,DF,0.04,1.03
+717,Krépin Diatta,Monaco,"DF,FW",0.0,1.77
+718,Kandet Diawara,Le Havre,FW,0.0,0.0
+719,Mahamadou Diawara,Le Havre,MF,0.15,2.16
+720,Mahamadou Diawara,Lyon,MF,0.0,0.0
+721,Brahim Díaz,Real Madrid,"FW,MF",0.78,3.64
+722,Daniel Díaz,Real Sociedad,MF,0.0,0.0
+723,Luis Díaz,Liverpool,FW,0.6,4.39
+724,Pedro Díaz,Rayo Vallecano,MF,0.37,3.72
+725,Tyler Dibling,Southampton,"FW,MF",0.19,2.69
+726,Diego,Leganés,FW,0.08,0.9
+727,Justin Diehl,Stuttgart,"FW,DF",0.0,3.46
+728,Bamba Dieng,Angers,FW,0.17,1.02
+729,Eric Dier,Bayern Munich,DF,0.12,0.8
+730,Lucas Digne,Aston Villa,DF,0.19,2.53
+731,Kembo Diliwidi,Lens,DF,0.0,0.0
+732,Federico Dimarco,Inter,"DF,FW",0.58,4.0
+733,Stole Dimitrievski,Valencia,GK,0.0,0.0
+734,Junior Dina Ebimbe,Eint Frankfurt,"MF,FW",0.31,1.85
+735,Eren Dinkçi,Freiburg,"MF,FW",0.38,3.23
+736,Sinaly Diomande,Auxerre,DF,0.23,0.97
+737,Yan Diomandé,Leganés,"MF,FW",0.83,6.11
+738,Lois Diony,Angers,FW,0.0,0.0
+739,Issa Diop,Fulham,DF,0.0,0.4
+740,Sérigné Diop,Brest,FW,0.0,0.0
+741,Sofiane Diop,Nice,"MF,FW",0.76,3.98
+742,Andy Diouf,Lens,MF,0.12,3.44
+743,Yehvann Diouf,Reims,GK,0.0,0.21
+744,Assane Dioussé,Auxerre,MF,0.14,1.76
+745,Axel Disasi,Aston Villa,DF,0.0,1.65
+746,Axel Disasi,Chelsea,DF,0.0,0.49
+747,Roman Dixon,Everton,DF,0.0,0.0
+748,Álvaro djaló,Athletic Club,FW,0.14,1.64
+749,Djené,Getafe,"DF,MF",0.04,0.74
+750,Nasser Djiga,Wolves,DF,0.0,0.0
+751,Berat Djimsiti,Atalanta,DF,0.24,1.02
+752,Marko Dmitrović,Leganés,GK,0.0,0.19
+753,Ritsu Doan,Freiburg,"FW,MF",0.5,3.49
+754,Dodô,Fiorentina,DF,0.32,2.17
+755,Danilho Doekhi,Union Berlin,DF,0.12,0.94
+756,Matt Doherty,Wolves,DF,0.13,1.07
+757,Jeremy Doku,Manchester City,"FW,MF",0.83,4.69
+758,Marc Domenech,Mallorca,"FW,MF",0.0,2.09
+759,Álex Domínguez,Toulouse,GK,0.0,0.0
+760,Benjamín Domínguez,Bologna,FW,0.49,2.88
+761,Carlos Dominguez,Celta Vigo,DF,0.0,0.46
+762,Israel Domínguez,Sevilla,FW,0.0,0.0
+763,Nicolás Domínguez,Nott'ham Forest,"MF,FW",0.0,1.74
+764,Sergi Dominguez,Barcelona,DF,0.0,0.0
+765,Gianluigi Donnarumma,Paris S-G,GK,0.0,0.09
+766,Patrick Dorgu,Manchester Utd,DF,0.11,2.57
+767,Patrick Dorgu,Lecce,"DF,FW",0.34,2.84
+768,Alfie Dorrington,Tottenham,DF,0.0,0.0
+769,Niklas Dorsch,Augsburg,MF,0.0,2.81
+770,Niklas Dorsch,Heidenheim,MF,0.13,2.36
+771,Alberto Dossena,Como,DF,0.1,0.54
+772,Abdoulaye Doucouré,Everton,MF,0.11,2.04
+773,Cheick Doucouré,Crystal Palace,MF,0.6,1.79
+774,Sékou Doucoure,Nantes,DF,0.0,0.0
+775,Désiré Doué,Paris S-G,"FW,MF",1.25,5.66
+776,Guela Doué,Strasbourg,DF,0.17,1.46
+777,Douglas,Nantes,MF,0.12,1.33
+778,Ismaël Doukouré,Strasbourg,"DF,MF",0.14,0.75
+779,Issa Doumbia,Venezia,MF,0.19,1.63
+780,Kamory Doumbia,Brest,"MF,FW",0.48,3.95
+781,Amidou Doumbouya,Nice,DF,0.0,0.0
+782,Anastasios Douvikas,Como,FW,0.16,2.95
+783,Anastasios Douvikas,Celta Vigo,FW,0.13,1.41
+784,Artem Dovbyk,Roma,FW,0.22,1.94
+785,Flynn Downes,Southampton,MF,0.08,1.3
+786,Tommy Doyle,Wolves,MF,0.55,3.13
+787,Radu Drăgușin,Tottenham,DF,0.07,0.58
+788,Patrick Drewes,Bochum,GK,0.0,0.1
+789,Tim Drexler,Hoffenheim,DF,0.25,1.51
+790,Domingos Duarte,Getafe,DF,0.0,0.44
+791,Martin Dúbravka,Newcastle Utd,GK,0.0,0.0
+792,Marvin Ducksch,Werder Bremen,FW,0.45,3.83
+793,Ondrej Duda,Hellas Verona,MF,0.26,2.74
+794,Duk,Leganés,"MF,FW",0.51,3.54
+795,Denzel Dumfries,Inter,"DF,FW",0.18,2.53
+796,Alfred Duncan,Venezia,MF,0.19,3.01
+797,Lewis Dunk,Brighton,DF,0.13,0.82
+798,Jáder Durán,Aston Villa,FW,0.14,2.54
+799,Pablo Durán,Celta Vigo,"FW,MF",0.26,1.94
+800,Julien Duranville,Dortmund,"FW,MF",0.32,2.21
+801,Hugo Duro,Valencia,FW,0.21,1.2
+802,Jean-Kevin Duverne,Nantes,DF,0.0,0.84
+803,Paulo Dybala,Roma,"FW,MF",0.51,5.34
+804,Stefan Džodić,Montpellier,"DF,MF",0.0,0.74
+805,Adam Dźwigała,St. Pauli,"DF,MF",0.0,1.21
+806,Aron Dønnum,Toulouse,"DF,MF",0.37,3.08
+807,Enzo Ebosse,Udinese,DF,0.0,3.0
+808,Tyronne Ebuehi,Empoli,"DF,MF",0.0,1.23
+809,Claudio Echeverri,Manchester City,FW,0.0,0.0
+810,Ederson,Manchester City,GK,0.16,0.23
+811,Éderson,Atalanta,MF,0.31,3.06
+812,Noah Edjouma,Toulouse,"MF,FW",0.0,2.62
+813,George Edmundson,Ipswich Town,DF,0.0,0.0
+814,Odsonne Édouard,Crystal Palace,"MF,FW",0.0,0.78
+815,Odsonne Édouard,Leicester City,FW,0.0,6.21
+816,Samuel Edozie,Southampton,"DF,FW",0.0,5.54
+817,Ronnie Edwards,Southampton,DF,0.0,0.0
+818,Johannes Eggestein,St. Pauli,FW,0.19,2.09
+819,Maximilian Eggestein,Freiburg,MF,0.16,1.61
+820,Kingsley Ehizibue,Udinese,DF,0.07,1.84
+821,Chidera Ejuke,Sevilla,FW,0.19,4.19
+822,Jeff Ekhator,Genoa,"FW,MF",0.23,2.46
+823,Hugo Ekitike,Eint Frankfurt,FW,0.42,3.55
+824,Jurgen Ekkelenkamp,Udinese,MF,0.29,1.81
+825,Jacques Ekomie,Angers,"DF,FW",0.13,0.52
+826,Emmanuel Ekong,Empoli,"MF,FW",0.0,2.9
+827,Caleb Ekuban,Genoa,FW,0.49,2.27
+828,Pierre Ekwah Elimby,Saint-Étienne,MF,0.14,1.45
+829,Anthony Elanga,Nott'ham Forest,"FW,MF",0.65,3.67
+830,Meschak Elia,Nantes,FW,0.0,3.18
+831,Mikael Ellertsson,Venezia,"DF,MF",0.18,1.68
+832,Harvey Elliott,Liverpool,MF,0.73,5.11
+833,Elif Elmas,Torino,"FW,MF",0.26,2.56
+834,Elif Elmas,RB Leipzig,MF,0.0,2.05
+835,Aritz Elustondo,Real Sociedad,DF,0.06,0.68
+836,Nico Elvedi,Gladbach,DF,0.17,0.67
+837,Adri Embarba,Rayo Vallecano,"FW,MF",0.11,2.58
+838,Breel Embolo,Monaco,"FW,MF",0.49,2.64
+839,Emanuel Emegha,Strasbourg,FW,0.16,1.26
+840,Emerson,Milan,DF,0.07,2.16
+841,Yunus Emre Konak,Brentford,"FW,MF",0.0,0.0
+842,Julio Enciso,Ipswich Town,"MF,FW",0.41,3.0
+843,Julio Enciso,Brighton,"MF,FW",0.0,3.69
+844,Wataru Endo,Liverpool,"MF,DF",0.0,1.96
+845,Endrick,Real Madrid,FW,0.49,1.96
+846,Yannik Engelhardt,Como,"MF,DF",0.15,1.86
+847,Arne Engels,Augsburg,"MF,FW",0.0,1.14
+848,Christian Eriksen,Manchester Utd,MF,0.59,4.74
+849,Martin Erlic,Bologna,DF,0.27,1.08
+850,Patrick Erras,Holstein Kiel,DF,0.0,0.87
+851,Alfonso Espino,Rayo Vallecano,DF,0.11,1.4
+852,Sebastiano Esposito,Empoli,"FW,MF",0.23,3.05
+853,Romain Esse,Crystal Palace,MF,1.94,5.18
+854,Samuel Essende,Augsburg,FW,0.16,1.48
+855,Dario Essugo,Las Palmas,MF,0.05,1.67
+856,Estanis,Bologna,FW,0.0,30.0
+857,Nahuel Estévez,Parma,MF,0.14,1.78
+858,Pervis Estupiñán,Brighton,DF,0.15,2.17
+859,Etienne Eto'o,Rayo Vallecano,FW,0.0,0.0
+860,Karl Etta,Villarreal,"MF,FW",0.0,2.43
+861,Evanilson,Bournemouth,FW,0.31,2.37
+862,Jake Evans,Leicester City,FW,0.0,0.0
+863,Jonny Evans,Manchester Utd,DF,0.0,0.57
+864,Edu Expósito,Espanyol,MF,0.17,3.79
+865,Eberechi Eze,Crystal Palace,"MF,FW",0.35,4.69
+866,Abde Ezzalzouli,Betis,"FW,MF",0.32,2.99
+867,Giovanni Fabbian,Bologna,MF,0.0,1.67
+868,Łukasz Fabiański,West Ham,GK,0.0,0.23
+869,Alieu Fadera,Como,"FW,DF",0.38,2.95
+870,Wout Faes,Leicester City,DF,0.0,0.54
+871,Nicolò Fagioli,Fiorentina,MF,0.37,4.02
+872,Nicolò Fagioli,Juventus,MF,0.16,1.57
+873,Romain Faivre,Brest,"MF,FW",0.4,3.3
+874,Wladimiro Falcone,Lecce,GK,0.03,0.29
+875,Davide Faraoni,Hellas Verona,DF,0.0,1.04
+876,Abdul Fatawu Issahaku,Leicester City,FW,0.47,2.64
+877,Ansu Fati,Barcelona,FW,0.0,4.25
+878,Khalil Fayad,Montpellier,"MF,FW",0.09,1.66
+879,Jacopo Fazzini,Empoli,MF,0.46,3.19
+880,Nabil Fekir,Betis,MF,0.5,6.0
+881,Mattia Felici,Cagliari,"MF,FW",0.39,3.02
+882,Luiz Felipe,Marseille,DF,0.0,0.0
+883,João Félix,Chelsea,"FW,MF",0.73,4.38
+884,João Félix,Milan,MF,0.71,4.14
+885,Frank Feller,Heidenheim,GK,0.74,0.74
+886,Kiko Femenía,Villarreal,DF,0.2,1.74
+887,Evan Ferguson,West Ham,FW,0.0,2.31
+888,Evan Ferguson,Brighton,FW,0.0,1.47
+889,Lewis Ferguson,Bologna,MF,0.09,2.93
+890,Zinedine Ferhat,Angers,"FW,MF",0.11,3.39
+891,Bruno Fernandes,Manchester Utd,MF,0.39,5.76
+892,Edimilson Fernandes,Brest,"MF,DF",0.08,1.3
+893,Mateus Fernandes,Southampton,MF,0.22,2.41
+894,Aitor Fernández,Osasuna,GK,0.0,0.0
+895,Álvaro Fernández,Sevilla,GK,0.0,0.36
+896,Enzo Fernández,Chelsea,MF,0.49,4.49
+897,Pelayo Fernandez,Rayo Vallecano,DF,0.0,0.0
+898,Roberto Férnandez,Espanyol,FW,0.18,1.68
+899,Valery Fernández,Mallorca,"MF,FW",0.87,1.45
+900,Matias Fernandez-Pardo,Lille,"FW,MF",0.51,2.54
+901,André Ferreira,Valladolid,GK,0.0,0.17
+902,Jordan Ferri,Montpellier,MF,0.25,2.39
+903,Daniel Fila,Venezia,FW,0.0,2.74
+904,Karol Fila,Strasbourg,MF,0.0,0.0
+905,Kilian Fischer,Wolfsburg,DF,0.08,1.53
+906,Mark Flekken,Brentford,GK,0.05,0.27
+907,Alessandro Florenzi,Milan,FW,0.0,0.0
+908,Mateo Flores,Betis,MF,0.0,1.18
+909,Phil Foden,Manchester City,"MF,FW",0.46,4.46
+910,Malick Fofana,Lyon,FW,0.62,3.12
+911,Rayan Fofana,Lens,"FW,MF",0.0,0.0
+912,Seko Fofana,Rennes,MF,0.21,3.41
+913,Wesley Fofana,Chelsea,DF,0.0,1.15
+914,Yahia Fofana,Angers,GK,0.0,0.12
+915,Youssouf Fofana,Milan,MF,0.22,2.23
+916,Jonas Föhrenbach,Heidenheim,DF,0.2,1.67
+917,Michael Folorunsho,Fiorentina,"FW,MF",0.14,1.94
+918,Michael Folorunsho,Napoli,"FW,MF",0.0,0.0
+919,Lamine Fomba,Saint-Étienne,MF,0.0,1.66
+920,Carlos Forbs,Wolves,"MF,FW",0.38,1.89
+921,Pablo Fornals,Betis,"MF,FW",0.44,4.33
+922,Omari Forson,Monza,"MF,FW",0.0,5.65
+923,Fraser Forster,Tottenham,GK,0.0,0.0
+924,Héctor Fort,Barcelona,DF,0.15,2.46
+925,Dimitri Foulquier,Valencia,DF,0.16,1.41
+926,Juan Foyth,Villarreal,DF,0.06,1.19
+927,Fran,Real Madrid,GK,0.0,0.0
+928,Matheus França,Crystal Palace,"MF,FW",0.0,4.91
+929,Alejandro Francés,Girona,DF,0.08,1.23
+930,Przemysław Frankowski,Lens,DF,0.32,2.99
+931,Enric Franquesa,Leganés,"DF,FW",0.0,0.88
+932,Ryan Fraser,Southampton,"FW,DF",0.0,1.47
+933,Davide Frattesi,Inter,MF,0.15,1.4
+934,Tyler Fredricson,Manchester Utd,DF,0.0,1.63
+935,Morten Frendrup,Genoa,MF,0.12,1.54
+936,Martin Frese,Hellas Verona,DF,0.16,1.64
+937,Remo Freuler,Bologna,MF,0.08,2.08
+938,Marco Friedl,Werder Bremen,DF,0.0,0.54
+939,Marvin Friedrich,Gladbach,DF,0.09,0.82
+940,Jeremie Frimpong,Leverkusen,"DF,MF",0.43,2.57
+941,Jorge de Frutos,Rayo Vallecano,"FW,MF",0.36,2.24
+942,Darío Fuentes,Sevilla,DF,0.0,0.0
+943,Chris Führich,Stuttgart,"MF,FW",0.36,3.86
+944,Shiō Fukuda,Gladbach,FW,1.5,3.0
+945,Angelo Fulgini,Lens,"MF,FW",0.17,4.65
+946,Niclas Füllkrug,West Ham,FW,0.23,2.5
+947,Kyogo Furuhashi,Rennes,FW,0.0,0.0
+948,Manuel Fuster,Las Palmas,"FW,MF",0.54,5.02
+949,Matteo Gabbia,Milan,DF,0.13,0.92
+950,Tommaso Gabellini,Torino,FW,0.0,0.0
+951,Tiago Gabriel,Lecce,DF,0.0,0.94
+952,Alessandro Gabrielloni,Como,"FW,MF",0.63,3.78
+953,Gianluca Gaetano,Cagliari,"MF,FW",0.45,4.28
+954,Roberto Gagliardini,Monza,"MF,DF",0.0,2.0
+955,Cody Gakpo,Liverpool,FW,0.37,3.72
+956,Javi Galán,Atlético Madrid,DF,0.3,1.66
+957,Iñigo Ruiz de Galarreta,Athletic Club,MF,0.37,3.04
+958,Conor Gallagher,Atlético Madrid,MF,0.44,1.76
+959,Antonino Gallo,Lecce,DF,0.1,2.48
+960,Gauthier Gallon,Rennes,GK,0.0,0.0
+961,Cristian Gamboa,Bochum,DF,0.0,2.39
+962,Idrissa Gana Gueye,Everton,MF,0.12,1.76
+963,Ignatius Ganago,Nantes,"FW,MF",0.37,2.62
+964,Silvère Ganvoula M'Boussy,Monza,FW,0.0,1.1
+965,Facundo Garcés,Alavés,DF,0.0,0.4
+966,Aleix García,Leverkusen,MF,0.62,3.71
+967,Álvaro García,Rayo Vallecano,"FW,MF",0.25,3.66
+968,Andrés García,Aston Villa,"DF,MF",0.0,0.85
+969,Eric García,Barcelona,"DF,MF",0.4,1.84
+970,Fran Garcia,Real Madrid,DF,0.12,2.32
+971,Gonzalo García,Real Madrid,"FW,DF",1.61,3.21
+972,Joan García,Espanyol,GK,0.03,0.24
+973,Pablo Garcia,Betis,FW,0.0,4.62
+974,Rubén García,Osasuna,"FW,MF",0.45,3.88
+975,Ulisses Garcia,Marseille,DF,0.68,1.93
+976,Unai García,Osasuna,DF,0.0,0.0
+977,Alejandro Garnacho,Manchester Utd,"MF,FW",0.25,3.4
+978,James Garner,Everton,"MF,DF",0.28,2.2
+979,Yarek Gasiorowski,Valencia,DF,0.0,0.67
+980,Federico Gatti,Juventus,DF,0.08,1.07
+981,Gavi,Barcelona,"MF,FW",0.33,3.24
+982,Paulo Gazzaniga,Girona,GK,0.0,0.03
+983,Jean-Philippe Gbamin,Nantes,MF,0.0,1.67
+984,Mory Gbane,Reims,"DF,MF",0.08,1.44
+985,Yann Gboho,Toulouse,"MF,FW",0.27,3.36
+986,David de Gea,Fiorentina,GK,0.09,0.29
+987,Viggo Gebel,RB Leipzig,MF,0.0,6.43
+988,Lutsharel Geertruida,RB Leipzig,DF,0.06,1.45
+989,Dennis Geiger,Hoffenheim,"MF,FW",0.0,3.18
+990,Valentin Gendrey,Lecce,DF,0.0,1.5
+991,Valentin Gendrey,Hoffenheim,DF,0.25,2.36
+992,Denis Genreau,Toulouse,MF,0.0,3.24
+993,Tyrique George,Chelsea,FW,0.49,3.44
+994,Yannick Gerhardt,Wolfsburg,"MF,DF",0.12,1.72
+995,Max Geschwill,Holstein Kiel,DF,0.14,1.68
+996,Daniele Ghilardi,Hellas Verona,DF,0.04,0.71
+997,Lautaro Gianetti,Udinese,DF,0.0,0.41
+998,Dimitris Giannoulis,Augsburg,DF,0.2,2.58
+999,Morgan Gibbs-White,Nott'ham Forest,MF,0.61,3.69
+1000,Samuel Gigot,Lazio,DF,0.13,0.79
+1001,Armin Gigovic,Holstein Kiel,MF,0.33,1.85
+1002,Bryan Gil,Girona,"FW,MF",0.26,2.93
+1003,Mario Gila,Lazio,DF,0.03,1.25
+1004,Billy Gilmour,Brighton,MF,0.0,2.76
+1005,Billy Gilmour,Napoli,MF,0.31,3.06
+1006,Benedikt Gimber,Heidenheim,DF,0.03,0.51
+1007,Santiago Giménez,Milan,FW,0.54,2.15
+1008,Gvidas Gineitis,Torino,MF,0.13,2.45
+1009,Matthias Ginter,Freiburg,DF,0.14,0.95
+1010,Jamie Gittens,Dortmund,"FW,MF",0.51,3.7
+1011,Serge Gnabry,Bayern Munich,"FW,MF",0.94,4.06
+1012,Ben Godfrey,Ipswich Town,DF,0.0,0.57
+1013,Ben Godfrey,Atalanta,DF,0.0,0.0
+1014,Martial Godo,Fulham,"FW,DF",0.0,3.91
+1015,Saba Goglichidze,Empoli,DF,0.07,0.46
+1016,Edoardo Goldaniga,Como,DF,0.11,0.89
+1017,Michael Golding,Leicester City,MF,0.0,0.0
+1018,Pierluigi Gollini,Genoa,GK,0.0,0.57
+1019,Aleksandr Golovin,Monaco,"MF,FW",0.08,3.74
+1020,André Gomes,Lille,MF,0.07,1.83
+1021,Angel Gomes,Lille,MF,0.37,3.42
+1022,João Gomes,Wolves,MF,0.12,2.03
+1023,Rodrigo Gomes,Wolves,"DF,FW",0.11,2.45
+1024,Toti Gomes,Wolves,DF,0.03,0.72
+1025,Carlos Gómez,Rennes,"MF,DF",0.0,2.83
+1026,Dani Gómez,Valencia,FW,0.0,1.02
+1027,Diego Gómez,Brighton,MF,0.7,3.32
+1028,Joe Gomez,Liverpool,DF,0.17,0.87
+1029,Moi Gómez,Osasuna,"MF,FW",0.0,2.15
+1030,Sergi Gómez,Espanyol,DF,0.0,0.54
+1031,Sergio Gómez,Real Sociedad,"MF,DF",0.33,3.35
+1032,Unai Gómez,Athletic Club,"MF,FW",0.21,1.61
+1033,Tidiam Gomis,RB Leipzig,"MF,FW",0.59,5.33
+1034,Fabio González,Las Palmas,MF,1.7,3.4
+1035,Nicolás González,Manchester City,MF,0.35,1.77
+1036,Nicolás González,Juventus,"FW,MF",0.21,2.42
+1037,Peter González,Getafe,"MF,FW",0.19,2.44
+1038,Urko González,Espanyol,MF,0.33,1.51
+1039,Urko González,Real Sociedad,MF,0.0,2.0
+1040,Anthony Gordon,Newcastle Utd,"FW,MF",0.44,3.74
+1041,Leon Goretzka,Bayern Munich,"MF,DF",0.14,1.9
+1042,Mathieu Gorgelin,Le Havre,GK,0.0,0.12
+1043,Andoni Gorosabel,Athletic Club,DF,0.12,1.94
+1044,Robin Gosens,Fiorentina,DF,0.5,2.36
+1045,Robin Gosens,Union Berlin,DF,1.0,5.0
+1046,Mario Götze,Eint Frankfurt,"MF,FW",0.18,3.39
+1047,Amine Gouiri,Marseille,"FW,MF",0.6,4.81
+1048,Amine Gouiri,Rennes,"MF,FW",0.35,2.52
+1049,Lucas Gourna-Douath,Roma,MF,0.0,1.58
+1050,Jeffrey Gouweleeuw,Augsburg,DF,0.15,1.04
+1051,Kamil Grabara,Wolfsburg,GK,0.0,0.21
+1052,Jonathan Gradit,Lens,DF,0.0,1.07
+1053,José Gragera,Espanyol,MF,0.0,1.11
+1054,Samuel Grandsir,Le Havre,"MF,FW",0.0,4.29
+1055,Alberto Grassi,Empoli,MF,0.08,1.1
+1056,Ryan Gravenberch,Liverpool,MF,0.17,1.94
+1057,Archie Gray,Tottenham,"DF,MF",0.0,0.31
+1058,Jack Grealish,Manchester City,"FW,MF",0.25,5.86
+1059,Jacob Greaves,Ipswich Town,DF,0.04,0.82
+1060,Mason Greenwood,Marseille,"FW,MF",0.61,3.95
+1061,Michael Gregoritsch,Freiburg,FW,0.7,2.67
+1062,Dominik Greif,Mallorca,GK,0.0,0.16
+1063,Antoine Griezmann,Atlético Madrid,"FW,MF",0.47,3.39
+1064,Vincenzo Grifo,Freiburg,"FW,MF",0.56,4.48
+1065,Florian Grillitsch,Valladolid,MF,0.14,3.17
+1066,Florian Grillitsch,Hoffenheim,MF,0.0,2.55
+1067,Álex Grimaldo,Leverkusen,DF,0.38,4.4
+1068,Pascal Groß,Dortmund,"MF,DF",0.66,3.71
+1069,Brajan Gruda,Brighton,"MF,FW",0.78,5.1
+1070,Marco Grüll,Werder Bremen,"FW,MF",0.38,3.13
+1071,Albert Grønbaek,Southampton,"FW,MF",0.0,1.26
+1072,Albert Grønbaek,Rennes,"MF,FW",0.55,3.21
+1073,Vicente Guaita,Celta Vigo,GK,0.03,0.09
+1074,Sergi Guardiola,Rayo Vallecano,FW,0.0,2.24
+1075,Nemanja Gudelj,Sevilla,"MF,DF",0.07,1.23
+1076,Gabriel Gudmundsson,Lille,DF,0.0,1.51
+1077,Gonçalo Guedes,Wolves,"MF,FW",0.72,2.71
+1078,Axel Gueguin,Montpellier,FW,0.0,0.0
+1079,Marc Guéhi,Crystal Palace,DF,0.15,1.29
+1080,Mattéo Guendouzi,Lazio,MF,0.19,3.25
+1081,Javier Guerra,Valencia,MF,0.21,2.58
+1082,Raphaël Guerreiro,Bayern Munich,"DF,MF",0.57,3.09
+1083,Evann Guessand,Nice,"FW,MF",0.6,3.19
+1084,Ander Guevara,Alavés,MF,0.23,1.89
+1085,Pape Gueye,Villarreal,MF,0.36,1.98
+1086,Morgan Guilavogui,St. Pauli,"FW,MF",0.2,2.59
+1087,Frederic Guilbert,Lecce,DF,0.07,1.66
+1088,Luis Guilherme,West Ham,"MF,FW",0.0,6.0
+1089,Hugo Guillamón,Valencia,MF,0.25,1.73
+1090,Bruno Guimarães,Newcastle Utd,MF,0.5,3.66
+1091,Carlos Guirao,Betis,MF,0.0,0.0
+1092,Bahereba Guirassy,Nantes,"FW,MF",0.52,2.59
+1093,Serhou Guirassy,Dortmund,FW,0.35,1.84
+1094,Marc Guiu,Chelsea,FW,0.0,1.22
+1095,Péter Gulácsi,RB Leipzig,GK,0.0,0.07
+1096,Arda Güler,Real Madrid,"MF,FW",0.79,5.69
+1097,Gerard Gumbau,Rayo Vallecano,MF,0.11,3.07
+1098,Robert Gumny,Augsburg,DF,0.0,2.66
+1099,İlkay Gündoğan,Manchester City,MF,0.53,3.56
+1100,Christian Günter,Freiburg,DF,0.16,2.06
+1101,Jon Guridi,Alavés,"MF,FW",0.35,2.08
+1102,Gorka Guruzeta,Athletic Club,FW,0.05,1.42
+1103,Malo Gusto,Chelsea,DF,0.19,2.8
+1104,Miguel Gutiérrez,Girona,"DF,MF",0.29,2.71
+1105,Albert Guðmundsson,Fiorentina,"FW,MF",0.35,2.76
+1106,Joško Gvardiol,Manchester City,DF,0.19,2.09
+1107,Emmanuel Gyasi,Empoli,"DF,FW",0.14,1.12
+1108,Christian Gytkjær,Venezia,FW,0.24,1.67
+1109,Erling Haaland,Manchester City,FW,0.3,2.34
+1110,Nicolas Haas,Empoli,MF,0.0,2.51
+1111,Janik Haberer,Union Berlin,"MF,DF",0.05,1.8
+1112,Robin Hack,Gladbach,"FW,MF",0.46,3.11
+1113,Saad El Haddad,Venezia,MF,0.0,6.0
+1114,Munir El Haddadi,Leganés,"FW,MF",0.21,2.2
+1115,Amadou Haidara,RB Leipzig,MF,0.2,1.98
+1116,Massadio Haïdara,Brest,DF,0.05,1.66
+1117,Antoine Hainaut,Parma,"DF,FW",0.15,1.42
+1118,Mohamed Haj,Parma,MF,0.4,3.96
+1119,Achraf Hakimi,Paris S-G,DF,0.48,4.53
+1120,Lewis Hall,Newcastle Utd,DF,0.25,2.59
+1121,Sébastien Haller,Leganés,FW,0.0,0.89
+1122,Ali Al Hamadi,Ipswich Town,FW,0.0,5.37
+1123,Andreas Hanche-Olsen,Mainz 05,DF,0.07,0.35
+1124,Florent Hanin,Angers,DF,0.3,2.02
+1125,Ridgeciano Haps,Venezia,DF,0.13,1.31
+1126,Amine Harit,Marseille,MF,1.39,5.72
+1127,Marcus Harness,Ipswich Town,MF,0.0,4.0
+1128,Phil Harres,Holstein Kiel,FW,0.29,1.28
+1129,Jack Harrison,Everton,FW,0.17,2.47
+1130,Abdou Harroui,Hellas Verona,"MF,FW",0.58,2.92
+1131,Taylor Harwood-Bellis,Southampton,DF,0.06,1.18
+1132,Hans Hateboer,Rennes,DF,0.11,1.6
+1133,Kjetil Haug,Toulouse,GK,0.0,0.0
+1134,Kai Havertz,Arsenal,"FW,MF",0.14,2.02
+1135,Ayden Heaven,Manchester Utd,DF,0.0,2.12
+1136,Jan Paul van Hecke,Brighton,DF,0.09,1.58
+1137,Hwang Hee-chan,Wolves,"MF,FW",0.14,1.22
+1138,Dean Henderson,Crystal Palace,GK,0.0,0.11
+1139,Liam Henderson,Empoli,MF,0.19,2.27
+1140,Ramon Hendriks,Stuttgart,DF,0.16,1.01
+1141,Paul Hennrich,Hoffenheim,MF,0.0,0.0
+1142,Benjamin Henrichs,RB Leipzig,DF,0.39,1.93
+1143,Henrique,Valladolid,DF,0.0,1.53
+1144,Luis Henrique,Marseille,"DF,FW",0.52,3.62
+1145,Rico Henry,Brentford,DF,0.92,1.84
+1146,Mads Hermansen,Leicester City,GK,0.0,0.11
+1147,Mario Hermoso,Roma,DF,0.0,1.43
+1148,Mario Hermoso,Leverkusen,DF,0.0,1.54
+1149,Javi Hernández,Leganés,DF,0.11,1.54
+1150,Aridane Hernández,Rayo Vallecano,DF,0.0,0.79
+1151,Lucas Hernández,Paris S-G,DF,0.0,1.13
+1152,Theo Hernández,Milan,DF,0.4,3.57
+1153,Hernani,Parma,MF,0.34,2.92
+1154,Jorge Herrando,Osasuna,DF,0.0,0.86
+1155,Ander Herrera,Athletic Club,MF,0.0,3.64
+1156,Sergio Herrera,Osasuna,GK,0.0,0.16
+1157,Yangel Herrera,Girona,MF,0.24,1.99
+1158,Juan Herzog,Las Palmas,DF,0.0,0.21
+1159,Son Heung-min,Tottenham,FW,0.64,4.99
+1160,Isak Hien,Atalanta,DF,0.04,0.19
+1161,Omar El Hilali,Espanyol,DF,0.09,0.8
+1162,James Hill,Bournemouth,DF,0.2,1.61
+1163,Piero Hincapié,Leverkusen,DF,0.1,1.18
+1164,Roger Hinojo,Espanyol,DF,0.0,0.0
+1165,Jack Hinshelwood,Brighton,"MF,DF",0.15,1.71
+1166,George Hirst,Ipswich Town,FW,0.41,1.22
+1167,Adam Hložek,Hoffenheim,"FW,MF",0.48,2.74
+1168,Ki-Jana Hoever,Auxerre,DF,0.17,2.08
+1169,Nicolas Höfler,Freiburg,MF,0.11,1.47
+1170,Jonas Hofmann,Leverkusen,"MF,DF",0.25,4.04
+1171,Philipp Hofmann,Bochum,FW,0.12,2.17
+1172,Lucas Höler,Freiburg,"FW,MF",0.29,2.46
+1173,Mason Holgate,Everton,"FW,DF",0.0,0.0
+1174,Benedict Hollerbach,Union Berlin,"FW,MF",0.25,2.8
+1175,Emil Holm,Bologna,DF,0.16,2.22
+1176,Lewis Holtby,Holstein Kiel,MF,0.22,2.69
+1177,Gerrit Holtmann,Bochum,"DF,FW",0.24,3.4
+1178,Franck Honorat,Gladbach,FW,0.5,5.19
+1179,Mathias Honsak,Heidenheim,"FW,DF",0.38,3.13
+1180,Dinko Horkaš,Las Palmas,GK,0.0,0.17
+1181,Timo Horn,Bochum,GK,0.0,0.23
+1182,Cédric Hountondji,Angers,DF,0.0,0.33
+1183,Ilyes Housni,Le Havre,"FW,MF",0.0,2.34
+1184,Harry Howell,Brighton,FW,0.0,0.0
+1185,Lukáš Hrádecký,Leverkusen,GK,0.03,0.14
+1186,Robin Hranáč,Hoffenheim,DF,0.0,0.41
+1187,Callum Hudson-Odoi,Nott'ham Forest,"FW,MF",0.45,3.86
+1188,Will Hughes,Crystal Palace,MF,0.26,2.86
+1189,Dean Huijsen,Bournemouth,DF,0.11,1.59
+1190,Mats Hummels,Roma,DF,0.1,0.79
+1191,Omari Hutchinson,Ipswich Town,"MF,FW",0.21,2.82
+1192,Elseid Hysaj,Lazio,DF,0.64,2.12
+1193,Hong Hyunseok,Mainz 05,MF,0.51,3.73
+1194,Pierre Højbjerg,Marseille,MF,0.34,3.38
+1195,Oscar Højlund,Eint Frankfurt,MF,0.12,2.12
+1196,Rasmus Højlund,Manchester Utd,FW,0.04,1.53
+1197,Pablo Ibáñez,Osasuna,MF,0.28,1.39
+1198,Hafiz Ibrahim,Reims,FW,0.23,0.92
+1199,Arijon Ibrahimović,Lazio,MF,0.0,11.25
+1200,Arijon Ibrahimović,Bayern Munich,FW,0.0,0.0
+1201,Stanis Idumbo,Sevilla,"FW,MF",0.32,2.21
+1202,Jay Idzes,Venezia,DF,0.0,0.69
+1203,Iglesias,Getafe,DF,0.16,1.84
+1204,Borja Iglesias,Celta Vigo,FW,0.32,1.66
+1205,Igor,Brighton,DF,0.0,1.31
+1206,Kelechi Iheanacho,Sevilla,FW,0.0,2.7
+1207,Jonathan Ikone,Como,FW,0.5,2.33
+1208,Jonathan Ikone,Fiorentina,"FW,MF",0.0,3.5
+1209,George Ilenikhena,Monaco,FW,0.38,2.14
+1210,Andrej Ilic,Union Berlin,FW,0.19,1.44
+1211,Ivan Ilić,Torino,MF,0.59,3.03
+1212,Rareş Ilie,Nice,MF,0.0,48.46
+1213,Samuel Iling-Junior,Bologna,"FW,MF",0.0,5.29
+1214,Danny Ings,West Ham,"FW,MF",0.63,3.8
+1215,Alessio Iovine,Como,"DF,FW",0.0,1.16
+1216,Tim Iroegbunam,Everton,MF,0.16,1.57
+1217,Jackson Irvine,St. Pauli,MF,0.17,1.93
+1218,Andy Irving,West Ham,MF,0.0,2.68
+1219,Alexander Isak,Newcastle Utd,FW,0.46,3.01
+1220,Gustav Isaksen,Lazio,FW,0.37,3.79
+1221,Isco,Betis,MF,0.81,6.46
+1222,Ismaily,Lille,DF,0.1,2.39
+1223,Ardian Ismajli,Empoli,DF,0.04,0.29
+1224,Yanis Issoufou,Montpellier,"MF,FW",0.0,0.0
+1225,Ko Itakura,Gladbach,DF,0.03,0.81
+1226,Hiroki Ito,Bayern Munich,DF,0.36,1.81
+1227,Junya Ito,Reims,"FW,MF",0.3,4.32
+1228,Diego Iturralde,Sevilla,FW,0.0,0.0
+1229,Marko Ivezić,Holstein Kiel,DF,0.05,0.65
+1230,Alex Iwobi,Fulham,"FW,MF",0.48,3.68
+1231,Armando Izzo,Monza,DF,0.07,0.74
+1232,Fellipe Jack,Como,DF,0.0,1.05
+1233,Nicolas Jackson,Chelsea,FW,0.41,2.8
+1234,Jérémy Jacquet,Rennes,DF,0.1,0.87
+1235,Lee Jae-sung,Mainz 05,MF,0.48,2.48
+1236,Ivan Jaime Pajuelo,Valencia,MF,0.0,3.65
+1237,Kristijan Jakić,Augsburg,MF,0.27,1.64
+1238,Karl Jakob Hein,Valladolid,GK,0.0,0.13
+1239,Ismail Jakobs,Monaco,DF,0.5,4.0
+1240,Jordan James,Rennes,MF,0.46,3.36
+1241,Reece James,Chelsea,"DF,MF",0.25,1.52
+1242,Vitaly Janelt,Brentford,MF,0.12,1.28
+1243,Adnan Januzaj,Las Palmas,"MF,FW",0.75,5.57
+1244,Luca Jaquez,Stuttgart,DF,0.0,1.77
+1245,Vitezslav Jaros,Liverpool,GK,0.0,0.0
+1246,Ali Jasim,Como,"FW,DF",0.0,9.0
+1247,Mikel Jauregizar,Athletic Club,MF,0.36,2.93
+1248,Dominik Javorček,Holstein Kiel,"DF,MF",0.47,1.63
+1249,Gaby Jean,Lecce,DF,0.0,0.26
+1250,Daniel Jebbison,Bournemouth,FW,0.0,4.54
+1251,Finn Jeltsch,Stuttgart,DF,0.0,0.23
+1252,Malcolm Jeng,Reims,DF,0.0,0.0
+1253,Fredrik Jensen,Augsburg,MF,0.0,2.25
+1254,Mathias Jensen,Brentford,MF,0.52,4.28
+1255,Moritz Jenz,Mainz 05,DF,0.11,0.62
+1256,Gabriel Jesus,Arsenal,FW,0.59,2.66
+1257,Juan Jesus,Napoli,DF,0.08,0.75
+1258,Alejandro Jiménez,Milan,"DF,FW",0.28,2.42
+1259,Raúl Jiménez,Fulham,FW,0.25,2.38
+1260,Kim Jisoo,Brentford,DF,0.0,0.0
+1261,João Pedro,Brighton,"FW,MF",0.42,3.32
+1262,John Joe,Getafe,"MF,FW",0.0,0.0
+1263,John Joe,Reims,MF,0.0,1.48
+1264,Joelinton,Newcastle Utd,"MF,FW",0.34,2.29
+1265,Jofre,Espanyol,"MF,FW",0.21,2.33
+1266,Þórir Jóhann Helgason,Lecce,MF,0.55,3.04
+1267,Carl Johansson,Holstein Kiel,DF,0.0,1.27
+1268,Ben Johnson,Ipswich Town,"DF,FW",0.33,1.6
+1269,Brennan Johnson,Tottenham,FW,0.29,1.9
+1270,Karl-Johan Johnsson,Strasbourg,GK,0.0,0.0
+1271,Sam Johnstone,Wolves,GK,0.0,0.29
+1272,Paul Joly,Auxerre,DF,0.27,2.85
+1273,Curtis Jones,Liverpool,"MF,DF",0.42,2.74
+1274,Frenkie de Jong,Barcelona,MF,0.87,3.39
+1275,Joan Jordán,Alavés,MF,0.19,3.5
+1276,Jorginho,Arsenal,MF,0.0,1.54
+1277,Jesse Joronen,Venezia,GK,0.0,0.0
+1278,Jota,Rennes,"FW,MF",0.27,1.89
+1279,Diogo Jota,Liverpool,FW,0.68,2.79
+1280,Antoine Joujou,Le Havre,"MF,FW",0.29,3.53
+1281,Luka Jović,Milan,"FW,MF",0.0,2.59
+1282,Juanmi,Getafe,"FW,MF",0.13,1.16
+1283,Juanmi,Betis,"FW,MF",0.0,1.84
+1284,Juanpe,Girona,DF,0.0,0.37
+1285,Jubal,Auxerre,DF,0.03,0.51
+1286,Anthony Jung,Werder Bremen,DF,0.05,0.66
+1287,Luiz Lúcio Reis Júnior,Villarreal,GK,0.0,0.06
+1288,Hamed Junior Traorè,Auxerre,MF,0.3,3.05
+1289,Vinicius Júnior,Real Madrid,FW,0.72,5.39
+1290,Josip Juranović,Union Berlin,"DF,MF",0.16,3.97
+1291,David Jurásek,Hoffenheim,DF,0.15,2.76
+1292,Stanko Jurić,Valladolid,MF,0.1,0.47
+1293,James Justin,Leicester City,DF,0.06,1.02
+1294,Filip Jørgensen,Chelsea,GK,0.0,0.17
+1295,Mohamed Kaba,Lecce,MF,0.0,1.99
+1296,Yusuf Kabadayı,Augsburg,"FW,MF",0.0,5.07
+1297,Almugera Kabar,Dortmund,DF,0.0,1.99
+1298,Christian Kabasele,Udinese,DF,0.0,0.93
+1299,Issa Kaboré,Werder Bremen,"DF,FW",1.17,4.38
+1300,Yaya Kader Fofana,Reims,"MF,FW",0.71,3.12
+1301,Pavel Kadeřábek,Hoffenheim,DF,0.06,2.34
+1302,Tino Kadewere,Nantes,"MF,FW",0.35,3.34
+1303,Ferdi Kadioglu,Brighton,"DF,MF",0.47,3.03
+1304,Arnaud Kalimuendo,Rennes,"FW,MF",0.21,1.71
+1305,Pierre Kalulu,Juventus,DF,0.04,1.39
+1306,Justin-Noël Kalumba,Angers,"FW,MF",0.0,0.0
+1307,Daichi Kamada,Crystal Palace,MF,0.17,2.99
+1308,Waren Kamanzi,Toulouse,"DF,MF",0.26,2.02
+1309,Boubacar Kamara,Aston Villa,MF,0.1,1.41
+1310,Glen Kamara,Rennes,MF,0.27,2.72
+1311,Hassane Kamara,Udinese,DF,0.27,1.98
+1312,Noham Kamara,Paris S-G,DF,0.0,1.18
+1313,Willy Kambwala,Villarreal,DF,0.0,0.4
+1314,Jakub Kamiński,Wolfsburg,"DF,MF",0.4,3.42
+1315,Kevin Kampl,RB Leipzig,MF,0.28,2.49
+1316,Nordine Kandil,Strasbourg,MF,0.0,0.0
+1317,Harry Kane,Bayern Munich,FW,0.79,3.36
+1318,Lee Kang-in,Paris S-G,"FW,MF",0.33,5.26
+1319,Yann Karamoh,Torino,"MF,FW",0.17,2.06
+1320,Atakan Karazor,Stuttgart,MF,0.24,1.48
+1321,Jesper Karlsson,Bologna,FW,0.3,2.72
+1322,Jesper Karlsson,Lecce,FW,0.0,3.26
+1323,Jesper Karlström,Udinese,MF,0.08,1.67
+1324,Lior Kasa,Genoa,"MF,FW",0.0,1.97
+1325,Grigoris Kastanos,Hellas Verona,"MF,FW",0.21,2.47
+1326,Mikkel Kaufmann,Heidenheim,FW,0.24,2.92
+1327,Joachim Kayi Sanda,Southampton,DF,0.0,0.0
+1328,Michael Kayode,Brentford,DF,0.51,3.24
+1329,Michael Kayode,Fiorentina,"DF,FW",0.0,2.83
+1330,Moise Kean,Fiorentina,FW,0.23,1.9
+1331,Michael Keane,Everton,DF,0.0,0.51
+1332,Yassine Kechta,Le Havre,"MF,FW",0.17,2.06
+1333,Thilo Kehrer,Monaco,DF,0.11,0.98
+1334,Abdoulaye Keita,Getafe,"FW,MF",0.0,0.95
+1335,Mandela Keita,Parma,MF,0.2,1.63
+1336,Yannik Keitel,Stuttgart,MF,0.0,0.67
+1337,Andu Kelati,Holstein Kiel,"MF,DF",0.31,2.81
+1338,Caoimhín Kelleher,Liverpool,GK,0.1,0.3
+1339,Thomas Keller,Heidenheim,"DF,MF",0.0,0.61
+1340,Lloyd Kelly,Newcastle Utd,DF,0.3,0.59
+1341,Lloyd Kelly,Juventus,DF,0.0,1.07
+1342,Aljoscha Kemlein,Union Berlin,MF,0.2,2.05
+1343,Marc-Oliver Kempf,Como,DF,0.07,1.17
+1344,Kenedy,Valladolid,"MF,FW",0.0,0.0
+1345,Luca Kerber,Heidenheim,"MF,DF",0.11,1.03
+1346,Milos Kerkez,Bournemouth,DF,0.24,2.24
+1347,Reda Khadra,Reims,"MF,FW",0.0,2.25
+1348,Bilal El Khannouss,Leicester City,"MF,FW",0.29,3.22
+1349,Wahbi Khazri,Montpellier,"FW,MF",0.17,3.27
+1350,Rani Khedira,Union Berlin,MF,0.07,1.09
+1351,Abdukodir Khusanov,Manchester City,DF,0.0,0.89
+1352,Abdukodir Khusanov,Lens,DF,0.0,1.02
+1353,Kialonda,Lecce,DF,0.04,0.63
+1354,Kiké,Alavés,FW,0.14,1.35
+1355,Max Kilman,West Ham,DF,0.13,0.86
+1356,Joshua Kimmich,Bayern Munich,MF,0.57,5.03
+1357,Presnel Kimpembe,Paris S-G,DF,0.0,0.0
+1358,Joshua King,Fulham,MF,1.38,5.54
+1359,Joshua King,Toulouse,"FW,MF",0.22,1.67
+1360,Tom King,Wolves,GK,0.0,0.0
+1361,Antonín Kinský,Tottenham,GK,0.0,0.17
+1362,Cédric Kipré,Reims,DF,0.12,1.27
+1363,Jakub Kiwior,Arsenal,DF,0.0,0.64
+1364,Tim Kleindienst,Gladbach,FW,0.46,2.24
+1365,Lukas Klostermann,RB Leipzig,DF,0.1,0.83
+1366,Justin Kluivert,Bournemouth,MF,0.46,3.88
+1367,Ansgar Knauff,Eint Frankfurt,"MF,DF",0.56,3.5
+1368,Magnus Knudsen,Holstein Kiel,MF,0.19,1.56
+1369,Gregor Kobel,Dortmund,GK,0.0,0.12
+1370,Robin Koch,Eint Frankfurt,DF,0.14,0.73
+1371,Hervé Koffi,Lens,GK,0.0,0.0
+1372,Magnus Kofod Andersen,Venezia,MF,0.39,2.59
+1373,Derrick Köhn,Werder Bremen,"DF,FW",0.27,2.55
+1374,Philipp Köhn,Monaco,GK,0.05,0.21
+1375,Dominik Kohr,Mainz 05,"DF,MF",0.08,1.14
+1376,Koka,Le Havre,FW,0.32,1.16
+1377,Koke,Atlético Madrid,MF,0.23,2.38
+1378,Sead Kolašinac,Atalanta,DF,0.19,1.75
+1379,Randal Kolo Muani,Juventus,FW,0.23,2.09
+1380,Randal Kolo Muani,Paris S-G,FW,0.75,3.27
+1381,Marco Komenda,Holstein Kiel,DF,0.07,1.58
+1382,Mert Kömür,Augsburg,MF,0.14,3.44
+1383,Ibrahima Konaté,Liverpool,DF,0.25,1.09
+1384,Ismael Konate,Empoli,"FW,MF",0.77,2.31
+1385,Geoffrey Kondogbia,Marseille,"DF,MF",0.0,1.07
+1386,Abdoul Koné,Reims,DF,0.0,0.68
+1387,Amadou Koné,Reims,MF,0.14,1.95
+1388,Ismaël Koné,Marseille,"MF,FW",0.0,1.5
+1389,Ismaël Koné,Rennes,MF,0.19,1.92
+1390,Manu Koné,Roma,MF,0.21,2.34
+1391,Ezri Konsa,Aston Villa,DF,0.09,0.74
+1392,Teun Koopmeiners,Juventus,"MF,FW",0.14,2.84
+1393,Kacper Koscierski,Bochum,DF,0.0,0.0
+1394,Odilon Kossounou,Atalanta,DF,0.0,0.56
+1395,Christian Kouamé,Fiorentina,"FW,MF",0.0,3.19
+1396,Christian Kouamé,Empoli,"FW,MF",0.0,4.08
+1397,Henri Koudossou,Augsburg,DF,0.24,2.17
+1398,Konstantinos Koulierakis,Wolfsburg,DF,0.15,1.13
+1399,Emmanuel Koum Mbondo,Marseille,DF,0.0,0.0
+1400,Jules Koundé,Barcelona,DF,0.24,2.04
+1401,Boubakar Kouyaté,Montpellier,DF,0.0,0.41
+1402,Mateo Kovačić,Manchester City,MF,0.33,2.99
+1403,Viktor Kovalenko,Empoli,MF,0.0,0.0
+1404,Matej Kovar,Leverkusen,GK,0.0,0.0
+1405,Mateusz Kowalski,Parma,MF,0.0,0.0
+1406,Goduine Koyalipou,Lens,FW,0.1,2.64
+1407,Caleb Kporha,Crystal Palace,DF,0.0,0.0
+1408,Emil Krafth,Newcastle Utd,DF,0.0,0.79
+1409,Alex Král,Espanyol,MF,0.03,1.39
+1410,Andrej Kramarić,Hoffenheim,"MF,FW",0.46,3.32
+1411,Frans Krätzig,Heidenheim,"DF,MF",0.15,3.33
+1412,Frans Krätzig,Stuttgart,DF,0.0,0.0
+1413,Tom Krauß,Bochum,MF,0.08,3.34
+1414,Ladislav Krejčí,Girona,DF,0.15,1.07
+1415,Rasmus Kristensen,Eint Frankfurt,DF,0.36,2.15
+1416,Thomas Kristensen,Udinese,DF,0.05,0.87
+1417,Nikola Krstović,Lecce,FW,0.21,2.56
+1418,Lukas Kübler,Freiburg,DF,0.2,1.27
+1419,Takefusa Kubo,Real Sociedad,"MF,FW",0.3,4.33
+1420,Mohammed Kudus,West Ham,"FW,MF",0.35,3.72
+1421,Dejan Kulusevski,Tottenham,"MF,FW",0.34,4.82
+1422,Sael Kumbedi,Lyon,DF,0.38,1.42
+1423,Marash Kumbulla,Espanyol,DF,0.06,0.48
+1424,Jonah Kusi-Asare,Bayern Munich,FW,0.0,0.0
+1425,Daler Kuzyaev,Le Havre,MF,0.0,0.63
+1426,Khvicha Kvaratskhelia,Napoli,"FW,MF",0.46,4.35
+1427,Khvicha Kvaratskhelia,Paris S-G,FW,0.79,5.89
+1428,Moritz-Broni Kwarteng,Bochum,"MF,FW",0.0,4.68
+1429,Giorgos Kyriakopoulos,Monza,DF,0.19,2.21
+1430,Luca de la Torre,Celta Vigo,MF,0.0,0.0
+1431,Rémy Labeau Lascary,Lens,"FW,MF",0.71,2.83
+1432,Gaëtan Laborde,Nice,FW,0.34,3.1
+1433,Nediljko Labrović,Augsburg,GK,0.0,0.07
+1434,Alexandre Lacazette,Lyon,FW,0.22,2.46
+1435,Younes Lachaab,Lille,"MF,FW",0.0,20.0
+1436,Maxence Lacroix,Crystal Palace,DF,0.12,0.84
+1437,Alban Lafont,Nantes,GK,0.0,0.17
+1438,Yoel Lago,Celta Vigo,DF,0.15,0.31
+1439,Konrad Laimer,Bayern Munich,DF,0.42,3.28
+1440,Stefan Lainer,Gladbach,DF,0.12,1.78
+1441,Kenny Lala,Brest,DF,0.2,2.68
+1442,Adam Lallana,Southampton,MF,0.5,2.24
+1443,Mathis Lambourde,Hellas Verona,"FW,MF",1.0,2.0
+1444,Mohamed Lamine Bayo,Lille,FW,0.58,3.51
+1445,Tariq Lamptey,Brighton,DF,0.31,1.78
+1446,Will Lankshear,Tottenham,"FW,MF",0.0,0.0
+1447,Gianluca Lapadula,Cagliari,"FW,MF",0.0,3.77
+1448,Cyle Larin,Mallorca,FW,0.15,1.07
+1449,Gautier Larsonneur,Saint-Étienne,GK,0.03,0.09
+1450,Hugo Larsson,Eint Frankfurt,MF,0.19,2.14
+1451,Juanmi Latasa,Valladolid,FW,0.0,1.93
+1452,Toni Lato,Mallorca,DF,0.15,2.03
+1453,Roméo Lavia,Chelsea,MF,0.23,1.58
+1454,Valentino Lazaro,Torino,"DF,FW",0.31,2.03
+1455,Darko Lazović,Hellas Verona,"DF,MF",0.25,1.42
+1456,Manuel Lazzari,Lazio,DF,0.13,2.3
+1457,Julien Le Cardinal,Brest,DF,0.13,0.91
+1458,Jérémy Le Douaron,Brest,FW,0.0,0.0
+1459,Enzo Le Fée,Roma,MF,0.0,2.55
+1460,Robin Le Normand,Atlético Madrid,DF,0.04,0.29
+1461,Nicola Leali,Genoa,GK,0.03,0.07
+1462,Rafael Leão,Milan,FW,0.62,4.38
+1463,Benjamin Lecomte,Montpellier,GK,0.0,0.34
+1464,Pierre Lees-Melou,Brest,MF,0.24,3.07
+1465,Jordan Lefort,Angers,DF,0.03,0.76
+1466,Diogo Leite,Union Berlin,DF,0.11,1.17
+1467,Maxim Leitsch,Mainz 05,DF,0.0,0.93
+1468,Florian Lejeune,Rayo Vallecano,DF,0.11,1.0
+1469,Stefan Lekovic,Monza,DF,0.0,1.47
+1470,Iñigo Lekue,Athletic Club,DF,0.12,1.86
+1471,Nunzio Lella,Venezia,MF,0.0,15.0
+1472,Thomas Lemar,Atlético Madrid,MF,0.0,4.24
+1473,Félix Lemaréchal,Strasbourg,"MF,FW",0.3,2.83
+1474,Mario Lemina,Wolves,"MF,DF",0.33,1.71
+1475,Clément Lenglet,Atlético Madrid,DF,0.09,0.78
+1476,Bernd Leno,Fulham,GK,0.05,0.16
+1477,Donovan Léon,Auxerre,GK,0.06,0.37
+1478,Giovanni Leoni,Parma,DF,0.0,0.23
+1479,Esteban Lepaul,Angers,FW,0.06,1.22
+1480,Johann Lepenant,Nantes,MF,0.26,1.63
+1481,Jefferson Lerma,Crystal Palace,"MF,DF",0.12,1.82
+1482,Louis Leroux,Nantes,"MF,DF",0.33,3.31
+1483,Robert Lewandowski,Barcelona,FW,0.1,1.69
+1484,Jamie Leweling,Stuttgart,"MF,FW",0.49,2.82
+1485,Rico Lewis,Manchester City,"DF,MF",0.14,1.47
+1486,Keane Lewis-Potter,Brentford,"DF,FW",0.23,2.07
+1487,Myles Lewis-Skelly,Arsenal,DF,0.0,1.91
+1488,Ben Lhassine Kone,Como,MF,0.0,0.0
+1489,Mattia Liberali,Milan,MF,0.0,1.48
+1490,Philipp Lienhart,Freiburg,DF,0.06,0.84
+1491,Matthijs de Ligt,Manchester Utd,DF,0.04,0.59
+1492,Pedro Lima,Wolves,DF,0.0,5.14
+1493,Victor Lindelöf,Manchester Utd,DF,0.0,0.51
+1494,Jesper Lindstrøm,Everton,FW,0.07,3.35
+1495,Karol Linetty,Torino,MF,0.12,1.4
+1496,Samuel Lino,Atlético Madrid,"MF,DF",0.35,2.84
+1497,Pol Lirola,Marseille,DF,0.26,2.12
+1498,Dailon Livramento,Hellas Verona,"FW,MF",0.38,1.82
+1499,Valentino Livramento,Newcastle Utd,DF,0.06,1.43
+1500,Marin Ljubicic,Union Berlin,"FW,MF",0.96,2.88
+1501,Javier Llabrés,Mallorca,FW,0.0,4.74
+1502,Diego Llorente,Betis,DF,0.07,0.54
+1503,Marcos Llorente,Atlético Madrid,"DF,MF",0.43,2.01
+1504,Gautier Lloris,Le Havre,DF,0.1,0.68
+1505,Giovani Lo Celso,Betis,"MF,FW",0.56,5.74
+1506,Stanislav Lobotka,Napoli,MF,0.2,1.84
+1507,Manuel Locatelli,Juventus,MF,0.26,3.13
+1508,Bradley Locko,Brest,DF,0.0,0.93
+1509,Ruben Loftus-Cheek,Milan,MF,0.17,2.95
+1510,Elysée Logbo,Le Havre,FW,0.0,0.0
+1511,Enzo Loiodice,Las Palmas,MF,0.0,1.71
+1512,Sean Longstaff,Newcastle Utd,MF,0.23,1.58
+1513,Ademola Lookman,Atalanta,"MF,FW",0.6,5.41
+1514,Anthony Lopes,Nantes,GK,0.0,0.06
+1515,David López,Mallorca,DF,0.0,0.0
+1516,David López,Girona,DF,0.11,0.89
+1517,Diego López,Valencia,"MF,FW",0.3,2.27
+1518,Fer López,Celta Vigo,"FW,MF",0.4,4.02
+1519,Fermin López,Barcelona,"MF,FW",0.5,4.1
+1520,Javi López,Real Sociedad,DF,0.09,0.93
+1521,Pau López,Girona,GK,0.0,2.0
+1522,Roberto López,Leganés,MF,0.23,3.41
+1523,Unai López,Rayo Vallecano,MF,0.11,2.79
+1524,Iker Losada,Celta Vigo,"FW,MF",0.0,2.02
+1525,Iker Losada,Betis,"MF,FW",0.0,2.14
+1526,Anthony Losilla,Bochum,MF,0.16,1.5
+1527,Jordan Lotomba,Nice,"MF,DF",0.0,5.14
+1528,Tom Louchet,Nice,"DF,MF",0.12,3.6
+1529,Sandi Lovrić,Udinese,MF,0.39,3.16
+1530,Pol Lozano,Espanyol,MF,0.09,1.84
+1531,Lorenzo Lucca,Udinese,FW,0.15,1.26
+1532,Jhon Lucumí,Bologna,DF,0.07,1.17
+1533,Yannik Lührs,Dortmund,DF,0.0,1.41
+1534,José Luis Gayà,Valencia,DF,0.25,1.95
+1535,José Luis Palomino,Cagliari,DF,0.08,0.58
+1536,Douglas Luiz,Juventus,MF,0.17,4.75
+1537,Romelu Lukaku,Napoli,FW,0.51,2.4
+1538,Castello Lukeba,RB Leipzig,DF,0.06,0.97
+1539,Dodi Lukebakio,Sevilla,FW,0.26,3.46
+1540,Saša Lukić,Fulham,MF,0.15,2.11
+1541,Milos Lukovic,Strasbourg,"FW,MF",0.0,0.0
+1542,Joe Lumley,Southampton,GK,0.0,0.0
+1543,Daniel Luna,Mallorca,MF,0.0,4.5
+1544,Andriy Lunin,Real Madrid,GK,0.14,0.14
+1545,Massimo Luongo,Ipswich Town,MF,0.0,0.0
+1546,Sebastiano Luperto,Cagliari,DF,0.14,0.83
+1547,Zito Luvumbo,Cagliari,"FW,MF",0.22,1.96
+1548,Charalambos Lykogiannis,Bologna,DF,0.43,2.83
+1549,Senne Lynen,Werder Bremen,MF,0.2,1.05
+1550,Mathias Løvik,Parma,"DF,FW",0.0,0.98
+1551,Othmane Maamma,Montpellier,"FW,MF",0.33,1.33
+1552,Ian Maatsen,Aston Villa,DF,0.55,4.11
+1553,Alexis Mac Allister,Liverpool,MF,0.52,4.15
+1554,Deiver Machado,Lens,"DF,MF",0.4,2.24
+1555,Lanroy Machine,Angers,FW,0.0,0.0
+1556,Shuto Machino,Holstein Kiel,"FW,MF",0.41,3.41
+1557,Darwin Machís,Valladolid,"MF,FW",0.14,2.11
+1558,Yvann Macon,Saint-Étienne,DF,0.0,1.29
+1559,James Maddison,Tottenham,MF,0.9,4.73
+1560,Eros Maddy,Auxerre,DF,0.0,6.0
+1561,Noni Madueke,Chelsea,FW,0.35,3.5
+1562,Pablo Maffeo,Mallorca,DF,0.15,2.28
+1563,Gabriel Magalhães,Arsenal,DF,0.23,1.33
+1564,Soungoutou Magassa,Monaco,MF,0.09,1.67
+1565,Edmond-Paris Maghoma,Brentford,"MF,FW",0.76,3.03
+1566,Giangiacomo Magnani,Hellas Verona,DF,0.0,0.34
+1567,Hugo Magnetti,Brest,MF,0.15,1.08
+1568,Frank Magri,Toulouse,"FW,MF",0.18,1.72
+1569,Harry Maguire,Manchester Utd,DF,0.0,1.02
+1570,Jon Magunazelaia,Real Sociedad,MF,12.86,12.86
+1571,Arne Maier,Augsburg,MF,0.38,4.23
+1572,Mike Maignan,Milan,GK,0.0,0.16
+1573,Patrick Mainka,Heidenheim,DF,0.06,0.82
+1574,Kobbie Mainoo,Manchester Utd,MF,0.16,1.85
+1575,Ainsley Maitland-Niles,Lyon,DF,0.27,2.49
+1576,Radosław Majecki,Monaco,GK,0.0,0.07
+1577,Lovro Majer,Wolfsburg,MF,0.59,3.85
+1578,Hamidou Makalou,Brest,"FW,MF",0.0,0.0
+1579,Jordy Makengo,Freiburg,DF,0.12,1.09
+1580,Antoine Makoumbou,Cagliari,MF,0.21,1.59
+1581,Nikola Maksimović,Montpellier,DF,0.0,1.24
+1582,Tyrell Malacia,Manchester Utd,DF,0.0,1.8
+1583,Jarzinho Malanga,Stuttgart,DF,0.0,0.0
+1584,Julián Malatini,Werder Bremen,DF,0.4,0.99
+1585,Daniel Maldini,Monza,"MF,FW",0.34,2.75
+1586,Daniel Maldini,Atalanta,"FW,MF",0.35,3.14
+1587,Youssef Maleh,Empoli,MF,0.12,1.79
+1588,Donyell Malen,Aston Villa,FW,0.0,1.76
+1589,Donyell Malen,Dortmund,"FW,MF",0.44,1.76
+1590,Ruslan Malinovskyi,Genoa,"MF,FW",0.47,3.98
+1591,Lennard Maloney,Heidenheim,MF,0.0,0.83
+1592,Lennard Maloney,Mainz 05,MF,0.0,0.0
+1593,Aaron Malouda,Lille,FW,0.0,0.0
+1594,Giorgi Mamardashvili,Valencia,GK,0.06,0.26
+1595,Dennis Man,Parma,"FW,MF",0.32,3.61
+1596,Hianga Mananga Mbock,Brest,MF,0.0,0.0
+1597,Gianluca Mancini,Roma,DF,0.06,1.17
+1598,Steve Mandanda,Rennes,GK,0.0,0.24
+1599,Christos Mandas,Lazio,GK,0.11,0.22
+1600,Reinildo Mandava,Atlético Madrid,DF,0.1,0.67
+1601,Aïssa Mandi,Lille,DF,0.1,1.19
+1602,Rolando Mandragora,Fiorentina,MF,0.23,2.61
+1603,Mateus Mane,Wolves,MF,0.0,0.0
+1604,Orel Mangala,Everton,MF,0.07,1.72
+1605,Orel Mangala,Lyon,MF,0.0,4.03
+1606,Ryan Manning,Southampton,"DF,MF",0.18,3.08
+1607,Javier Manquillo,Celta Vigo,DF,0.0,0.18
+1608,Johan Manzambi,Freiburg,"FW,MF",0.54,3.49
+1609,Alberto Manzoni,Atalanta,MF,0.0,15.0
+1610,Sekou Mara,Strasbourg,"FW,MF",0.23,1.17
+1611,Alessandro Marcandalli,Genoa,DF,0.0,0.0
+1612,Alessandro Marcandalli,Venezia,DF,0.0,0.25
+1613,Marcão,Sevilla,DF,0.0,0.33
+1614,Solly March,Brighton,"FW,MF",1.08,3.77
+1615,Filip Marchwiński,Lecce,MF,0.0,0.0
+1616,Óscar de Marcos,Athletic Club,DF,0.46,2.7
+1617,Alberto Marí,Valencia,FW,0.0,12.86
+1618,Pablo Marí,Monza,DF,0.06,0.88
+1619,Pablo Marí,Fiorentina,DF,0.0,0.82
+1620,José María Giménez,Atlético Madrid,DF,0.05,0.32
+1621,Luca Marianucci,Empoli,DF,0.0,1.01
+1622,Mirko Marić,Monza,"FW,MF",0.0,1.68
+1623,Mirko Marić,Venezia,FW,0.0,2.27
+1624,Arkaitz Mariezkurrena,Real Sociedad,"FW,MF",0.37,2.61
+1625,Rafa Marín,Napoli,DF,0.0,0.0
+1626,Pablo Marín,Real Sociedad,MF,0.15,1.89
+1627,Răzvan Marin,Cagliari,MF,0.13,3.97
+1628,Guillermo Maripán,Torino,DF,0.08,0.73
+1629,Mika Mármol,Las Palmas,DF,0.15,1.46
+1630,Omar Marmoush,Manchester City,"FW,MF",0.15,2.99
+1631,Omar Marmoush,Eint Frankfurt,FW,1.31,5.66
+1632,Mario Maroto,Valladolid,MF,1.41,2.81
+1633,Marquinhos,Paris S-G,DF,0.05,1.62
+1634,Unai Marrero,Real Sociedad,GK,0.0,0.0
+1635,Ange Martial Tia,Reims,"MF,DF",0.0,2.11
+1636,Aarón Martín,Genoa,DF,0.38,2.77
+1637,Carlos Martín,Alavés,"FW,MF",0.2,1.96
+1638,Diego Martín,Las Palmas,FW,0.0,4.5
+1639,Gerard Martín,Barcelona,DF,0.26,2.34
+1640,Iván Martín,Girona,MF,0.18,2.47
+1641,Jon Martin,Real Sociedad,DF,0.1,0.8
+1642,Jonas Martin,Brest,MF,0.36,1.45
+1643,Mario Martín,Valladolid,MF,0.05,1.7
+1644,Gabriel Martinelli,Arsenal,"FW,MF",0.27,2.91
+1645,Arnau Martinez,Girona,"DF,MF",0.21,1.92
+1646,Emiliano Martínez,Aston Villa,GK,0.03,0.17
+1647,Iñigo Martínez,Barcelona,DF,0.33,1.63
+1648,Javi Martínez,Osasuna,MF,0.0,0.0
+1649,Josep Martinez,Inter,GK,0.0,0.2
+1650,Lautaro Martínez,Inter,FW,0.28,2.7
+1651,Lisandro Martínez,Manchester Utd,DF,0.1,1.34
+1652,Lucas Martínez Quarta,Fiorentina,DF,0.0,1.03
+1653,Ramón Martínez,Sevilla,DF,0.0,2.07
+1654,Toni Martínez,Alavés,FW,0.09,2.4
+1655,Kevin Martins,Monza,"MF,DF",0.49,0.98
+1656,Javi Martón,Athletic Club,"FW,MF",0.0,1.73
+1657,Adam Marušić,Lazio,DF,0.12,1.27
+1658,Marvin,Las Palmas,"DF,FW",0.17,1.21
+1659,Omar Mascarell,Mallorca,MF,0.0,0.68
+1660,Adam Masina,Torino,DF,0.19,0.98
+1661,Patrizio Masini,Genoa,MF,0.18,1.4
+1662,Giorgos Masouras,Bochum,"FW,MF",0.43,2.47
+1663,Erhan Mašović,Bochum,DF,0.1,0.69
+1664,Han-Noah Massengo,Auxerre,MF,0.09,1.03
+1665,Clinton Mata,Lyon,DF,0.23,0.95
+1666,Jaime Mata,Las Palmas,"FW,MF",0.14,2.19
+1667,Igor Matanovic,Eint Frankfurt,FW,0.29,2.31
+1668,Pape Matar Sarr,Tottenham,MF,0.33,2.12
+1669,Eliot Matazo,Monaco,MF,0.0,1.3
+1670,Jean-Philippe Mateta,Crystal Palace,FW,0.34,2.21
+1671,Nemanja Matić,Lyon,MF,0.18,2.2
+1672,Rudy Matondo,Auxerre,MF,0.0,0.0
+1673,Chrislain Matsima,Augsburg,DF,0.04,0.6
+1674,Jean Mattéo Bahoya,Eint Frankfurt,"MF,FW",0.59,4.01
+1675,Alan Matturro,Genoa,DF,0.0,0.9
+1676,Azor Matusiwa,Rennes,MF,0.26,1.99
+1677,Neal Maupay,Marseille,FW,0.43,1.9
+1678,Maurides,St. Pauli,FW,0.0,0.0
+1679,Stephy Mavididi,Leicester City,FW,0.39,2.78
+1680,Konstantinos Mavropanos,West Ham,DF,0.0,0.7
+1681,Christian Mawissa,Monaco,DF,0.0,0.42
+1682,Keke Maximilian Topp,Werder Bremen,"FW,MF",0.71,3.93
+1683,Borja Mayoral,Getafe,FW,0.16,1.54
+1684,Senny Mayulu,Paris S-G,MF,0.67,4.23
+1685,Noussair Mazraoui,Manchester Utd,DF,0.03,1.78
+1686,Andrea Mazza,Monza,GK,0.0,0.0
+1687,Luca Mazzitelli,Como,MF,0.27,3.5
+1688,Pasquale Mazzocchi,Napoli,"DF,FW",0.0,2.3
+1689,Samuel Mbangula,Juventus,FW,0.63,2.92
+1690,Ethan Mbappé,Lille,"MF,FW",0.81,7.74
+1691,Kylian Mbappé,Real Madrid,FW,0.46,4.12
+1692,Ibrahim Mbaye,Paris S-G,"FW,MF",0.53,2.12
+1693,Bryan Mbeumo,Brentford,FW,0.53,3.8
+1694,James Mcatee,Manchester City,"MF,FW",0.26,1.03
+1695,Kasey McAteer,Leicester City,FW,0.21,2.11
+1696,Oliver McBurnie,Las Palmas,FW,0.29,2.06
+1697,Alex McCarthy,Southampton,GK,0.0,0.0
+1698,John McGinn,Aston Villa,"MF,FW",0.32,3.08
+1699,Scott McKenna,Las Palmas,DF,0.0,0.44
+1700,Weston McKennie,Juventus,"MF,DF",0.35,2.34
+1701,Mark McKenzie,Toulouse,DF,0.04,0.5
+1702,Dwight McNeil,Everton,"MF,FW",0.66,4.73
+1703,Scott McTominay,Manchester Utd,MF,0.0,4.74
+1704,Scott McTominay,Napoli,MF,0.31,2.11
+1705,Jakov Medić,Bochum,DF,0.06,0.56
+1706,Facundo Medina,Lens,DF,0.11,2.41
+1707,Ben Mee,Brentford,DF,0.0,0.0
+1708,Jayden Meghoma,Brentford,DF,0.0,0.0
+1709,Henrik Meister,Rennes,FW,1.43,4.29
+1710,Bamo Meïté,Montpellier,DF,0.0,0.42
+1711,Bamo Meïté,Marseille,DF,0.0,0.0
+1712,Mohamed Meité,Rennes,FW,0.17,2.17
+1713,Mateo Mejía,Sevilla,FW,0.0,8.18
+1714,Farid El Melali,Angers,FW,0.52,3.18
+1715,Filippo Melegoni,Genoa,"MF,FW",1.01,1.01
+1716,Arthur Melo,Girona,MF,0.1,1.43
+1717,Nuno Mendes,Paris S-G,DF,0.32,3.87
+1718,Brais Méndez,Real Sociedad,MF,0.12,2.53
+1719,Antoine Mendy,Nice,DF,0.22,1.42
+1720,Ferland Mendy,Real Madrid,DF,0.09,0.45
+1721,Nampalys Mendy,Lens,MF,0.31,1.68
+1722,Nobel Mendy,Betis,DF,0.0,0.83
+1723,Gideon Mensah,Auxerre,DF,0.2,2.01
+1724,Alex Meret,Napoli,GK,0.0,0.06
+1725,Mikel Merino,Arsenal,"MF,FW",0.23,2.44
+1726,Quentin Merlin,Marseille,DF,0.51,3.34
+1727,Víctor Meseguer,Valladolid,MF,0.22,1.72
+1728,Rafik Messali,Toulouse,DF,0.39,3.16
+1729,Junior Messias,Genoa,"MF,FW",0.32,2.44
+1730,Connor Metcalfe,St. Pauli,"MF,FW",0.0,1.5
+1731,Karol Mets,St. Pauli,DF,0.0,0.9
+1732,Thomas Meunier,Lille,DF,0.33,1.73
+1733,Alexander Meyer,Dortmund,GK,0.0,0.5
+1734,Shumaira Mheuka,Chelsea,MF,0.0,0.0
+1735,Lucas Michal,Monaco,"FW,MF",0.77,5.38
+1736,Florian Micheler,Hoffenheim,MF,0.0,0.0
+1737,Miguel,Leganés,FW,0.31,1.46
+1738,Valentin Mihaila,Parma,"FW,MF",0.35,3.36
+1739,Georges Mikautadze,Lyon,FW,0.75,3.05
+1740,Igor Miladinović,Saint-Étienne,"FW,MF",0.0,0.0
+1741,Nikola Milenković,Nott'ham Forest,DF,0.08,0.57
+1742,Lewis Miley,Newcastle Utd,MF,0.0,1.15
+1743,Vanja Milinković-Savić,Torino,GK,0.0,0.27
+1744,Éder Militão,Real Madrid,DF,0.1,1.15
+1745,Luis Milla,Getafe,MF,0.19,4.07
+1746,Pere Milla,Espanyol,"MF,FW",0.2,2.57
+1747,Enzo Millot,Stuttgart,"MF,FW",0.49,3.22
+1748,James Milner,Brighton,MF,0.0,4.24
+1749,Kim Min-jae,Bayern Munich,DF,0.08,1.03
+1750,Yerry Mina,Cagliari,DF,0.07,0.91
+1751,Takumi Minamino,Monaco,"MF,FW",0.28,3.23
+1752,Lucas Mincarelli,Montpellier,DF,0.0,0.75
+1753,Tyrone Mings,Aston Villa,DF,0.16,1.45
+1754,Óscar Mingueza,Celta Vigo,"MF,DF",0.46,3.2
+1755,Kim Minsu,Girona,"MF,FW",0.0,0.0
+1756,Yankuba Minteh,Brighton,"FW,MF",0.64,3.14
+1757,Bojan Miovski,Girona,FW,0.41,1.03
+1758,Rafa Mir,Valencia,"FW,MF",0.48,1.31
+1759,Juan Miranda,Bologna,DF,0.51,3.79
+1760,Fabio Miretti,Genoa,"MF,FW",0.32,2.84
+1761,Tyrick Mitchell,Crystal Palace,DF,0.2,2.1
+1762,Kaoru Mitoma,Brighton,"FW,MF",0.35,3.01
+1763,Maximilian Mittelstädt,Stuttgart,DF,0.55,3.57
+1764,Koji Miyoshi,Bochum,"FW,MF",0.0,1.75
+1765,Henrikh Mkhitaryan,Inter,MF,0.45,3.8
+1766,Jakub Moder,Brighton,MF,0.0,32.73
+1767,Rui Modesto,Udinese,"DF,MF",0.3,3.4
+1768,Luka Modrić,Real Madrid,MF,0.74,6.01
+1769,Max Moerstedt,Hoffenheim,FW,0.0,3.18
+1770,Terem Moffi,Nice,FW,3.05,7.63
+1771,Mostafa Mohamed,Nantes,FW,0.14,1.22
+1772,Johan Mojica,Mallorca,DF,0.2,2.71
+1773,David Mokwa,Hoffenheim,"DF,FW",0.0,0.0
+1774,Alberto Moleiro,Las Palmas,"FW,MF",0.2,3.52
+1775,Nahuel Molina,Atlético Madrid,DF,0.28,2.49
+1776,Florent Mollet,Nantes,"MF,FW",0.0,3.7
+1777,Jon Moncayola,Osasuna,MF,0.17,2.87
+1778,Jeremy Monga,Leicester City,"FW,MF",0.0,1.61
+1779,Gonzalo Montiel,Sevilla,"DF,MF",0.0,1.59
+1780,Lorenzo Montipò,Hellas Verona,GK,0.0,0.14
+1781,Mikey Moore,Tottenham,FW,0.49,2.95
+1782,Álvaro Morata,Milan,"FW,MF",0.25,1.72
+1783,Morato,Nott'ham Forest,DF,0.0,0.3
+1784,Diego Moreira,Strasbourg,"DF,MF",0.35,2.35
+1785,Alberto Moreno,Como,DF,0.1,1.88
+1786,Álex Moreno,Nott'ham Forest,"DF,MF",0.19,1.51
+1787,Gerard Moreno,Villarreal,FW,0.5,4.87
+1788,Matias Moreno,Fiorentina,DF,0.0,1.87
+1789,Xavier Moreno,Valladolid,FW,0.0,0.0
+1790,Tete Morente,Lecce,"FW,MF",0.18,2.72
+1791,Mateu Morey,Mallorca,DF,0.12,1.46
+1792,Ilaix Moriba,Celta Vigo,MF,0.21,2.32
+1793,Manu Morlanes,Mallorca,MF,0.0,2.35
+1794,Nikola Moro,Bologna,MF,0.44,3.56
+1795,Raúl Moro,Valladolid,"MF,FW",0.35,3.61
+1796,Sam Morsy,Ipswich Town,MF,0.07,1.67
+1797,Gabriel Moscardo,Reims,"MF,DF",0.0,0.0
+1798,Cristhian Mosquera,Valencia,DF,0.03,0.38
+1799,Daniel Mosquera,Hellas Verona,FW,0.2,2.82
+1800,Yerson Mosquera,Wolves,DF,0.0,1.02
+1801,Dany Mota,Monza,"FW,MF",0.13,2.35
+1802,Yael Mouanga,Montpellier,DF,0.0,0.57
+1803,Aimen Moueffek,Saint-Étienne,MF,0.26,1.82
+1804,Youssoufa Moukoko,Nice,"FW,MF",0.44,2.62
+1805,Steve Mounié,Augsburg,"FW,MF",0.0,1.82
+1806,Mason Mount,Manchester Utd,MF,0.0,3.18
+1807,Santiago Mouriño,Alavés,DF,0.1,0.54
+1808,Louis Mouton,Saint-Étienne,MF,0.17,2.41
+1809,Divin Mubama,Manchester City,FW,0.0,0.0
+1810,Mykhailo Mudryk,Chelsea,FW,0.0,3.6
+1811,Ngal'Ayel Mukau,Lille,MF,0.08,1.51
+1812,Nordi Mukiele,Leverkusen,DF,0.1,1.5
+1813,Florian Müller,Freiburg,GK,0.0,0.0
+1814,Kevin Müller,Heidenheim,GK,0.03,0.12
+1815,Marius Müller,Wolfsburg,GK,0.0,0.0
+1816,Thomas Müller,Bayern Munich,"MF,FW",0.66,5.36
+1817,Abdul Mumin,Rayo Vallecano,DF,0.13,0.49
+1818,Marshall Munetsi,Wolves,"MF,FW",0.08,1.75
+1819,Marshall Munetsi,Reims,MF,0.21,2.18
+1820,Rodrigo Muniz,Fulham,FW,0.19,1.59
+1821,Aihen Muñoz,Real Sociedad,DF,0.0,0.82
+1822,Álex Muñoz,Las Palmas,DF,0.0,0.95
+1823,Daniel Muñoz,Crystal Palace,DF,0.31,2.37
+1824,Iker Muñoz,Osasuna,MF,0.29,2.21
+1825,Javier Muñoz,Las Palmas,"MF,DF",0.28,2.02
+1826,Víctor Muñoz,Real Madrid,"FW,DF",2.5,2.5
+1827,Arijanet Muric,Ipswich Town,GK,0.0,0.06
+1828,Murillo,Nott'ham Forest,DF,0.06,1.24
+1829,Vedat Muriqi,Mallorca,FW,0.26,1.97
+1830,Jacob Murphy,Newcastle Utd,FW,0.57,3.13
+1831,Bob Murphy Omoregbe,Milan,MF,0.0,0.0
+1832,Yunus Musah,Milan,"MF,FW",0.23,2.58
+1833,Jamal Musiala,Bayern Munich,MF,0.45,5.56
+1834,Florent Muslija,Freiburg,"FW,MF",0.54,3.77
+1835,Almoatasem Al Musrati,Monaco,MF,0.23,3.51
+1836,Juan Musso,Atalanta,GK,0.0,0.0
+1837,Juan Musso,Atlético Madrid,GK,0.0,0.0
+1838,Kingstone Mutandwa,Cagliari,"FW,MF",0.0,0.71
+1839,Junior Mwanga,Le Havre,MF,0.47,2.27
+1840,Junior Mwanga,Strasbourg,MF,0.0,0.61
+1841,Phillipp Mwene,Mainz 05,DF,0.35,2.18
+1842,Vitaliy Mykolenko,Everton,DF,0.12,1.26
+1843,Joakim Mæhle,Wolfsburg,DF,0.33,1.69
+1844,Obite N'Dicka,Roma,DF,0.08,0.87
+1845,Konan N'dri,Lecce,"FW,MF",0.0,3.84
+1846,Loïc N'Gatta,Auxerre,DF,0.0,0.0
+1847,Nathan N'Goumou,Gladbach,FW,0.54,2.39
+1848,Djylian N'Guessan,Saint-Étienne,FW,0.5,1.49
+1849,Stanley N'Soki,Hoffenheim,DF,0.07,1.31
+1850,Mickael Nade,Saint-Étienne,DF,0.2,0.65
+1851,Bilal Nadir,Marseille,MF,0.23,3.99
+1852,Mahamadou Nagida,Rennes,DF,0.0,2.06
+1853,Keito Nakamura,Reims,"FW,MF",0.24,2.31
+1854,Sebastian Nanasi,Strasbourg,"MF,FW",0.73,3.63
+1855,Yael Nandjou,Nice,DF,0.0,2.34
+1856,Nikolas Nartey,Stuttgart,MF,0.0,0.0
+1857,Matija Nastasić,Leganés,DF,0.04,0.26
+1858,Natan,Betis,DF,0.0,0.46
+1859,Pau Navarro,Villarreal,DF,0.1,0.59
+1860,Roberto Navarro,Mallorca,"MF,FW",0.14,3.1
+1861,Jesús Navas,Sevilla,"FW,MF",0.0,3.18
+1862,Michel Ndary Adopo,Cagliari,MF,0.19,1.87
+1863,Youssouf Ndayishimiye,Nice,DF,0.09,1.4
+1864,Iliman Ndiaye,Everton,FW,0.3,2.41
+1865,Junior Ndiaye,Montpellier,FW,0.0,1.84
+1866,Rassoul Ndiaye,Le Havre,MF,0.17,1.87
+1867,Wilfred Ndidi,Leicester City,MF,0.15,1.2
+1868,Wilfried Ndollo,Montpellier,DF,0.0,0.9
+1869,Tanguy Ndombele,Nice,MF,0.32,2.46
+1870,Cher Ndour,Fiorentina,"MF,DF",0.0,2.22
+1871,Dan Ndoye,Bologna,FW,0.38,3.7
+1872,Paul Nebel,Mainz 05,MF,0.23,3.23
+1873,Kosta Nedeljković,Aston Villa,DF,0.0,0.0
+1874,Kosta Nedeljković,RB Leipzig,DF,0.0,1.13
+1875,Loïc Nego,Le Havre,"DF,FW",0.15,1.61
+1876,Ivan Nekić,Holstein Kiel,DF,0.0,0.0
+1877,Reiss Nelson,Arsenal,FW,0.0,0.0
+1878,Reiss Nelson,Fulham,FW,0.18,5.73
+1879,Victor Nelsson,Roma,DF,0.0,0.0
+1880,David Nemeth,St. Pauli,DF,0.08,0.34
+1881,David Neres,Napoli,FW,0.63,4.14
+1882,Neto,Bournemouth,GK,0.0,0.0
+1883,Pedro Neto,Chelsea,FW,0.36,3.57
+1884,Luca Netz,Gladbach,DF,0.37,2.51
+1885,Manuel Neuer,Bayern Munich,GK,0.0,0.14
+1886,Florian Neuhaus,Gladbach,MF,0.24,4.02
+1887,João Neves,Paris S-G,"MF,DF",0.68,3.32
+1888,Yvan Neyou,Leganés,MF,0.08,1.17
+1889,Cyril Ngonge,Napoli,FW,0.0,4.98
+1890,Mikayil Ngor Faye,Rennes,DF,0.13,0.52
+1891,Steve Ngoura,Le Havre,FW,0.0,1.87
+1892,Bernard Nguene,Nice,FW,0.0,0.0
+1893,Moussa Niakhate,Lyon,DF,0.07,0.69
+1894,Abdoulaye Niakhate Ndiaye,Brest,DF,0.0,0.58
+1895,Ibrahima Niane,Angers,FW,0.38,2.0
+1896,Tanguy Nianzou,Sevilla,DF,0.0,0.17
+1897,Rasmus Nicolaisen,Toulouse,DF,0.14,1.3
+1898,Moritz Nicolas,Gladbach,GK,0.0,0.05
+1899,Hans Nicolussi Caviglia,Venezia,MF,0.13,2.08
+1900,Julian Niehues,Heidenheim,MF,0.0,2.34
+1901,Oliver Nielsen,Lazio,DF,0.0,0.0
+1902,Saúl Ñíguez,Sevilla,MF,0.46,2.9
+1903,Eybi Nije,Torino,"FW,MF",0.23,2.06
+1904,Tamás Nikitscher,Valladolid,"MF,DF",0.0,0.42
+1905,Adrian Niño,Atlético Madrid,FW,0.0,0.0
+1906,Justin Njinmah,Werder Bremen,"FW,MF",0.38,3.69
+1907,Eddie Nketiah,Crystal Palace,"FW,MF",0.26,2.69
+1908,Niels Nkounkou,Eint Frankfurt,"DF,MF",0.24,3.77
+1909,Christopher Nkunku,Chelsea,FW,0.39,3.32
+1910,Felix Nmecha,Dortmund,MF,0.36,1.91
+1911,Lukas Nmecha,Wolfsburg,"FW,MF",0.19,1.54
+1912,Arnaud Nordin,Montpellier,FW,0.23,2.32
+1913,Arnaud Nordin,Mainz 05,"DF,MF",0.0,4.5
+1914,Brooke Norton-Cuffy,Genoa,"DF,FW",0.38,1.63
+1915,Tijjani Noslin,Lazio,"FW,MF",0.42,2.82
+1916,Hugo Novoa,Alavés,"DF,MF",0.0,2.28
+1917,Plamedi Nsingi,Nantes,MF,0.0,0.0
+1918,Randy Nteka,Rayo Vallecano,FW,0.0,1.67
+1919,Ernest Nuamah,Lyon,"FW,MF",0.17,2.99
+1920,Alexander Nübel,Stuttgart,GK,0.09,0.29
+1921,Gustavo Nunes,Brentford,"FW,MF",0.0,0.0
+1922,Matheus Nunes,Manchester City,"DF,MF",0.43,2.47
+1923,Darwin Núñez,Liverpool,FW,0.32,2.46
+1924,Unai Núñez,Athletic Club,DF,0.0,0.28
+1925,Antonio Nusa,RB Leipzig,"MF,DF",0.29,2.37
+1926,Ethan Nwaneri,Arsenal,"FW,MF",0.3,2.91
+1927,Ørjan Nyland,Sevilla,GK,0.07,0.37
+1928,Allan Nyom,Getafe,"DF,MF",0.3,1.12
+1929,Rabby Nzingoula,Montpellier,MF,0.0,1.92
+1930,M'Bala Nzola,Lens,FW,0.31,2.4
+1931,Marwann Nzuzi,Saint-Étienne,DF,0.0,0.72
+1932,Christian Nørgaard,Brentford,MF,0.42,1.85
+1933,Jake O'Brien,Everton,DF,0.0,0.92
+1934,Matt O'Riley,Brighton,MF,0.48,3.84
+1935,Dara O'Shea,Ipswich Town,DF,0.12,0.69
+1936,Adam Obert,Cagliari,DF,0.33,2.09
+1937,Chidozie Obi-Martin,Manchester Utd,FW,0.0,1.09
+1938,Jan Oblak,Atlético Madrid,GK,0.03,0.17
+1939,Lucas Ocampos,Sevilla,FW,1.03,3.6
+1940,Jens Odgaard,Bologna,"MF,FW",0.28,2.08
+1941,Wilson Odobert,Tottenham,"FW,MF",0.11,1.7
+1942,David Odogu,Wolfsburg,DF,0.0,0.46
+1943,Álvaro Odriozola,Real Sociedad,DF,0.0,2.09
+1944,Tim Oermann,Bochum,DF,0.12,0.81
+1945,Chiedozie Ogbene,Ipswich Town,FW,0.0,1.13
+1946,Ifechukwu Ogbus,Freiburg,DF,0.0,0.0
+1947,Thiago Ojeda,Villarreal,MF,0.0,0.0
+1948,Hamzat Ojediran,Lens,"MF,FW",0.44,1.96
+1949,Noah Okafor,Milan,FW,0.43,2.39
+1950,Noah Okafor,Napoli,"FW,MF",0.0,9.0
+1951,Caleb Okoli,Leicester City,DF,0.0,0.32
+1952,Yllan Okou,Hellas Verona,DF,0.0,0.0
+1953,Maduka Okoye,Udinese,GK,0.0,0.04
+1954,Joseph Okumu,Reims,DF,0.16,1.33
+1955,Aingeru Olabarrieta,Athletic Club,FW,0.0,0.0
+1956,Kazeem Olaigbe,Rennes,"MF,FW",1.2,7.53
+1957,Olasagasti,Real Sociedad,MF,0.21,1.68
+1958,Ben Old,Saint-Étienne,"FW,MF",0.17,2.73
+1959,Finn Ole Becker,Hoffenheim,MF,0.4,2.69
+1960,Michael Olise,Bayern Munich,"FW,MF",0.96,6.51
+1961,Brian Oliván,Espanyol,DF,0.09,2.09
+1962,Lucas Oliveira Rosa,Valladolid,DF,0.05,1.48
+1963,Mathías Olivera,Napoli,DF,0.19,1.59
+1964,Dani Olmo,Barcelona,"MF,FW",0.89,4.9
+1965,Robin Olsen,Aston Villa,GK,0.4,0.8
+1966,Warmed Omari,Lyon,DF,0.0,0.0
+1967,Becir Omeragic,Montpellier,DF,0.0,0.45
+1968,Jonas Omlin,Gladbach,GK,0.0,0.09
+1969,Andrew Omobamidele,Strasbourg,DF,0.0,0.17
+1970,Ado Onaiwu,Auxerre,"MF,FW",0.09,2.63
+1971,Amadou Onana,Aston Villa,MF,0.22,1.78
+1972,André Onana,Manchester Utd,GK,0.0,0.12
+1973,Jean Onana,Genoa,MF,0.0,1.18
+1974,Jacob Ondrejka,Parma,"MF,FW",0.21,2.99
+1975,Karim Onisiwo,Mainz 05,"MF,FW",0.82,1.64
+1976,Paul Onuachu,Southampton,FW,0.09,0.77
+1977,Frank Onyeka,Brentford,MF,0.0,0.0
+1978,Frank Onyeka,Augsburg,MF,0.14,1.74
+1979,Loïs Openda,RB Leipzig,"FW,MF",0.37,2.42
+1980,Christopher Operi,Le Havre,"DF,FW",0.23,2.77
+1981,Fredrik Oppegard,Auxerre,DF,0.0,2.64
+1982,Victor Orakpo,Nice,FW,0.0,2.5
+1983,Ike Orazi,Reims,MF,0.0,0.0
+1984,Gift Orban,Lyon,"FW,DF",0.0,0.97
+1985,Gift Orban,Hoffenheim,FW,0.26,1.57
+1986,Willi Orban,RB Leipzig,DF,0.12,0.85
+1987,Ivan Ordets,Bochum,DF,0.05,0.87
+1988,Lewis Orford,West Ham,MF,0.0,3.67
+1989,Gaetano Oristanio,Venezia,"FW,MF",0.27,2.68
+1990,Aimar Oroz,Osasuna,MF,0.24,2.79
+1991,Riccardo Orsolini,Bologna,FW,0.24,2.83
+1992,Stefan Ortega,Manchester City,GK,0.0,0.0
+1993,Ángel Ortíz,Betis,DF,0.51,1.53
+1994,Gabriel Osei Misehouy,Girona,"FW,MF",0.0,2.1
+1995,Gabriel Osho,Auxerre,DF,0.0,0.16
+1996,Yordan Osorio,Parma,DF,0.0,0.52
+1997,Patrick Osterhage,Freiburg,MF,0.16,1.63
+1998,William Osula,Newcastle Utd,FW,0.0,2.69
+1999,Jibril Othman,Saint-Étienne,FW,0.0,0.0
+2000,Sebastian Otoa,Genoa,DF,0.0,0.0
+2001,David Otorbi,Valencia,MF,0.0,0.0
+2002,Dango Ouattara,Bournemouth,FW,0.27,3.23
+2003,Guimissongui Ouattara,Strasbourg,"DF,FW",0.57,1.72
+2004,Kassoum Ouattara,Monaco,"DF,FW",0.23,2.07
+2005,Remi Oudin,Lecce,"MF,FW",0.3,4.23
+2006,Assan Ouedraogo,RB Leipzig,MF,0.0,0.0
+2007,Zinédine Ould Khaled,Angers,MF,0.0,0.26
+2008,Cheick Oumar Conde,Venezia,MF,0.0,2.96
+2009,Jesús Owono,Alavés,GK,0.0,0.18
+2010,Beres Owusu,Saint-Étienne,DF,0.0,2.0
+2011,Elisha Owusu,Auxerre,MF,0.19,1.27
+2012,Mikel Oyarzabal,Real Sociedad,FW,0.2,1.52
+2013,Daniel Oyegoke,Hellas Verona,DF,0.0,0.0
+2014,Salih Özcan,Wolfsburg,MF,0.0,2.8
+2015,Salih Özcan,Dortmund,MF,0.0,2.3
+2016,Cenk Özkacar,Valladolid,DF,0.0,0.12
+2017,Nico O’Reilly,Manchester City,DF,0.34,2.05
+2018,Jon Pacheco,Real Sociedad,DF,0.0,0.42
+2019,Willian Pacho,Paris S-G,DF,0.13,0.55
+2020,Daniele Padelli,Udinese,GK,0.0,0.0
+2021,Alex Padilla,Athletic Club,GK,0.0,0.0
+2022,Simone Pafundi,Udinese,"MF,DF",0.0,4.66
+2023,Exequiel Palacios,Leverkusen,MF,0.7,3.67
+2024,Tomás Palacios,Monza,DF,0.0,1.01
+2025,Tomás Palacios,Inter,DF,0.0,8.18
+2026,Isaac Palazón Camacho,Rayo Vallecano,"MF,FW",0.21,4.57
+2027,Alberto Paleari,Torino,GK,0.0,0.0
+2028,Marco Palestra,Atalanta,DF,0.0,3.21
+2029,João Palhinha,Bayern Munich,MF,0.13,1.74
+2030,Nicolas Pallois,Nantes,DF,0.04,0.49
+2031,Matteo Palma,Udinese,DF,0.0,0.0
+2032,Alex Palmer,Ipswich Town,GK,0.0,0.23
+2033,Cole Palmer,Chelsea,"MF,FW",0.42,5.7
+2034,Emerson Palmieri,West Ham,DF,0.09,1.75
+2035,Mats Pannewig,Bochum,MF,0.0,3.72
+2036,Lucas Paquetá,West Ham,"MF,FW",0.23,3.1
+2037,Aitor Paredes,Athletic Club,DF,0.05,0.4
+2038,Kevin Paredes,Wolfsburg,DF,0.73,4.39
+2039,Leandro Paredes,Roma,MF,0.13,3.15
+2040,Daniel Parejo,Villarreal,MF,0.48,3.05
+2041,Iago Parente,Valladolid,DF,0.0,2.54
+2042,Fabiano Parisi,Fiorentina,"DF,MF",0.16,1.12
+2043,Thomas Partey,Arsenal,"MF,DF",0.42,2.0
+2044,Mario Pašalić,Atalanta,MF,0.41,3.25
+2045,Álvaro Pascual,Sevilla,FW,0.22,1.32
+2046,Felix Passlack,Bochum,"DF,MF",0.27,1.85
+2047,Patric,Lazio,DF,0.0,1.63
+2048,Rui Patrício,Atalanta,GK,0.0,0.0
+2049,Nathan Patterson,Everton,DF,0.26,2.85
+2050,Benjamin Pavard,Inter,DF,0.06,1.19
+2051,Aleksandar Pavlovic,Bayern Munich,MF,0.19,1.86
+2052,Strahinja Pavlović,Milan,DF,0.14,1.4
+2053,Leonardo Pavoletti,Cagliari,"FW,MF",0.2,3.42
+2054,Martín Payero,Udinese,MF,0.33,3.32
+2055,Nicolas Pays,Montpellier,"FW,MF",0.2,2.21
+2056,Nicolás Paz,Como,"MF,FW",0.54,4.82
+2057,Mads Pedersen,Augsburg,DF,0.0,1.53
+2058,Marcus Pedersen,Torino,DF,0.0,0.99
+2059,Alfonso Pedraza,Villarreal,"DF,MF",0.59,3.33
+2060,Pedri,Barcelona,MF,0.53,5.16
+2061,Pedro,Lazio,"FW,MF",0.25,4.09
+2062,Kévin Pedro,Saint-Étienne,DF,0.0,0.0
+2063,Adrià Pedrosa,Sevilla,DF,0.16,1.84
+2064,Jordan Pefok,Reims,FW,0.0,2.13
+2065,Jordan Pefok,Union Berlin,FW,0.0,2.58
+2066,Pejiño,Las Palmas,FW,0.0,5.63
+2067,Pietro Pellegri,Empoli,FW,0.44,3.27
+2068,Lorenzo Pellegrini,Roma,MF,0.28,3.32
+2069,Luca Pellegrini,Lazio,DF,1.01,3.88
+2070,Mateo Pellegrino,Parma,FW,0.37,2.44
+2071,Théo Pellenard,Auxerre,DF,0.0,2.0
+2072,Andy Pelmard,Lecce,DF,0.0,0.7
+2073,Andy Pelmard,Las Palmas,DF,0.0,1.32
+2074,Timothee Pembele,Le Havre,DF,0.08,0.97
+2075,Faris Pemi Moumbagna,Marseille,FW,0.0,0.0
+2076,Iñaki Peña,Barcelona,GK,0.13,0.13
+2077,Rubén Peña,Osasuna,"FW,DF",0.12,2.67
+2078,Nicolas Pépé,Villarreal,"FW,MF",0.42,3.9
+2079,Peque,Sevilla,"MF,FW",0.24,2.54
+2080,Sergiu Perciun,Torino,"FW,MF",0.6,4.77
+2081,Óscar Perea,Strasbourg,"MF,DF",0.0,6.43
+2082,Andreas Pereira,Fulham,MF,0.36,4.65
+2083,Mathias Pereira Lage,Brest,"FW,MF",0.57,3.04
+2084,Pedro Pereira,Monza,DF,0.13,1.18
+2085,Ricardo Pereira,Leicester City,DF,0.0,0.7
+2086,Gastón Pereiro,Genoa,MF,0.0,2.9
+2087,Daniel Peretz,Bayern Munich,GK,0.0,0.0
+2088,Ayoze Pérez,Villarreal,FW,0.23,3.26
+2089,Carles Pérez,Getafe,"MF,FW",0.06,2.52
+2090,Francisco Perez,Valencia,"FW,MF",0.16,2.53
+2091,Kike Pérez,Venezia,MF,0.16,2.5
+2092,Kike Pérez,Valladolid,MF,0.08,2.72
+2093,Luis Pérez,Valladolid,DF,0.07,1.86
+2094,Nehuén Pérez,Udinese,DF,0.0,0.0
+2095,Simone Perilli,Hellas Verona,GK,0.0,0.0
+2096,Mattia Perin,Juventus,GK,0.0,0.0
+2097,Romain Perraud,Betis,DF,0.23,1.62
+2098,Lucas Perri,Lyon,GK,0.0,0.12
+2099,Gaëtan Perrin,Auxerre,"MF,FW",0.6,4.18
+2100,Máximo Perrone,Como,MF,0.19,2.37
+2101,Noah Pesch,Gladbach,FW,0.0,0.0
+2102,Matteo Pessina,Monza,MF,0.11,0.95
+2103,Andrea Petagna,Monza,FW,0.0,0.54
+2104,Prosper Peter,Angers,"MF,FW",0.0,0.0
+2105,Léo Pétrot,Saint-Étienne,DF,0.21,1.42
+2106,Đorđe Petrović,Strasbourg,GK,0.0,0.06
+2107,Giuseppe Pezzella,Empoli,"DF,FW",0.16,1.85
+2108,Valentín Pezzolesi,Las Palmas,DF,0.0,0.0
+2109,Luca Philipp,Hoffenheim,GK,0.0,0.17
+2110,Maximilian Philipp,Freiburg,"MF,FW",0.0,0.0
+2111,Kalvin Phillips,Ipswich Town,MF,0.22,1.24
+2112,Jaden Philogene Bidace,Aston Villa,"FW,MF",0.0,1.36
+2113,Jaden Philogene Bidace,Ipswich Town,"FW,DF",0.0,1.71
+2114,Pica,Alavés,DF,0.0,0.54
+2115,Roberto Piccoli,Cagliari,FW,0.23,1.64
+2116,Benedikt Pichler,Holstein Kiel,FW,0.34,3.44
+2117,Jordan Pickford,Everton,GK,0.05,0.34
+2118,Amos Pieper,Werder Bremen,DF,0.0,0.3
+2119,Marvin Pieringer,Heidenheim,"FW,MF",0.29,2.81
+2120,Nicholas Pierini,Venezia,MF,0.0,2.17
+2121,Santiago Pierotti,Lecce,FW,0.09,2.32
+2122,Balthazar Pierret,Lecce,MF,0.0,2.04
+2123,Andrea Pinamonti,Genoa,FW,0.16,1.52
+2124,Ethan Pinnock,Brentford,DF,0.0,0.99
+2125,Yeremi Pino,Villarreal,"MF,FW",0.51,3.12
+2126,Nicola Pintus,Cagliari,DF,0.0,0.0
+2127,Niccolò Pisilli,Roma,MF,0.37,2.57
+2128,Damián Pizarro,Udinese,"FW,MF",0.0,0.0
+2129,Semuel Pizzignacco,Monza,GK,0.0,0.0
+2130,Alassane Pléa,Gladbach,"MF,FW",0.66,3.41
+2131,Tommaso Pobega,Bologna,MF,0.31,2.06
+2132,Daniel Podence,Wolves,"MF,FW",0.0,0.0
+2133,Joel Pohjanpalo,Venezia,FW,0.17,1.85
+2134,Matteo Politano,Napoli,"FW,MF",0.32,3.37
+2135,Alfie Pond,Wolves,DF,0.0,0.0
+2136,Marin Pongračić,Fiorentina,DF,0.07,0.79
+2137,Nick Pope,Newcastle Utd,GK,0.0,0.25
+2138,Finn Porath,Holstein Kiel,"DF,MF",0.5,2.79
+2139,Pedro Porro,Tottenham,DF,0.28,3.72
+2140,Portu,Girona,"FW,MF",0.46,2.88
+2141,Stefan Posch,Bologna,DF,0.13,2.26
+2142,Stefan Posch,Atalanta,DF,0.23,1.16
+2143,Tom Pouilly,Lens,"DF,MF",0.0,2.64
+2144,Yussuf Poulsen,RB Leipzig,"FW,MF",0.48,3.57
+2145,Beñat Prados,Athletic Club,MF,0.16,1.1
+2146,Alexander Prass,Hoffenheim,DF,0.29,2.01
+2147,Matteo Prati,Cagliari,MF,0.16,1.74
+2148,Abdón Prats,Mallorca,"FW,MF",0.2,1.39
+2149,David Preu,Union Berlin,"MF,DF",0.0,2.98
+2150,Grischa Prömel,Hoffenheim,MF,0.52,1.03
+2151,Ivan Provedel,Lazio,GK,0.0,0.45
+2152,Ivan Prtajin,Union Berlin,FW,0.0,0.56
+2153,Javi Puado,Espanyol,"FW,MF",0.21,1.66
+2154,Tymoteusz Puchacz,Holstein Kiel,DF,0.23,3.18
+2155,Diego Pugno,Juventus,FW,0.0,12.86
+2156,Christian Pulisic,Milan,"FW,MF",0.51,4.54
+2157,Jarell Quansah,Liverpool,DF,0.0,0.55
+2158,Leopold Querfeld,Union Berlin,DF,0.1,1.34
+2159,Dani Raba,Leganés,"FW,MF",0.67,5.12
+2160,Adrien Rabiot,Marseille,MF,0.4,2.39
+2161,Ionuț Radu,Venezia,GK,0.07,0.47
+2162,Hamza Rafia,Lecce,MF,0.0,3.06
+2163,Hákon Rafn Valdimarsson,Brentford,GK,0.0,1.24
+2164,Arnau Rafús,Valladolid,GK,0.0,0.0
+2165,Antonio Raillo,Mallorca,DF,0.03,0.76
+2166,Antonio Raimondo,Venezia,"FW,DF",0.0,1.91
+2167,Ylber Ramadani,Lecce,MF,0.2,1.74
+2168,Benito Ramírez,Las Palmas,"DF,FW",0.0,5.29
+2169,Sandro Ramírez,Las Palmas,"FW,MF",0.27,2.61
+2170,Jacobo Ramón,Real Madrid,DF,0.0,1.76
+2171,Gonçalo Ramos,Paris S-G,FW,0.51,2.54
+2172,Aaron Ramsdale,Southampton,GK,0.0,0.1
+2173,Jacob Ramsey,Aston Villa,"FW,MF",0.44,2.83
+2174,Luca Ranieri,Fiorentina,DF,0.18,0.82
+2175,Grant Ranos,Gladbach,FW,0.0,0.0
+2176,Lilian Raolisoa,Angers,"DF,FW",0.27,2.19
+2177,Raphinha,Barcelona,"FW,MF",0.7,5.17
+2178,Marcus Rashford,Manchester Utd,"FW,MF",0.09,2.67
+2179,Marcus Rashford,Aston Villa,FW,0.61,5.49
+2180,Giacomo Raspadori,Napoli,"FW,MF",0.33,4.16
+2181,Andrei Ratiu,Rayo Vallecano,DF,0.15,2.67
+2182,Raúl,Osasuna,"FW,MF",0.24,1.92
+2183,David Raum,RB Leipzig,DF,0.35,3.68
+2184,Federico Ravaglia,Bologna,GK,0.0,0.34
+2185,Rayan Raveloson,Auxerre,"MF,DF",0.0,2.11
+2186,David Raya,Arsenal,GK,0.03,0.13
+2187,Abderrahman Rebbach,Alavés,"FW,MF",0.0,2.34
+2188,Ante Rebić,Lecce,"FW,MF",0.11,3.43
+2189,Harrison Reed,Fulham,MF,0.0,0.89
+2190,Remy Rees-Dottin,Bournemouth,FW,0.0,0.0
+2191,Sergio Reguilón,Tottenham,DF,0.0,0.46
+2192,Tijjani Reijnders,Milan,MF,0.29,3.37
+2193,Pepe Reina,Como,GK,0.0,0.09
+2194,Vitor Reis,Manchester City,DF,0.0,0.0
+2195,Rocco Reitz,Gladbach,MF,0.25,2.21
+2196,Nicolai Remberg,Holstein Kiel,MF,0.11,1.12
+2197,Álex Remiro,Real Sociedad,GK,0.0,0.17
+2198,Devyne Rensch,Roma,DF,0.19,2.69
+2199,Daniel Requena,Villarreal,MF,0.0,0.0
+2200,Guillaume Restes,Toulouse,GK,0.04,0.11
+2201,Mateo Retegui,Atalanta,FW,0.53,2.87
+2202,Elvis Rexhbeçaj,Augsburg,MF,0.25,2.82
+2203,Gio Reyna,Dortmund,MF,0.0,1.54
+2204,Chadi Riad,Crystal Palace,DF,0.0,0.0
+2205,Alexsandro Ribeiro,Lille,DF,0.13,1.33
+2206,Samuele Ricci,Torino,MF,0.13,1.53
+2207,Declan Rice,Arsenal,MF,0.32,3.54
+2208,Chris Richards,Crystal Palace,DF,0.09,0.42
+2209,Amir Richardson,Fiorentina,MF,0.33,1.56
+2210,Richarlison,Tottenham,FW,0.18,1.43
+2211,Diego Rico,Getafe,DF,0.26,2.39
+2212,Fabian Rieder,Stuttgart,"MF,FW",0.52,3.63
+2213,Lasse Rieß,Mainz 05,GK,0.5,1.5
+2214,Luis Rioja,Alavés,FW,0.0,3.91
+2215,Luis Rioja,Valencia,"MF,FW",0.32,2.61
+2216,Rodrigo Riquelme,Atlético Madrid,"MF,DF",0.17,5.05
+2217,Alberto Risco,Getafe,"MF,FW",0.0,7.71
+2218,Mihailo Ristić,Celta Vigo,"DF,MF",0.21,2.1
+2219,Lars Ritzka,St. Pauli,"DF,MF",0.0,1.17
+2220,Gorka Rivera Alonso,Getafe,"DF,MF",0.0,0.0
+2221,Sergi Roberto,Como,MF,0.13,3.1
+2222,Andrew Robertson,Liverpool,DF,0.14,2.9
+2223,Antonee Robinson,Fulham,DF,0.31,2.27
+2224,Jay Robinson,Southampton,"MF,FW",0.66,5.26
+2225,Marc Roca,Betis,MF,0.1,2.38
+2226,Rodri,Manchester City,MF,0.0,2.47
+2227,Rodri,Betis,FW,0.0,8.39
+2228,Adrian Rodriguez,Alavés,GK,0.0,0.0
+2229,Alejandro Rodriguez,Lyon,MF,0.0,0.0
+2230,Álvaro Rodríguez,Getafe,FW,0.0,1.69
+2231,Óscar Rodríguez Arnaiz,Leganés,"MF,FW",0.61,3.25
+2232,Arturo Rodríguez,Las Palmas,FW,0.0,0.0
+2233,Damián Rodríguez,Celta Vigo,MF,0.19,2.52
+2234,Dani Rodríguez,Mallorca,"MF,FW",0.5,2.58
+2235,Daniel Rodriguez,Barcelona,FW,0.0,4.86
+2236,Guido Rodríguez,West Ham,MF,0.08,0.94
+2237,James Rodríguez,Rayo Vallecano,"MF,FW",0.0,3.86
+2238,Javi Rodríguez,Celta Vigo,DF,0.11,1.25
+2239,Jesus Rodríguez,Betis,FW,0.41,2.75
+2240,Kirian Rodríguez,Las Palmas,MF,0.36,2.51
+2241,Ricardo Rodríguez,Betis,DF,0.14,1.91
+2242,Rodrygo,Real Madrid,"FW,MF",0.42,4.95
+2243,Mads Roerslev,Brentford,DF,0.16,1.72
+2244,Mads Roerslev,Wolfsburg,DF,0.6,1.81
+2245,Morgan Rogers,Aston Villa,"FW,MF",0.46,3.04
+2246,Merlin Röhl,Freiburg,"MF,FW",0.28,2.33
+2247,Alessio Romagnoli,Lazio,DF,0.03,0.91
+2248,Leo Román,Mallorca,GK,0.0,0.0
+2249,Carlos Romero,Espanyol,DF,0.14,2.18
+2250,Cristian Romero,Tottenham,DF,0.25,1.27
+2251,Isaac Romero,Sevilla,FW,0.29,1.84
+2252,Luka Romero,Alavés,"FW,MF",0.45,3.62
+2253,Oriol Romeu,Girona,MF,0.07,1.33
+2254,Valentin Rongier,Marseille,"MF,DF",0.35,2.02
+2255,Marten de Roon,Atalanta,"MF,DF",0.41,2.15
+2256,Vitor Roque,Betis,FW,0.29,2.48
+2257,Pablo Rosario,Nice,"MF,DF",0.1,1.78
+2258,Lasse Rosenboom,Holstein Kiel,DF,0.16,1.3
+2259,Max Rosenfelder,Freiburg,DF,0.07,1.08
+2260,Valentin Rosier,Leganés,DF,0.21,1.21
+2261,Tom Rothe,Union Berlin,"DF,MF",0.38,1.89
+2262,Anthony Rouault,Rennes,DF,0.0,0.93
+2263,Anthony Rouault,Stuttgart,DF,0.0,0.82
+2264,Jonas Rouhi,Juventus,DF,0.0,0.0
+2265,Jérôme Roussillon,Union Berlin,"DF,MF",0.0,0.66
+2266,Nicolò Rovella,Lazio,MF,0.1,2.35
+2267,Jon Rowe,Marseille,"FW,MF",0.78,4.24
+2268,Amir Rrahmani,Napoli,DF,0.11,1.11
+2269,Tommaso Rubino,Fiorentina,MF,0.0,11.25
+2270,Antonio Rüdiger,Real Madrid,DF,0.08,1.1
+2271,Matteo Ruggeri,Atalanta,DF,0.21,2.0
+2272,Aitor Ruibal,Betis,"DF,FW",0.27,2.46
+2273,Abel Ruiz,Girona,FW,0.07,1.14
+2274,Ferrán Ruiz,Girona,MF,0.0,0.0
+2275,Fabián Ruiz Peña,Paris S-G,MF,0.65,4.16
+2276,Gerónimo Rulli,Marseille,GK,0.06,0.24
+2277,Georginio Rutter,Brighton,"MF,FW",0.43,3.47
+2278,Mathew Ryan,Lens,GK,0.0,0.29
+2279,Julian Ryerson,Dortmund,DF,0.2,2.23
+2280,Frederik Rønnow,Union Berlin,GK,0.0,0.21
+2281,José Sá,Wolves,GK,0.0,0.17
+2282,Elias Saad,St. Pauli,"FW,MF",0.4,3.5
+2283,Youssouf Sabaly,Betis,DF,0.17,1.08
+2284,Emmanuel Sabbi,Le Havre,"FW,MF",0.28,2.76
+2285,Stefano Sabelli,Genoa,DF,0.09,1.66
+2286,Marcel Sabitzer,Dortmund,MF,0.33,2.34
+2287,Falaye Sacko,Montpellier,DF,0.08,1.57
+2288,Umar Sadiq,Valencia,FW,0.33,1.64
+2289,Umar Sadiq,Real Sociedad,FW,0.0,1.19
+2290,Alexis Saelemaekers,Roma,"DF,FW",0.65,3.57
+2291,Alexis Saelemaekers,Milan,"DF,FW",0.0,9.0
+2292,Jorge Sáenz,Leganés,DF,0.0,0.53
+2293,Matvei Safonov,Paris S-G,GK,0.0,0.0
+2294,Modibo Sagnan,Montpellier,DF,0.09,0.66
+2295,Richie Sagrado,Venezia,DF,0.0,0.0
+2296,Osame Sahraoui,Lille,"FW,MF",0.42,4.66
+2297,Wesley Saïd,Lens,FW,0.0,2.69
+2298,Théo Sainte-Luce,Montpellier,DF,0.0,1.11
+2299,Bukayo Saka,Arsenal,"FW,MF",1.2,6.09
+2300,Faik Sakar,RB Leipzig,MF,0.0,0.0
+2301,Marco Sala,Como,DF,0.0,2.07
+2302,Marco Sala,Lecce,DF,0.0,1.25
+2303,Ibrahim Salah,Brest,FW,0.5,2.76
+2304,Mohamed Salah,Liverpool,FW,0.72,4.51
+2305,Anass Salah-Eddine,Roma,DF,0.59,2.37
+2306,Amine Salama,Reims,FW,0.0,1.93
+2307,Jan Salas,Mallorca,"MF,FW",0.0,2.09
+2308,Kike Salas,Sevilla,DF,0.16,0.68
+2309,Manolis Saliakas,St. Pauli,"MF,DF",0.19,2.29
+2310,William Saliba,Arsenal,DF,0.03,0.8
+2311,Mohammed Salisu,Monaco,DF,0.09,1.23
+2312,Roland Sallai,Freiburg,"FW,MF",0.0,5.87
+2313,Yoann Salmier,Le Havre,DF,0.11,0.34
+2314,Lazar Samardzic,Atalanta,MF,0.46,5.93
+2315,Diadie Samassékou,Hoffenheim,MF,0.0,1.24
+2316,Mama Samba Baldé,Lyon,FW,0.0,2.73
+2317,Mama Samba Baldé,Brest,FW,0.39,3.29
+2318,Brice Samba,Rennes,GK,0.0,0.0
+2319,Brice Samba,Lens,GK,0.0,0.27
+2320,Albert Sambi Lokonga,Sevilla,MF,0.18,2.14
+2321,Junior Sambia,Empoli,"DF,FW",0.0,2.56
+2322,Chuky san jose,Valladolid,MF,0.25,1.86
+2323,Antonio Sanabria,Torino,FW,0.21,1.44
+2324,Oihan Sancet,Athletic Club,MF,0.44,2.77
+2325,Alexis Sánchez,Udinese,FW,0.0,3.71
+2326,Antonio Sánchez,Mallorca,"MF,DF",0.0,1.16
+2327,Iván Sánchez,Valladolid,"MF,FW",0.32,4.11
+2328,Javi Sánchez,Valladolid,DF,0.09,0.62
+2329,Juanlu Sánchez,Sevilla,"MF,DF",0.26,2.09
+2330,Manu Sánchez,Alavés,DF,0.1,1.37
+2331,Robert Sánchez,Chelsea,GK,0.06,0.22
+2332,Jadon Sancho,Chelsea,FW,0.51,3.57
+2333,Philipp Sander,Gladbach,MF,0.06,1.8
+2334,James Sands,St. Pauli,"MF,DF",0.0,1.39
+2335,Leroy Sané,Bayern Munich,FW,0.49,4.18
+2336,Arouna Sangante,Le Havre,DF,0.0,0.87
+2337,Ibrahim Sangaré,Nott'ham Forest,MF,0.0,1.22
+2338,Nhoa Sangui,Reims,"DF,MF",0.39,1.4
+2339,Maroan Sannadi,Athletic Club,FW,0.24,1.91
+2340,Kaishu Sano,Mainz 05,MF,0.15,1.83
+2341,Morgan Sanson,Nice,MF,0.0,2.29
+2342,Nicola Sansone,Lecce,"MF,FW",0.0,6.92
+2343,Baptiste Santamaria,Nice,MF,0.1,2.04
+2344,Baptiste Santamaria,Rennes,MF,0.37,1.87
+2345,Jesús Santiago,Getafe,MF,0.0,1.45
+2346,Andrey Santos,Strasbourg,MF,0.19,1.77
+2347,Kauã Santos,Eint Frankfurt,GK,0.0,0.35
+2348,Tiago Santos,Lille,DF,0.67,3.56
+2349,Pablo Sarabia,Wolves,"MF,FW",0.55,3.1
+2350,Jeremy Sarmiento,Brighton,MF,0.0,0.0
+2351,Amin Sarr,Hellas Verona,FW,0.19,2.13
+2352,Ismaila Sarr,Crystal Palace,MF,0.4,3.65
+2353,Malang Sarr,Lens,DF,0.13,1.36
+2354,Mamadou Sarr,Strasbourg,DF,0.08,0.46
+2355,Martin Satriano,Lens,"FW,DF",0.0,2.02
+2356,Razvan Sava,Udinese,GK,0.0,0.0
+2357,Téji Savanier,Montpellier,MF,0.28,4.83
+2358,Sávio,Manchester City,"FW,MF",0.76,5.66
+2359,Nicolò Savona,Juventus,DF,0.1,1.51
+2360,Saba Sazonov,Torino,DF,0.0,0.0
+2361,Joe Scally,Gladbach,DF,0.07,0.98
+2362,Giorgio Scalvini,Atalanta,DF,0.0,0.33
+2363,Gianluca Scamacca,Atalanta,FW,0.0,0.0
+2364,Oliver Scarles,West Ham,"DF,FW",0.0,0.81
+2365,Dane Scarlett,Tottenham,"FW,MF",2.65,2.65
+2366,Kevin Schade,Brentford,FW,0.35,2.24
+2367,András Schäfer,Union Berlin,MF,0.18,1.7
+2368,Fabian Schär,Newcastle Utd,DF,0.12,1.13
+2369,Patrik Schick,Leverkusen,FW,0.16,1.82
+2370,Stefan Schimmer,Heidenheim,"FW,MF",0.0,1.45
+2371,Joël Schingtienne,Venezia,DF,0.0,0.8
+2372,Xaver Schlager,RB Leipzig,MF,0.0,0.99
+2373,Keven Schlotterbeck,Augsburg,DF,0.14,1.67
+2374,Nico Schlotterbeck,Dortmund,DF,0.27,2.27
+2375,Jeffrey Schlupp,Crystal Palace,"MF,DF",0.0,6.06
+2376,Romano Schmid,Werder Bremen,MF,0.41,4.8
+2377,Niklas Schmidt,Toulouse,MF,0.44,5.27
+2378,Jan Schöppner,Heidenheim,MF,0.13,1.88
+2379,Marvin Schulz,Holstein Kiel,"MF,DF",0.0,2.34
+2380,Alexander Schwolow,Union Berlin,GK,0.0,0.0
+2381,Léo Scienza,Heidenheim,"FW,MF",0.55,6.39
+2382,Alex Scott,Bournemouth,MF,0.24,3.45
+2383,Simone Scuffet,Cagliari,GK,0.0,0.15
+2384,Simone Scuffet,Napoli,GK,0.0,0.0
+2385,Jérémy Sebas,Strasbourg,"FW,MF",0.0,1.91
+2386,Aleksandar Sedlar,Alavés,DF,0.0,0.3
+2387,Jacopo Seghetti,Empoli,GK,0.0,0.0
+2388,Alidu Seidu,Rennes,DF,0.0,1.34
+2389,Nicolas Seiwald,RB Leipzig,"MF,DF",0.13,2.12
+2390,Hiroki Sekine,Reims,DF,0.1,1.93
+2391,Matz Sels,Nott'ham Forest,GK,0.0,0.16
+2392,Nélson Semedo,Wolves,DF,0.19,1.87
+2393,Antoine Semenyo,Bournemouth,FW,0.37,3.71
+2394,Marvin Senaya,Strasbourg,DF,0.0,1.19
+2395,Marcos Senesi,Bournemouth,DF,0.08,1.3
+2396,Stefano Sensi,Monza,MF,0.0,4.89
+2397,Suat Serdar,Hellas Verona,MF,0.07,1.9
+2398,Sergi,Leganés,DF,0.09,0.37
+2399,Nicolás Serrano,Athletic Club,FW,0.0,1.61
+2400,Benjamin Šeško,RB Leipzig,"FW,MF",0.34,1.93
+2401,Ryan Sessegnon,Fulham,"FW,DF",0.62,3.72
+2402,Stephan El Shaarawy,Roma,"DF,MF",0.74,3.85
+2403,Luke Shaw,Manchester Utd,DF,0.0,2.58
+2404,Alen Sherri,Cagliari,GK,0.0,0.29
+2405,Eldor Shomurodov,Roma,"FW,MF",0.57,2.62
+2406,Djibril Sidibé,Toulouse,DF,0.3,1.5
+2407,Armindo Sieb,Mainz 05,"FW,MF",0.47,2.0
+2408,Benjamin Siegrist,Genoa,GK,0.0,0.0
+2409,Vincent Sierro,Toulouse,MF,0.15,2.36
+2410,Tim Siersleben,Heidenheim,DF,0.0,1.14
+2411,Zain Silcott-Duberry,Bournemouth,FW,0.0,0.0
+2412,Kiliann Sildillia,Freiburg,DF,0.11,1.8
+2413,André Silva,Werder Bremen,FW,0.24,3.6
+2414,André Silva,RB Leipzig,"FW,MF",1.37,4.81
+2415,Bernardo Silva,Manchester City,"MF,FW",0.27,3.1
+2416,Caio Henrique Oliveira Silva,Monaco,DF,0.42,2.99
+2417,Fábio Silva,Las Palmas,FW,0.24,2.08
+2418,Jota Silva,Nott'ham Forest,"FW,MF",0.32,3.06
+2419,Eric da Silva Moreira,Nott'ham Forest,"MF,DF",0.0,0.0
+2420,Rui Silva,Betis,GK,0.0,0.33
+2421,Marco Silvestri,Empoli,GK,0.0,0.0
+2422,Abdallah Sima,Brest,"FW,MF",0.22,2.04
+2423,Mohamed Simakan,RB Leipzig,DF,0.0,5.0
+2424,Giovanni Simeone,Napoli,FW,0.43,2.59
+2425,Giuliano Simeone,Atlético Madrid,MF,0.42,2.34
+2426,Moses Simon,Nantes,"FW,MF",0.52,3.73
+2427,Unai Simón,Athletic Club,GK,0.0,0.29
+2428,Xavi Simons,RB Leipzig,MF,0.5,4.52
+2429,Jahmai Simpson-Pusey,Manchester City,DF,0.0,0.0
+2430,Danel Sinani,St. Pauli,"FW,MF",0.29,4.32
+2431,Lassine Sinayoko,Auxerre,"FW,MF",0.78,3.76
+2432,Wilfried Singo,Monaco,DF,0.09,0.82
+2433,Luis Sinisterra,Bournemouth,"FW,MF",0.38,5.29
+2434,Daley Sinkgraven,Las Palmas,DF,0.0,1.98
+2435,Tobias Sippel,Gladbach,GK,0.0,0.0
+2436,Jailson Siqueira,Celta Vigo,"DF,MF",0.0,1.17
+2437,Ayanda Sishuba,Rennes,FW,0.0,0.0
+2438,Ibrahim Sissoko,Saint-Étienne,FW,0.11,2.31
+2439,Ibrahima Sissoko,Bochum,MF,0.1,2.24
+2440,Niama Sissoko,Reims,"FW,MF",0.0,1.91
+2441,Antonio Sivera,Alavés,GK,0.0,0.35
+2442,Tim Skarke,Union Berlin,"FW,MF",0.31,2.63
+2443,Ellyes Skhiri,Eint Frankfurt,MF,0.2,1.98
+2444,Oliver Skipp,Leicester City,MF,0.0,1.2
+2445,Leo Skiri Østigård,Rennes,DF,0.0,0.59
+2446,Leo Skiri Østigård,Hoffenheim,DF,0.0,0.87
+2447,Łukasz Skorupski,Bologna,GK,0.0,0.15
+2448,Andreas Skov Olsen,Wolfsburg,"FW,MF",0.17,5.38
+2449,Robert Skov,Union Berlin,"DF,MF",0.53,3.9
+2450,Milan Škriniar,Paris S-G,DF,0.0,1.41
+2451,Steven Skrzybski,Holstein Kiel,"MF,FW",0.34,3.47
+2452,Naatan Skyttä,Toulouse,FW,0.0,0.0
+2453,William Smallbone,Southampton,MF,0.0,2.09
+2454,Adam Smith,Bournemouth,DF,0.11,1.3
+2455,Eric Smith,St. Pauli,"DF,MF",0.06,2.1
+2456,Justin Smith,Espanyol,MF,0.43,0.86
+2457,Emile Smith Rowe,Fulham,MF,0.53,3.22
+2458,Ivan Smolčić,Como,DF,0.0,1.14
+2459,Eduard Sobol,Strasbourg,DF,0.0,0.0
+2460,Simon Sohm,Parma,MF,0.09,2.35
+2461,Alex Sola,Getafe,"MF,FW",0.18,2.28
+2462,Arnau Solà,Villarreal,MF,0.0,0.0
+2463,Dominic Solanke,Tottenham,FW,0.33,1.51
+2464,Ola Solbakken,Empoli,"MF,FW",0.12,1.42
+2465,Carlos Soler,West Ham,"MF,FW",0.13,3.26
+2466,Julio Soler,Bournemouth,"DF,FW",0.0,0.0
+2467,Oumar Solet,Udinese,DF,0.16,1.78
+2468,Jhon Solis,Girona,MF,0.0,1.01
+2469,Daniele Sommariva,Genoa,GK,0.0,0.0
+2470,Yann Sommer,Inter,GK,0.0,0.18
+2471,David Soria,Getafe,GK,0.0,0.21
+2472,Juan Soriano,Leganés,GK,0.0,0.0
+2473,Borna Sosa,Torino,DF,0.08,1.83
+2474,Ramón Sosa,Nott'ham Forest,"FW,MF",0.0,4.23
+2475,Hugo Sotelo,Celta Vigo,MF,0.0,2.87
+2476,Florian Sotoca,Lens,"FW,MF",0.15,2.66
+2477,Riccardo Sottil,Fiorentina,"FW,MF",0.43,3.78
+2478,Riccardo Sottil,Milan,"FW,MF",0.0,3.6
+2479,Tomáš Souček,West Ham,MF,0.11,1.54
+2480,Matìas Soulé,Roma,"MF,DF",0.4,4.55
+2481,Boubakary Soumaré,Leicester City,MF,0.12,1.45
+2482,Issa Soumaré,Le Havre,"FW,MF",0.43,2.46
+2483,Djibril Sow,Sevilla,MF,0.17,2.79
+2484,Saidou Sow,Strasbourg,DF,0.09,0.53
+2485,Saidou Sow,Nantes,DF,0.0,1.01
+2486,Djed Spence,Tottenham,DF,0.25,1.46
+2487,Leonardo Spinazzola,Napoli,"DF,FW",0.18,2.79
+2488,Marco Sportiello,Milan,GK,0.0,0.0
+2489,Anton Stach,Hoffenheim,"MF,DF",0.17,2.19
+2490,Jens Stage,Werder Bremen,MF,0.61,2.57
+2491,Josip Stanišić,Bayern Munich,DF,0.41,2.36
+2492,Filip Stankovic,Venezia,GK,0.0,0.07
+2493,Jay Stansfield,Fulham,MF,0.0,0.0
+2494,Carl Starfelt,Celta Vigo,DF,0.04,0.71
+2495,Niklas Stark,Werder Bremen,DF,0.09,0.47
+2496,Lucas Stassin,Saint-Étienne,FW,0.4,1.7
+2497,Jason Steele,Brighton,GK,0.0,0.0
+2498,Orri Steinn Óskarsson,Real Sociedad,FW,0.0,0.95
+2499,Pascal Stenzel,Stuttgart,DF,0.0,4.03
+2500,Jack Stephens,Southampton,DF,0.0,0.84
+2501,Leonidas Stergiou,Stuttgart,DF,0.63,1.27
+2502,Raheem Sterling,Arsenal,"FW,MF",0.54,3.43
+2503,Enzo Sternal,Marseille,"FW,MF",0.0,3.75
+2504,Finley Stevens,St. Pauli,DF,0.0,0.0
+2505,Ross Stewart,Southampton,FW,0.0,1.16
+2506,Angelo Stiller,Stuttgart,MF,0.33,3.64
+2507,Kevin Stöger,Gladbach,MF,0.46,6.15
+2508,Stoichkov,Alavés,"MF,FW",0.26,3.6
+2509,Petar Stojanović,Empoli,MF,0.0,0.0
+2510,Jakub Stolarczyk,Leicester City,GK,0.0,0.0
+2511,John Stones,Manchester City,"DF,MF",0.33,1.31
+2512,Jørgen Strand Larsen,Wolves,FW,0.21,1.46
+2513,Gabriel Strefezza,Como,"FW,MF",0.14,3.82
+2514,Cristhian Stuani,Girona,FW,0.25,1.17
+2515,Álex Suárez,Las Palmas,DF,0.07,0.51
+2516,Denis Suárez,Villarreal,MF,0.44,4.14
+2517,Gabriel Suazo,Toulouse,DF,0.46,3.41
+2518,Luka Sučić,Real Sociedad,MF,0.25,2.76
+2519,Yukinari Sugawara,Southampton,"DF,MF",0.06,2.25
+2520,Niklas Süle,Dortmund,DF,0.09,1.28
+2521,Ibrahim Sulemana,Atalanta,MF,0.0,0.95
+2522,Kamaldeen Sulemana,Southampton,"FW,MF",0.19,1.93
+2523,Crysencio Summerville,West Ham,"FW,MF",0.11,4.01
+2524,Tomáš Suslov,Hellas Verona,"MF,FW",0.17,3.2
+2525,Suso,Sevilla,"FW,MF",0.45,6.68
+2526,Zion Suzuki,Parma,GK,0.03,0.24
+2527,Mattias Svanberg,Wolfsburg,MF,0.37,2.14
+2528,Daniel Svensson,Dortmund,"DF,FW",0.35,2.3
+2529,Marin Šverko,Venezia,DF,0.08,1.05
+2530,Mile Svilar,Roma,GK,0.0,0.16
+2531,Michael Svoboda,Venezia,DF,0.0,1.1
+2532,Williot Swedberg,Celta Vigo,"FW,MF",0.53,2.4
+2533,Abakar Sylla,Strasbourg,DF,0.09,0.38
+2534,Issiaga Sylla,Montpellier,DF,0.16,1.62
+2535,Mamadou Sylla,Valladolid,"FW,MF",0.28,1.25
+2536,Wojciech Szczęsny,Barcelona,GK,0.0,0.0
+2537,Sammie Szmodics,Ipswich Town,"FW,MF",0.0,0.91
+2538,Dominik Szoboszlai,Liverpool,MF,0.58,4.3
+2539,Alexander Sørloth,Atlético Madrid,FW,0.29,1.73
+2540,Musa Al-Taamari,Montpellier,"FW,MF",0.4,2.82
+2541,Musa Al-Taamari,Rennes,"FW,MF",0.16,3.5
+2542,Haris Tabakovic,Hoffenheim,FW,0.33,1.76
+2543,Nicolás Tagliafico,Lyon,DF,0.28,1.32
+2544,Jonathan Tah,Leverkusen,DF,0.15,0.91
+2545,Adrien Tameze,Torino,"MF,DF",0.0,1.11
+2546,Axel Tapé,Paris S-G,"DF,MF",0.0,0.5
+2547,Renato Tapia,Leganés,"MF,DF",0.15,0.89
+2548,Edmond Tapsoba,Leverkusen,DF,0.22,1.22
+2549,Florian Tardieu,Saint-Étienne,MF,0.39,3.48
+2550,Mehdi Taremi,Inter,FW,0.44,3.64
+2551,Matt Targett,Newcastle Utd,DF,0.0,0.0
+2552,Oussama Targhalline,Le Havre,MF,0.18,1.82
+2553,James Tarkowski,Everton,DF,0.12,1.17
+2554,César Tárrega,Valencia,DF,0.0,0.3
+2555,Nuno Tavares,Lazio,DF,0.59,3.37
+2556,Marcus Tavernier,Bournemouth,"FW,MF",0.51,4.55
+2557,Charlie Taylor,Southampton,DF,0.25,0.51
+2558,Jack Taylor,Ipswich Town,MF,0.21,2.3
+2559,Loum Tchaouna,Lazio,"FW,MF",0.82,3.4
+2560,Jackson Tchatchoua,Hellas Verona,"DF,MF",0.09,1.71
+2561,Enzo Tchato,Montpellier,DF,0.0,1.56
+2562,Aurélien Tchouaméni,Real Madrid,"DF,MF",0.0,1.14
+2563,Álvaro Tejero,Espanyol,"MF,DF",0.65,4.0
+2564,Martín Tejón,Valencia,"MF,DF",0.0,1.87
+2565,Mathys Tel,Tottenham,FW,0.2,2.77
+2566,Mathys Tel,Bayern Munich,"FW,MF",0.7,1.41
+2567,Nathan Tella,Leverkusen,"MF,FW",0.46,2.12
+2568,Nahuel Tenaglia,Alavés,DF,0.12,1.57
+2569,Arnau Tenas,Paris S-G,GK,1.0,2.0
+2570,Casper Tengstedt,Hellas Verona,FW,0.18,1.42
+2571,Marc-André ter Stegen,Barcelona,GK,0.0,0.13
+2572,Filippo Terracciano,Milan,"DF,MF",0.0,0.67
+2573,Pietro Terracciano,Fiorentina,GK,0.0,0.0
+2574,Ramón Terrats,Villarreal,"MF,FW",0.0,2.73
+2575,Ramón Terrats,Getafe,"MF,FW",0.15,2.36
+2576,Martin Terrier,Leverkusen,"MF,FW",0.46,3.24
+2577,Tanner Tessmann,Lyon,MF,0.07,1.31
+2578,Kenny Tete,Fulham,DF,0.2,1.83
+2579,Teddy Teuma,Reims,MF,0.0,3.36
+2580,Jordan Teze,Monaco,DF,0.0,3.01
+2581,Florian Thauvin,Udinese,"FW,MF",0.41,4.28
+2582,Arthur Theate,Eint Frankfurt,DF,0.23,1.56
+2583,Norman Theuerkauf,Heidenheim,MF,0.0,4.09
+2584,Thiago,Brentford,"FW,MF",0.0,1.55
+2585,Malick Thiaw,Milan,DF,0.05,1.05
+2586,Denis Thomalla,Heidenheim,MF,0.0,0.0
+2587,Luke Thomas,Leicester City,DF,0.08,1.3
+2588,Sorba Thomas,Nantes,"FW,MF",0.41,3.68
+2589,Adrien Thomasson,Lens,MF,0.38,3.75
+2590,Morten Thorsby,Genoa,"MF,FW",0.09,2.61
+2591,Khéphren Thuram,Juventus,MF,0.39,2.17
+2592,Marcus Thuram,Inter,FW,0.63,3.54
+2593,Cheikh Tidiane Niasse,Hellas Verona,MF,0.0,1.43
+2594,Youri Tielemans,Aston Villa,MF,0.36,3.63
+2595,Kieran Tierney,Arsenal,"DF,FW",0.0,3.47
+2596,Phillip Tietz,Augsburg,FW,0.27,2.56
+2597,Jurriën Timber,Arsenal,DF,0.34,1.94
+2598,Jean-Clair Todibo,West Ham,DF,0.0,0.25
+2599,Harry Toffolo,Nott'ham Forest,DF,0.0,0.0
+2600,Umut Tohumcu,Hoffenheim,"MF,FW",0.24,1.44
+2601,Corentin Tolisso,Lyon,MF,0.58,3.13
+2602,John Tolkin,Holstein Kiel,"DF,MF",0.24,2.44
+2603,Rafael Tolói,Atalanta,DF,0.0,1.35
+2604,Raúl de Tomás,Rayo Vallecano,"DF,FW",0.0,0.0
+2605,Tiago Tomás,Wolfsburg,"FW,MF",0.38,2.63
+2606,Takehiro Tomiyasu,Arsenal,DF,0.0,12.86
+2607,Fikayo Tomori,Milan,DF,0.17,1.24
+2608,Sandro Tonali,Newcastle Utd,MF,0.31,2.67
+2609,Luka Topalović,Inter,MF,0.0,0.0
+2610,Pablo Torre,Barcelona,"MF,FW",0.87,5.24
+2611,David Torres,Valladolid,DF,0.0,0.19
+2612,Ferrán Torres,Barcelona,"FW,MF",0.57,3.09
+2613,Pau Torres,Aston Villa,DF,0.09,0.62
+2614,Lucas Torró,Osasuna,MF,0.09,1.16
+2615,Lorenzo Tosto,Empoli,DF,0.0,0.0
+2616,Abdoulaye Touré,Le Havre,MF,0.19,1.9
+2617,Bazoumana Touré,Hoffenheim,"FW,MF",0.59,3.7
+2618,Birama Touré,Montpellier,"MF,DF",0.0,1.79
+2619,Ousmane Toure,Lille,DF,0.0,0.0
+2620,Souleymane Touré,Udinese,DF,0.0,0.98
+2621,Lucas Tousart,Union Berlin,MF,0.32,1.93
+2622,Conor Townsend,Ipswich Town,DF,0.27,1.34
+2623,Adama Traoré,Fulham,"FW,MF",0.51,4.16
+2624,Boubacar Traoré,Wolves,MF,0.0,0.0
+2625,Hamari Traoré,Real Sociedad,DF,0.26,1.67
+2626,Omar Traoré,Heidenheim,DF,0.07,1.86
+2627,Kevin Trapp,Eint Frankfurt,GK,0.04,0.04
+2628,Mark Travers,Bournemouth,GK,0.0,0.0
+2629,Óscar Trejo,Rayo Vallecano,MF,0.18,3.27
+2630,Philipp Treu,St. Pauli,"MF,DF",0.16,2.16
+2631,Ryan Trevitt,Brentford,MF,0.0,0.0
+2632,Christopher Trimmel,Union Berlin,"DF,MF",0.31,2.94
+2633,Kieran Trippier,Newcastle Utd,DF,0.41,3.71
+2634,Leandro Trossard,Arsenal,FW,0.28,3.29
+2635,Adrien Truffert,Rennes,"DF,MF",0.26,2.49
+2636,Kostas Tsimikas,Liverpool,DF,0.21,3.33
+2637,Viktor Tsyhankov,Girona,"FW,MF",0.38,3.06
+2638,Axel Tuanzebe,Ipswich Town,DF,0.11,1.0
+2639,Stefano Turati,Monza,GK,0.03,0.17
+2640,Beñat Turrientes,Real Sociedad,MF,0.0,1.15
+2641,Tuta,Eint Frankfurt,"DF,MF",0.04,1.03
+2642,Christantus Uche,Getafe,"FW,MF",0.36,2.82
+2643,Destiny Udogie,Tottenham,DF,0.14,1.68
+2644,Manuel Ugarte Ribeiro,Manchester Utd,MF,0.2,1.56
+2645,Lesley Ugochukwu,Southampton,MF,0.05,1.3
+2646,Lukas Ullrich,Gladbach,DF,0.24,1.32
+2647,Sven Ulreich,Bayern Munich,GK,0.0,0.0
+2648,Enes Ünal,Bournemouth,"FW,MF",0.78,2.35
+2649,Deniz Undav,Stuttgart,"FW,MF",0.42,3.02
+2650,Naci Ünüvar,Espanyol,"MF,DF",0.0,5.63
+2651,Dayot Upamecano,Bayern Munich,DF,0.0,1.02
+2652,Kacper Urbanski,Bologna,MF,0.0,2.91
+2653,Kacper Urbanski,Monza,MF,0.0,1.26
+2654,Jonas Urbig,Bayern Munich,GK,0.0,0.12
+2655,Can Uzun,Eint Frankfurt,"MF,FW",0.4,5.06
+2656,Josha Vagnoman,Stuttgart,"DF,MF",0.05,1.42
+2657,Lautaro Valenti,Parma,DF,0.0,0.64
+2658,Óscar Valentín,Rayo Vallecano,MF,0.15,2.16
+2659,Nicolás Valentini,Hellas Verona,DF,0.0,0.88
+2660,Germán Valera,Valencia,MF,0.0,3.04
+2661,Emanuele Valeri,Parma,DF,0.31,2.35
+2662,Martin Valjent,Mallorca,DF,0.1,0.85
+2663,Álex Valle,Como,DF,0.0,2.18
+2664,Jesús Vallejo,Real Madrid,DF,0.65,1.96
+2665,Mattia Valoti,Monza,MF,0.0,0.0
+2666,Federico Valverde,Real Madrid,"MF,DF",0.39,2.58
+2667,Ignace Van Der Brempt,Como,DF,0.21,1.58
+2668,Siebe Van Der Heyden,Mallorca,"DF,MF",0.0,1.86
+2669,Siebe Van Der Heyden,St. Pauli,"DF,MF",0.0,0.83
+2670,Virgil van Dijk,Liverpool,DF,0.11,1.3
+2671,Vanderson,Monaco,DF,0.35,2.53
+2672,Maarten Vandevoordt,RB Leipzig,GK,0.0,0.0
+2673,Jamie Vardy,Leicester City,FW,0.32,1.5
+2674,Ruben Vargas,Sevilla,"FW,MF",0.4,4.16
+2675,Ruben Vargas,Augsburg,"MF,FW",0.0,5.0
+2676,Nikola Vasilj,St. Pauli,GK,0.0,0.03
+2677,Devis Vásquez,Empoli,GK,0.0,0.19
+2678,Johan Vásquez,Genoa,DF,0.0,0.74
+2679,Denis Vavro,Wolfsburg,DF,0.18,0.99
+2680,José Luis García Vayá,Valencia,MF,0.15,2.74
+2681,Robinio Vaz,Marseille,FW,2.4,3.6
+2682,Jesus Vazquez,Valencia,DF,0.1,0.88
+2683,Lucas Vázquez,Real Madrid,DF,0.33,2.67
+2684,Matías Vecino,Lazio,MF,0.41,2.25
+2685,Danilo Veiga,Lecce,DF,0.24,3.38
+2686,Renato Veiga,Chelsea,"DF,MF",0.0,0.49
+2687,Renato Veiga,Juventus,DF,0.08,0.74
+2688,Alejo Véliz,Espanyol,FW,0.31,1.1
+2689,Miloš Veljković,Werder Bremen,DF,0.09,1.22
+2690,Joël Veltman,Brighton,DF,0.11,1.22
+2691,Micky van de Ven,Tottenham,DF,0.18,0.98
+2692,Lorenzo Venturino,Genoa,"FW,MF",0.54,3.23
+2693,Nikolas Veratschnig,Mainz 05,"DF,MF",0.0,2.23
+2694,Bart Verbruggen,Brighton,GK,0.03,0.14
+2695,Simone Verdi,Como,"MF,FW",0.0,6.26
+2696,Jordan Veretout,Lyon,MF,0.06,2.09
+2697,Arthur Vermeeren,RB Leipzig,MF,0.11,1.6
+2698,Yorbe Vertessen,Union Berlin,"MF,FW",0.0,4.0
+2699,Mikel Vesga,Athletic Club,MF,0.09,1.91
+2700,Jannik Vestergaard,Leicester City,DF,0.0,0.45
+2701,Ben Viadere,Auxerre,MF,0.0,18.0
+2702,Guglielmo Vicario,Tottenham,GK,0.0,0.17
+2703,Carlos Vicente,Alavés,"FW,MF",0.26,3.11
+2704,Pau Victor,Barcelona,FW,0.56,3.64
+2705,Nacho Vidal,Osasuna,DF,0.0,0.0
+2706,Gabriel Vidovic,Mainz 05,MF,0.0,0.0
+2707,Gabriel Vidovic,Bayern Munich,MF,0.0,0.0
+2708,Fran Vieites,Betis,GK,0.0,0.0
+2709,Sergio Viera,Las Palmas,MF,0.0,1.87
+2710,Samuele Vignato,Monza,MF,0.19,1.34
+2711,Asier Villalibre,Alavés,FW,0.27,1.89
+2712,Iván Villar,Celta Vigo,GK,0.0,0.0
+2713,Carlos Vinícius,Fulham,"MF,FW",0.0,11.25
+2714,Nicolas Viola,Cagliari,"FW,MF",0.28,4.19
+2715,Viti,Las Palmas,DF,0.14,1.32
+2716,Mattia Viti,Empoli,DF,0.0,0.8
+2717,Vitinha,Genoa,"FW,MF",0.2,2.78
+2718,Vitinha,Paris S-G,MF,0.18,3.22
+2719,Daniel Vivian,Athletic Club,DF,0.03,1.17
+2720,Krapyvtsov Vladyslav,Girona,GK,0.0,0.0
+2721,Dušan Vlahović,Juventus,FW,0.4,2.07
+2722,Vanja Vlahović,Atalanta,"FW,MF",1.5,4.5
+2723,Nikola Vlašić,Torino,"MF,FW",0.34,2.98
+2724,Alessandro Vogliacco,Genoa,DF,0.0,0.76
+2725,Alessandro Vogliacco,Parma,DF,0.0,0.58
+2726,Kevin Vogt,Union Berlin,DF,0.0,1.12
+2727,Mërgim Vojvoda,Torino,DF,0.08,2.2
+2728,Mërgim Vojvoda,Como,DF,0.25,2.51
+2729,Kevin Volland,Union Berlin,"FW,MF",0.0,1.48
+2730,Aster Vranckx,Wolfsburg,MF,0.16,0.97
+2731,Stefan de Vrij,Inter,DF,0.16,0.73
+2732,Ibrahima Wadji,Saint-Étienne,"FW,MF",0.26,2.09
+2733,Robert Wagner,St. Pauli,MF,0.0,0.67
+2734,Elye Wahi,Marseille,FW,0.63,2.5
+2735,Elye Wahi,Eint Frankfurt,"FW,MF",0.0,1.83
+2736,Hauke Wahl,St. Pauli,DF,0.0,0.79
+2737,Kyle Walker,Manchester City,DF,0.0,1.58
+2738,Kyle Walker,Milan,DF,0.0,1.37
+2739,Kyle Walker-Peters,Southampton,DF,0.22,1.94
+2740,Christian Walton,Ipswich Town,GK,0.0,0.29
+2741,Sebastian Walukiewicz,Torino,DF,0.05,0.87
+2742,Sebastian Walukiewicz,Empoli,DF,0.0,2.0
+2743,Aaron Wan-Bissaka,West Ham,DF,0.29,2.65
+2744,Paul Wanner,Heidenheim,"MF,FW",0.36,2.59
+2745,Danny Ward,Leicester City,GK,0.0,0.0
+2746,Joel Ward,Crystal Palace,DF,0.0,1.27
+2747,James Ward-Prowse,West Ham,MF,0.09,2.95
+2748,James Ward-Prowse,Nott'ham Forest,MF,0.45,2.25
+2749,Kjell-Arik Wätjen,Dortmund,MF,0.0,0.0
+2750,Ollie Watkins,Aston Villa,FW,0.42,1.84
+2751,Timothy Weah,Juventus,"DF,FW",0.16,1.98
+2752,Adam Webster,Brighton,DF,0.41,1.42
+2753,Julian Weigl,Gladbach,MF,0.19,1.59
+2754,Timon Weiner,Holstein Kiel,GK,0.0,0.2
+2755,Nelson Weiper,Mainz 05,"FW,MF",0.26,2.05
+2756,Mitchell Weiser,Werder Bremen,"DF,MF",0.41,2.73
+2757,Noah Weißhaupt,St. Pauli,"FW,MF",0.08,3.26
+2758,Noah Weißhaupt,Freiburg,FW,0.0,4.5
+2759,Danny Welbeck,Brighton,FW,0.34,2.26
+2760,Welington,Southampton,DF,0.19,1.31
+2761,Timo Werner,Tottenham,"FW,MF",0.52,3.13
+2762,Adam Wharton,Crystal Palace,MF,0.41,4.03
+2763,Ben White,Arsenal,DF,0.15,1.73
+2764,Silvan Widmer,Mainz 05,DF,0.36,1.78
+2765,Mats Wieffer,Brighton,"DF,MF",0.53,2.83
+2766,Mateusz Wieteska,Cagliari,DF,0.0,0.97
+2767,Caleb Wiley,Strasbourg,"DF,MF",0.34,1.35
+2768,Iñaki Williams,Athletic Club,FW,0.48,2.72
+2769,Neco Williams,Nott'ham Forest,DF,0.21,1.77
+2770,Nico Williams,Athletic Club,FW,0.59,5.05
+2771,Willian,Fulham,"FW,MF",0.0,5.93
+2772,Joe Willock,Newcastle Utd,"MF,FW",0.33,3.73
+2773,Callum Wilson,Newcastle Utd,FW,0.0,2.43
+2774,Harry Wilson,Fulham,"FW,MF",0.23,3.41
+2775,Patrick Wimmer,Wolfsburg,"MF,FW",0.61,3.61
+2776,Jonas Wind,Wolfsburg,"FW,MF",0.27,2.97
+2777,Harry Winks,Leicester City,MF,0.18,2.28
+2778,Ben Winterburn,Bournemouth,"MF,FW",0.0,0.0
+2779,Florian Wirtz,Leverkusen,"MF,FW",0.99,5.66
+2780,Yoane Wissa,Brentford,FW,0.31,2.13
+2781,Dani de Wit,Bochum,"MF,FW",0.16,1.72
+2782,Axel Witsel,Atlético Madrid,DF,0.21,0.42
+2783,Maximilian Wittek,Bochum,DF,0.2,3.33
+2784,Marius Wolf,Augsburg,DF,0.25,3.36
+2785,Nick Woltemade,Stuttgart,"FW,MF",0.55,4.38
+2786,Jeong Woo-yeong,Union Berlin,"MF,FW",0.36,3.49
+2787,Chris Wood,Nott'ham Forest,FW,0.15,1.34
+2788,Nathan Wood-Gordon,Southampton,DF,0.0,0.35
+2789,Christopher Wooh,Rennes,DF,0.06,0.99
+2790,Luke Woolfenden,Ipswich Town,DF,0.0,0.15
+2791,Granit Xhaka,Leverkusen,MF,0.56,3.74
+2792,Lamine Yamal,Barcelona,FW,0.91,5.92
+2793,Daniel Yáñez,Real Madrid,FW,0.0,0.0
+2794,Erencan Yardimci,Hoffenheim,"FW,MF",0.58,1.44
+2795,Yehor Yarmoliuk,Brentford,MF,0.12,1.62
+2796,Ryan Yates,Nott'ham Forest,MF,0.14,1.78
+2797,John Yeboah,Venezia,"FW,MF",0.22,3.89
+2798,Bertuğ Yıldırım,Getafe,FW,0.08,1.75
+2799,Kenan Yıldız,Juventus,"FW,MF",0.37,4.87
+2800,Leny Yoro,Manchester Utd,DF,0.0,0.7
+2801,Ashley Young,Everton,DF,0.29,2.25
+2802,Etienne Youte Kinkoue,Le Havre,DF,0.04,0.54
+2803,Illia Zabarnyi,Bournemouth,DF,0.03,0.84
+2804,Eloge Zabi,Reims,"DF,MF",0.0,5.0
+2805,Mattia Zaccagni,Lazio,FW,0.3,3.59
+2806,Dan-Axel Zagadou,Stuttgart,"DF,MF",0.0,0.0
+2807,Yoram Zague,Paris S-G,"DF,FW",0.0,1.48
+2808,Wilfried Zaha,Lyon,FW,0.0,0.0
+2809,Warren Zaïre-Emery,Paris S-G,"MF,DF",0.18,2.28
+2810,Miha Zajc,Toulouse,MF,0.0,2.05
+2811,Denis Zakaria,Monaco,MF,0.42,2.18
+2812,Arsen Zakharyan,Real Sociedad,"MF,FW",0.0,7.4
+2813,Nicola Zalewski,Roma,"DF,FW",0.0,3.37
+2814,Nicola Zalewski,Inter,"DF,MF",0.21,4.14
+2815,Andre-Frank Zambo Anguissa,Napoli,MF,0.28,2.37
+2816,Francesco Zampano,Venezia,DF,0.16,1.37
+2817,Nicolò Zaniolo,Fiorentina,FW,0.0,2.42
+2818,Nicolò Zaniolo,Atalanta,"FW,MF",0.76,3.79
+2819,Alessandro Zanoli,Genoa,"FW,DF",0.05,1.68
+2820,Duván Zapata,Torino,FW,0.15,3.07
+2821,Gabriele Zappa,Cagliari,DF,0.06,1.68
+2822,Davide Zappacosta,Atalanta,DF,0.26,2.31
+2823,Bryan Zaragoza,Osasuna,"FW,MF",0.44,3.49
+2824,Anass Zaroury,Lens,"FW,MF",0.26,4.61
+2825,Oier Zarraga,Udinese,MF,0.0,1.51
+2826,David Zec,Holstein Kiel,DF,0.0,0.76
+2827,Jordan Zemura,Udinese,DF,0.25,1.91
+2828,Robin Zentner,Mainz 05,GK,0.0,0.25
+2829,Alessio Zerbin,Venezia,DF,0.12,2.49
+2830,Alessio Zerbin,Napoli,"FW,DF",0.0,0.0
+2831,Kevin Zeroli,Monza,MF,0.23,0.46
+2832,Kevin Zeroli,Milan,MF,0.0,0.0
+2833,Cedric Zesiger,Augsburg,DF,0.22,0.96
+2834,Cedric Zesiger,Wolfsburg,DF,0.0,0.86
+2835,Michael Zetterer,Werder Bremen,GK,0.03,0.15
+2836,Nathan Zeze,Nantes,DF,0.0,0.6
+2837,Edon Zhegrova,Lille,"FW,MF",0.28,3.5
+2838,Piotr Zieliński,Inter,MF,0.64,3.67
+2839,Oleksandr Zinchenko,Arsenal,"DF,MF",0.34,3.76
+2840,Melvin Zinga,Angers,GK,0.0,0.0
+2841,Joshua Zirkzee,Manchester Utd,"FW,MF",0.19,1.99
+2842,Budu Zivzivadze,Heidenheim,FW,0.38,2.45
+2843,Luck Zogbé,Brest,DF,0.14,2.11
+2844,Nadir Zortea,Cagliari,"DF,MF",0.1,1.89
+2845,Aristide Zossou,Auxerre,MF,0.0,0.0
+2846,Yanis Zouaoui,Le Havre,"DF,FW",0.28,3.69
+2847,Igor Zubeldia,Real Sociedad,DF,0.04,0.67
+2848,Martín Zubimendi,Real Sociedad,MF,0.18,1.4
+2849,Edhy Zuliani,Toulouse,DF,0.0,0.0
+2850,Szymon Żurkowski,Empoli,MF,0.0,0.85
+2851,Martin Ødegaard,Arsenal,MF,0.7,4.8
+2852,Milan Đurić,Monza,FW,0.07,0.5
+2853,Milan Đurić,Parma,FW,0.34,1.68

@@ -87,9 +87,15 @@ class Workflow:
         tools.append(Done)
         return cls(llm, tools)
 
-    async def llm_tool_call(self, state: OrchestrationState):
+    async def llm_tool_call(self, state: CurrentState):
         """Invoke the orchestrator prompt with tool bindings and return the raw AIMessage."""
-        try:        
+        try: 
+            if isinstance(state.get("list_orchestration_state"),list):
+                tool_call_request =  state.get("list_orchestration_state")[-1]
+            else:
+                logger.error(f"❌LLM returned wrong content format for list_orchestration_state at orchestrator step — can't proceed to tool_calling.")
+                raise ValueError(f"❌Wrong format for tool_call_request.") 
+            logger.info(tool_call_request)   
             ai_msg = await self.llm_with_tools.ainvoke(
             [
                 {
@@ -98,27 +104,29 @@ class Workflow:
                 },
                 {
                     "role": "user", 
-                    "content": state["tool_call_request"]
+                    "content": tool_call_request["tool_call_request"]
                 }
             ]
         )
-            if ai_msg.tool_calls:
+            if hasattr(ai_msg, "tool_calls") and ai_msg.tool_calls:
+                logger.info(f"{ai_msg.tool_calls}")
+                state["messages"] = state["messages"] + [ai_msg]
                 return Command(
                     goto="tool_node",
                     update={
-                        "messages": state["messages"] + [ai_msg],
+                        "messages": state["messages"],
                     }
                 )
             else:
                 logger.error(f"❌LLM returned wrong content format at tool_call step — can't proceed to tool_node.")
-                raise ValueError("❌LLM returned wrong content format at tool_call step — can't proceed to tool_node.")
+                raise ValueError("❌Wrong format for ToolMessage.")
         except Exception as e:
             logger.error(f"❌ TOOL: {e}")
-            raise ValueError(f"❌ TOOL: {e}")
+            raise ValueError(f"❌ {e}")
     
     async def specialize(self, state: CurrentState) -> Command:
         if not state["messages"][-1].content.strip():
-            raise ValueError("LLM returned empty content at specialist step — can't proceed to orchestrator_step.")
+            raise ValueError("LLM returned empty/malformed content at specialist step — can't proceed to orchestrator_step.")
         try:
             ai_msg = await self.specialist(state["messages"])
         except Exception as e:
@@ -133,18 +141,19 @@ class Workflow:
     async def orchestrate(self, state: CurrentState) -> Command:
         """Run the orchestrator step, append AI message, and branch."""
 
-        if not not state["messages"][-1].content.strip():
+        if not state["messages"][-1].content.strip():
             raise ValueError("LLM returned wrong content at orchestrator step — can't proceed to tool_call.")
         try: 
             orchestrate_state = await self.orchestrator(state["messages"])
         except Exception as e:
             logger.exception(f"{e}")
             raise e
-
+        ai_msg = parse_to_message(orchestrate_state)
+        state["messages"].append(ai_msg)
         return Command(
             goto="tool_call",
             update={
-                "messages": state["messages"] + parse_to_message(orchestrate_state),
-                "orchestration_state": state["orchestration_state"] + orchestrate_state
+                "messages": state["messages"],
+                "list_orchestration_state": state.get("list_orchestration_state", []) + [orchestrate_state]
                 }
             )
