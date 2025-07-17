@@ -7,7 +7,7 @@ __pycache__/
 *.so
 .env
 soccer_analysis.db
-
+testing.ipynb
 # Distribution / packaging
 .Python
 build/
