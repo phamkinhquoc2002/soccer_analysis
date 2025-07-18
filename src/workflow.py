@@ -4,11 +4,12 @@ from langgraph.graph import StateGraph, START, END
 from langgraph.types import Command
 from langgraph.prebuilt import ToolNode
 from langchain_core.language_models import BaseChatModel
-from src.schemas import CurrentState, Done, OrchestrationState
+from langchain_core.messages import AIMessage
+from src.schemas import CurrentState, Done
 from src.prompts_template import agent_role_template
 from src.agents import Orchestrator, Specialist
 from src.utils import parse_to_message
-
+from src.prompts_template import tool_calling_prompt_template
 
 # === Logger Setup ===
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
@@ -40,15 +41,25 @@ mcp = MultiServerMCPClient(
 )
 
 def route_after_tool(state: CurrentState):
-    """After tool execution decide whether to continue or finish.
-    If the last message is a Done tool-call result, finish; otherwise go to tool_call for next step."""
+    """
+    After tool execution, decide whether to continue or finish.
+    If the last tool-call result is 'Done', then finish.
+    """
     last = state["messages"][-1]
+    logger.info(f"🧭 Routing decision — last message: {type(last)}, content: {getattr(last, 'content', None)}")
     if isinstance(last, Done):
         return END
-    return "orchestrator"
+    if hasattr(last, "tool_calls") and last.tool_calls:
+        return "tool_result_store"
+    if getattr(last, "name", None) == "Done":
+        return END
+    if hasattr(last, "content") and "Done" in last.content:
+        return END
+
+    return "tool_result_store"
 
 class Workflow:
-    """Agent builder; instantiate via ``await Builder.create(llm)``"""
+    """Agent workflow builder; instantiate via ``await Workflow.create(llm)``"""
 
     def __init__(self, llm: BaseChatModel, tools):
 
@@ -62,6 +73,7 @@ class Workflow:
         graph.add_node("orchestrator", self.orchestrate)
         graph.add_node("tool_call", self.llm_tool_call)
         graph.add_node("tool_node", self.tool_node)
+        graph.add_node("tool_result_store", self.tool_result_store)
         # graph edges
         graph.add_edge(START, "specialist")
         graph.add_edge("specialist", "orchestrator")
@@ -71,8 +83,9 @@ class Workflow:
         graph.add_conditional_edges(
             "tool_node",
             route_after_tool,
-            {"orchestrator": "orchestrator", END: END},
+            {"tool_result_store": "tool_result_store", END: END},
         )
+        graph.add_edge("tool_result_store", "orchestrator")
         self.graph = graph.compile()
 
     @classmethod
@@ -87,15 +100,11 @@ class Workflow:
         tools.append(Done)
         return cls(llm, tools)
 
-    async def llm_tool_call(self, state: CurrentState):
+    async def llm_tool_call(self, state: CurrentState) -> Command:
         """Invoke the orchestrator prompt with tool bindings and return the raw AIMessage."""
         try: 
-            if isinstance(state.get("list_orchestration_state"),list):
-                tool_call_request =  state.get("list_orchestration_state")[-1]
-            else:
-                logger.error(f"❌LLM returned wrong content format for list_orchestration_state at orchestrator step — can't proceed to tool_calling.")
-                raise ValueError(f"❌Wrong format for tool_call_request.") 
-            logger.info(tool_call_request)   
+            if isinstance(state.get("tool_call_request"), str):
+                tool_call_request =  state.get("prev_tool_call_request")
             ai_msg = await self.llm_with_tools.ainvoke(
             [
                 {
@@ -104,12 +113,12 @@ class Workflow:
                 },
                 {
                     "role": "user", 
-                    "content": tool_call_request["tool_call_request"]
+                    "content": tool_call_request
                 }
             ]
         )
             if hasattr(ai_msg, "tool_calls") and ai_msg.tool_calls:
-                logger.info(f"{ai_msg.tool_calls}")
+                logger.info(f"🔧 TOOL CALL | Tool Calls: {ai_msg.tool_calls}")
                 state["messages"] = state["messages"] + [ai_msg]
                 return Command(
                     goto="tool_node",
@@ -121,7 +130,24 @@ class Workflow:
                 logger.error(f"❌LLM returned wrong content format at tool_call step — can't proceed to tool_node.")
                 raise ValueError("❌Wrong format for ToolMessage.")
         except Exception as e:
-            logger.error(f"❌ TOOL: {e}")
+            logger.error(f"❌: {e}")
+            raise ValueError(f"❌ {e}")
+        
+    async def tool_result_store(self, state: CurrentState) -> Command:
+        try:
+            tool_msg = state["messages"][-1]
+            tool_name = getattr(tool_msg, "name")
+            content = getattr(tool_msg, "content")
+            logger.info(f"🔧 TOOL CALL | Tool Name: {tool_name}  Tool Result: {content}")
+            return Command(
+                goto="orchestrator",
+                update={
+                    "tool_name": tool_name,
+                    "tool_result": content,
+                    }
+            )
+        except Exception as e:
+            logger.error(f"❌ {e}")
             raise ValueError(f"❌ {e}")
     
     async def specialize(self, state: CurrentState) -> Command:
@@ -133,6 +159,7 @@ class Workflow:
             logger.exception(f"{e}")
             raise e
         state["messages"].append(ai_msg)
+        logger.info(f"📦 SPECIALIST | Request: {ai_msg.content}")
         return Command(
             goto="orchestrator",
             update={"messages":state["messages"]}
@@ -144,16 +171,42 @@ class Workflow:
         if not state["messages"][-1].content.strip():
             raise ValueError("LLM returned wrong content at orchestrator step — can't proceed to tool_call.")
         try: 
-            orchestrate_state = await self.orchestrator(state["messages"])
+            if (
+                isinstance(state.get("prev_tool_result", None), str)
+                and isinstance(state.get("prev_tool_name", None), str)
+                and isinstance(state.get("prev_tool_reasoning", None), str)
+                ):
+                tool_result = state["prev_tool_result"]
+                tool_name = state["prev_tool_name"]
+                tool_reasoning = state["prev_tool_reasoning"]
+                tool_calling_prompt = tool_calling_prompt_template.format(
+                    state["messages"][0].content,
+                    state["messages"][1].content,
+                    tool_reasoning,
+                    tool_name,
+                    tool_result
+                )
+            else:
+                tool_calling_prompt = tool_calling_prompt_template.format(
+                    state["messages"][0].content,
+                    state["messages"][1].content,
+                    "<not yet>",
+                    "<not yet>",
+                    "<not yet>"
+                )
+            orchestrate_state = await self.orchestrator([AIMessage(content=tool_calling_prompt)])
+            ai_msg = parse_to_message(orchestrate_state)
+            logger.info(f"🔧 TOOL CALL | Request: {orchestrate_state.get('tool_call_request', '[none]')}")
+            logger.info(f"🧠 ORCHESTRATOR | Reasoning: {orchestrate_state.get('reasoning', '[none]')}")
         except Exception as e:
-            logger.exception(f"{e}")
+            logger.exception(f"❌: {e}")
             raise e
-        ai_msg = parse_to_message(orchestrate_state)
         state["messages"].append(ai_msg)
         return Command(
             goto="tool_call",
             update={
                 "messages": state["messages"],
-                "list_orchestration_state": state.get("list_orchestration_state", []) + [orchestrate_state]
+                "prev_tool_call_request": orchestrate_state["tool_call_request"],
+                "prev_tool_reasoning": orchestrate_state["reasoning"]
                 }
             )

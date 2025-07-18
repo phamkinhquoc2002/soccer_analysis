@@ -20,3 +20,16 @@ agent_response_preference_template = """
 {}
 </ Response Preferences >
 """
+
+tool_calling_prompt_template = """
+User's request:
+{}
+Metrics to analyze from the previous agent:
+{}
+Reason why you choose the previous tool:
+{}
+Previous tool name: 
+{}
+Previous tool result:
+{}
+"""

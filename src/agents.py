@@ -1,6 +1,5 @@
 from abc import ABC
 from typing import Annotated, List, Optional
-from langchain_core.tools import BaseTool
 from langchain_core.language_models import BaseChatModel
 from langchain_core.messages import BaseMessage
 from src.schemas import OrchestrationState
