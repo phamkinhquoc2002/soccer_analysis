@@ -15,13 +15,9 @@ agent_instruction_template = """
 {}
 </ Instructions >"""
 
-agent_response_preference_template = """
-< Response Preferences >
-{}
-</ Response Preferences >
-"""
-
 tool_calling_prompt_template = """
+All Tools called up to this point:
+{}
 User's request:
 {}
 Metrics to analyze from the previous agent:

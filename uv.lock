@@ -893,6 +893,19 @@ wheels = [
 ]
 
 [[package]]
+name = "langgraph-cli"
+version = "0.3.5"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "click" },
+    { name = "langgraph-sdk" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/3e/65/08017703a6a2ee6abb999308f85ebe8efde2da42e3acd6b5d0394c23b8ed/langgraph_cli-0.3.5.tar.gz", hash = "sha256:6120c037bdbdd779a1a80bf6d408ab4643cdc52e594a07caad5221a923fd3b78", size = 728253, upload-time = "2025-07-17T19:24:39.323Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/f8/a6/e69f5ffd086026e1e060040f668235d239677033b647a3a35a656bd031df/langgraph_cli-0.3.5-py3-none-any.whl", hash = "sha256:88f93c1d3c59da1935469633023c273e44e921c780525cb45e49aa2db98c7c4e", size = 36583, upload-time = "2025-07-17T19:24:37.718Z" },
+]
+
+[[package]]
 name = "langgraph-prebuilt"
 version = "0.2.3"
 source = { registry = "https://pypi.org/simple" }
@@ -1727,6 +1740,7 @@ dependencies = [
     { name = "langchain-text-splitters" },
     { name = "langgraph" },
     { name = "langgraph-checkpoint" },
+    { name = "langgraph-cli" },
     { name = "langgraph-prebuilt" },
     { name = "langgraph-sdk" },
     { name = "langsmith" },
@@ -1853,6 +1867,7 @@ requires-dist = [
     { name = "langchain-text-splitters", specifier = "==0.3.8" },
     { name = "langgraph", specifier = "==0.4.8" },
     { name = "langgraph-checkpoint", specifier = "==2.1.0" },
+    { name = "langgraph-cli", specifier = ">=0.3.5" },
     { name = "langgraph-prebuilt", specifier = "==0.2.3" },
     { name = "langgraph-sdk", specifier = "==0.1.70" },
     { name = "langsmith", specifier = "==0.3.45" },

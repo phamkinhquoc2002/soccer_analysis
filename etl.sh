@@ -7,6 +7,7 @@ export SEASON_RANGE=$1
 export DB_PATH="./etl/soccer_analysis.db"
 export INGESTION_DIR='./etl/ingestion'
 export STAGING_DIR='./etl/staging'
+export SERVING_DIR='./etl/serving'
 
 echo "===START THE ETL PROCESS==="
 echo "$(date)"
@@ -28,3 +29,8 @@ python3 etl/transform.py --ingestion-dir $INGESTION_DIR --staging-dir $STAGING_D
 echo "=== STEP 3: Load data into the database ==="
 find $STAGING_DIR -name "*.csv" | tee >> "$STAGING_DIR/staging_file_paths.txt"
 python3 etl/load.py --db-path $DB_PATH --staging-dir $STAGING_DIR
+
+echo "=== STEP 4: Create the serving folder ==="
+if ![ -d $STAGING_DIR ] then;
+  mkdir -p $STAGING_DIR
+fi

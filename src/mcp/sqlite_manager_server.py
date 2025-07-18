@@ -64,7 +64,7 @@ class SQLiteManager:
         with self.get_connetion() as conn:
             try:
                 cursor = conn.cursor()
-                cursor.execute(f'PRAGMA table_info({table_name})')
+                cursor.execute(f'PRAGMA table_info("{table_name}")')
                 rows = cursor.fetchall()
                 return f"Info about {table_name}:\n" + "\n".join(str(row) for row in rows)
             except Exception as e:
@@ -148,7 +148,8 @@ class DatabaseServer:
         @self.mcp.tool()
         def get_metrics_info(metrics: List[str]) -> str:
             """
-            Get descriptions for a list of metric names using the metrics resource.
+            Get descriptions for a list of metric names using the metrics resource. Sometimes, when you get the info of the table you want to inspect, some metrics just dont make sense, 
+            please use this to understand what each column name means.
             Args:
                 metrics (List[str]): List of metric names.
             Returns:

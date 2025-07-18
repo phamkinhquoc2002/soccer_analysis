@@ -103,7 +103,7 @@ class Workflow:
     async def llm_tool_call(self, state: CurrentState) -> Command:
         """Invoke the orchestrator prompt with tool bindings and return the raw AIMessage."""
         try: 
-            if isinstance(state.get("tool_call_request"), str):
+            if isinstance(state.get("prev_tool_call_request"), str):
                 tool_call_request =  state.get("prev_tool_call_request")
             ai_msg = await self.llm_with_tools.ainvoke(
             [
@@ -138,12 +138,17 @@ class Workflow:
             tool_msg = state["messages"][-1]
             tool_name = getattr(tool_msg, "name")
             content = getattr(tool_msg, "content")
+            
+            if hasattr(state, "insights") == False:
+                state["insights"] = []
+            state["insights"].append(f"🔧 TOOL CALL | Tool Name: {tool_name}  Tool Result: {content}")
             logger.info(f"🔧 TOOL CALL | Tool Name: {tool_name}  Tool Result: {content}")
             return Command(
                 goto="orchestrator",
                 update={
-                    "tool_name": tool_name,
-                    "tool_result": content,
+                    "prev_tool_name": tool_name,
+                    "prev_tool_result": content,
+                    "insights": state["insights"]
                     }
             )
         except Exception as e:
@@ -156,8 +161,8 @@ class Workflow:
         try:
             ai_msg = await self.specialist(state["messages"])
         except Exception as e:
-            logger.exception(f"{e}")
-            raise e
+            logger.exception(f"❌ {e}")
+            raise ValueError(f"❌ {e}")
         state["messages"].append(ai_msg)
         logger.info(f"📦 SPECIALIST | Request: {ai_msg.content}")
         return Command(
@@ -175,11 +180,14 @@ class Workflow:
                 isinstance(state.get("prev_tool_result", None), str)
                 and isinstance(state.get("prev_tool_name", None), str)
                 and isinstance(state.get("prev_tool_reasoning", None), str)
+                and isinstance(state.get("insights", None), list)
                 ):
                 tool_result = state["prev_tool_result"]
                 tool_name = state["prev_tool_name"]
                 tool_reasoning = state["prev_tool_reasoning"]
+                insights = state["insights"]
                 tool_calling_prompt = tool_calling_prompt_template.format(
+                    '\n'.join(insight for insight in insights),
                     state["messages"][0].content,
                     state["messages"][1].content,
                     tool_reasoning,
@@ -188,6 +196,7 @@ class Workflow:
                 )
             else:
                 tool_calling_prompt = tool_calling_prompt_template.format(
+                    "<not yet>",
                     state["messages"][0].content,
                     state["messages"][1].content,
                     "<not yet>",

@@ -22,4 +22,4 @@ class CurrentState(MessagesState):
     prev_tool_reasoning: Annotated[str, "Reason why you choose the tool."]
     prev_tool_result: Annotated[str, "Results from tool call."]
     prev_tool_name: Annotated[str, "Tool name"]
-    observations: Annotated[str, "Observations so far up until the current step."]
+    insights: Annotated[List[str], "Insights so far up until the current step."]
