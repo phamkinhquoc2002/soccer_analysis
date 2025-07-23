@@ -49,13 +49,13 @@ class DataAnalystServer:
             df = pd.read_csv(file_path)
             if "Player" not in df.columns:
                 logger.error("No 'Player' column found within the dataset.")
-                return "No 'Player' column found within the dataset."
+                return "❌:No 'Player' column found within the dataset."
 
             scaled_values = scale(df)
 
             if n_components > scaled_values.shape[1]:
                 logger.error("n_components greater than number of features.")
-                return "n_components greater than number of features."
+                return "❌:n_components greater than number of features."
             pca_converter = SKPCA(n_components=n_components)
             principal_components = pca_converter.fit_transform(scaled_values)
             columns = [f'PCA{i+1}' for i in range(n_components)]
@@ -69,7 +69,7 @@ class DataAnalystServer:
             return output_file_name
         except Exception as e:
             logger.exception("Exception during PCA analysis")
-            return {"status": "error", "message": f"Exception during PCA: {e}"}
+            return f"❌:Exception during PCA: {e}"
 
     def similarity_analysis(self, input_file_name: str, output_file_name: str, metric: Literal["cosine", "euclidean"]) -> dict:
         """
@@ -84,7 +84,7 @@ class DataAnalystServer:
             df = pd.read_csv(file_path)
             if "Player" not in df.columns:
                 logger.error("No 'Player' column found within the dataset.")
-                return {"status": "error", "message": "No 'Player' column found within the dataset."}
+                return "No 'Player' column found within the dataset."
             scaled_values = scale(df)
 
             if metric == "cosine":
@@ -94,7 +94,7 @@ class DataAnalystServer:
                 sim_matrix = 1 / (1 + dist_matrix)
             else:
                 logger.error(f"Unsupported metric: {metric}")
-                return {"status": "error", "message": f"Unsupported metric: {metric}"}
+                return f"❌:Unsupported metric: {metric}"
 
             player_names = df["Player"].values
             df_similar_scores = pd.DataFrame(sim_matrix, index=player_names, columns=player_names)
@@ -105,7 +105,7 @@ class DataAnalystServer:
             return output_file_name
         except Exception as e:
             logger.exception("Exception during similarity analysis")
-            return {"message": f"Exception during similarity analysis: {e}"}
+            return f"❌:Exception during similarity analysis: {e}"
 
     def _setup_tools(self):
         @self.mcp.tool()
@@ -130,10 +130,10 @@ if __name__ == "__main__":
     DB_PATH = os.environ.get("DB_PATH", "soccer_analysis")
     SERVING_DIR = os.environ.get("SERVING_DIR")
     if not SERVING_DIR:
-        logger.error("SERVING_DIR environment variable must be set!")
-        raise EnvironmentError("SERVING_DIR environment variable must be set!")
+        logger.error("❌:SERVING_DIR environment variable must be set!")
+        raise EnvironmentError("❌:SERVING_DIR environment variable must be set!")
     try:
         data_analyst_server = DataAnalystServer(db_path=DB_PATH, serving_dir=SERVING_DIR)
         data_analyst_server.run()
     except Exception as e:
-        logger.exception(f"Failed to start DataAnalystServer: {e}")
+        logger.exception(f"❌:Failed to start DataAnalystServer: {e}")
