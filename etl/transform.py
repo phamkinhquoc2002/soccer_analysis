@@ -1,19 +1,21 @@
 import os
 import pandas as pd
 
-def rename(df: pd.DataFrame) -> pd.DataFrame:
+def del_repetitive_col(df: pd.DataFrame) -> pd.DataFrame:
     for col in df.columns:
         if str(col).endswith(".1"):
-            df.rename(columns={ col:(str(col).split(".")[0] + "_90")}, inplace=True) 
+            df.drop(columns=col, inplace=True) 
     return df
     
 def clean(ingestion_file_path: str, staging_dir:str) -> None:
-    df_raw = pd.read_csv(ingestion_file_path, header=1)
-    df_filtered = rename(df_raw)
-    df_filtered.drop(columns="Unnamed: 0", inplace=True)
-    df_filtered.fillna(0.0)
+    df_raw = pd.read_csv(ingestion_file_path)
+    df_raw = del_repetitive_col(df_raw)
 
-    final_df=df_filtered[df_filtered["Rk"] != "Rk"]
+    if "Unnamed: 0" in list(df_raw.columns):
+        df_raw.drop(columns="Unnamed: 0", inplace=True)
+    df_raw.fillna(0.0)
+
+    final_df=df_raw[df_raw["Rk"] != "Rk"]
     ingestion_file_name = ingestion_file_path.split("/")[-1]
 
     staging_file_name = ingestion_file_name.replace(".csv", "_cleaned.csv")
@@ -33,6 +35,7 @@ if __name__ == "__main__":
     parser.add_argument("--ingestion-dir", type=str)
     parser.add_argument("--staging-dir", type=str)
     args = parser.parse_args()
+
     if not os.path.exists(args.staging_dir):
         os.makedirs(args.staging_dir)
     main(ingestion_dir=args.ingestion_dir, staging_dir=args.staging_dir)

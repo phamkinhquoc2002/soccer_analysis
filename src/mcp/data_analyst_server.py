@@ -2,7 +2,7 @@ import os
 import logging
 import pandas as pd
 import numpy as np
-from typing import Literal
+from typing import Literal, Annotated, List
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA as SKPCA
 from sklearn.metrics.pairwise import cosine_similarity, euclidean_distances
@@ -80,7 +80,7 @@ class DataAnalystServer:
             file_path = os.path.join(self.SERVING_DIR, input_file_name)
             if not os.path.isfile(file_path):
                 logger.error(f"Input file not found: {file_path}")
-                return {"status": "error", "message": f"Input file not found: {input_file_name}"}
+                return f"❌:Input file not found: {input_file_name}"
             df = pd.read_csv(file_path)
             if "Player" not in df.columns:
                 logger.error("No 'Player' column found within the dataset.")
@@ -106,21 +106,79 @@ class DataAnalystServer:
         except Exception as e:
             logger.exception("Exception during similarity analysis")
             return f"❌:Exception during similarity analysis: {e}"
+    
+    def dataset_inspect(self, input_file_name: str, selected_metrics: List[str]) -> str:
+        """
+        Inspect the dataset. Perform general analysis to gain more insights about the dataset.
+        """
+        try:
+            file_path = os.path.join(self.SERVING_DIR, input_file_name)
+            if not os.path.isfile(file_path):
+                logger.error(f"Input file not found: {file_path}")
+                return f"❌:Input file not found: {input_file_name}"
+            df = pd.read_csv(file_path)
+            if "Player" not in df.columns:
+                logger.error("No 'Player' column found within the dataset.")
+                return "No 'Player' column found within the dataset."
+            
+            analysis_report = "GENERAL ANALYSIS REPORT"
+            for metric in selected_metrics:
+                analysis_report += f"Top 5 Player in terms of {metric}\n===///GENERAL STATS OF {metric}///===\n"
+                analysis_report += f"- Median: {df[metric].median()}\n- 75 percentile: {df[metric].quantile(0.75)} - 90 quantile: {df[metric].quantile(0.9)}"
+                std_stat = df[metric].std()
+                mean_stat = df[metric].mean()
+                for _, row in df[["Player", metric]].sort_values(by=metric, ascending=False).head().iterrows():
+                    analysis_report += f"- Player: {row["Player"]} - {metric} Values: {row[metric]}\n"
+                    outlier_check_result = self.detect_outlier(row[metric], mean_stat, std_stat)
+                    if "non-outlier":
+                        analysis_report += f"- Player: {row["Player"]} - {metric} Values: {row[metric]}\n"
+                    else:
+                        analysis_report += f"- Player: {row["Player"]} - {metric} Values: {row[metric]}\n-**OUTLIER DETECTED**: {outlier_check_result}"
+            return analysis_report
+        except Exception as e:
+            logger.exception("Exception during general analysis")
+            return f"❌:Exception during general analysis: {e}"
+        
+    def detect_outlier(self, mean_value, stat_value, std) -> str:
+        """
+        Detect outliers. Used to check if a performance is above average or not.
+        """
+        try:
+            z_outlier = (stat_value - mean_value) / std
+            if z_outlier > 3.5:
+                return "Exceptionally Rare Stat - Elite"
+            elif z_outlier > 4.0:
+                return "Generationally Rare Stat - Legend"
+            elif z_outlier > 4.5:
+                return "Once-in-a-lifetime Rare Stat - GOAT tier"
+            else:
+                return "non-outlier"
+            
+        except Exception as e:
+            logger.error(f"❌ Exception during outlier check: {e}")
+            return f"❌:Exception during outlier check: {e}"
 
     def _setup_tools(self):
         @self.mcp.tool()
         def PCA_tool(input_file_name: str, output_file_name: str, n_components: int = 2) -> dict:
             """
-            Tool: Perform PCA analysis. Returns a dict with status and output file or error message.
+            Tool: Perform PCA analysis. Return a dict with status and output file or error message.
             """
             return self.pca_analysis(input_file_name, output_file_name, n_components)
 
         @self.mcp.tool()
         def similarity_tool(input_file_name: str, output_file_name: str, metric: Literal["cosine", "euclidean"]) -> dict:
             """
-            Tool: Compute similarity scores. Returns a dict with status and output file or error message.
+            Tool: Compute similarity scores. Return a dict with status and output file or error message.
             """
             return self.similarity_analysis(input_file_name, output_file_name, metric)
+        
+        @self.mcp.tool()
+        def general_analysis_tool(input_file_name: str, selected_metrics: Annotated[List[str], "List of selected metrics to perform general analysis"]):
+            """
+            Tool: Perform general analysis over the dataset. Return an analysis report of top 5 players in each selected metrics
+            """
+            return self.dataset_inspect(input_file_name=input_file_name, selected_metrics=selected_metrics)
 
     def run(self):
         logger.info("Starting DataAnalystServer...")

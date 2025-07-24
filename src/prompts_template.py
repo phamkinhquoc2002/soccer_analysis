@@ -16,11 +16,9 @@ agent_instruction_template = """
 </ Instructions >"""
 
 tool_calling_prompt_template = """
-All Tools called up to this point:
-{}
 User's request:
 {}
-Metrics to analyze from the previous agent:
+File name of pre-processed dataset from Specialist Agent:
 {}
 Reason why you choose the previous tool:
 {}

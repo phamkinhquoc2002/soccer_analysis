@@ -3,7 +3,7 @@
 set -e  # Exit immediately if a command exits with a non-zero status
 set -o pipefail
 
-export SEASON_RANGE=$1
+export SEASON_RANGE=2025
 export DB_PATH="./etl/soccer_analysis.db"
 export INGESTION_DIR='./etl/ingestion'
 export STAGING_DIR='./etl/staging'
@@ -31,6 +31,6 @@ find $STAGING_DIR -name "*.csv" | tee >> "$STAGING_DIR/staging_file_paths.txt"
 python3 etl/load.py --db-path $DB_PATH --staging-dir $STAGING_DIR
 
 echo "=== STEP 4: Create the serving folder ==="
-if ![ -d $STAGING_DIR ] then;
-  mkdir -p $STAGING_DIR
+if ![ -d $SERVING_DIR ]; then
+  mkdir -p $SERVING_DIR
 fi

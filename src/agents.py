@@ -2,7 +2,7 @@ from abc import ABC
 from typing import Annotated, List, Optional
 from langchain_core.language_models import BaseChatModel
 from langchain_core.messages import BaseMessage
-from src.schemas import OrchestrationState
+from src.schemas import AgentState
 from src.prompts_template import agent_role_template, agent_tool_template, agent_instruction_template
 from src.prompts import specialist_one_shot_prompt, specialist_system_prompt, orchestrator_instruction_prompt, orchestrator_system_prompt, orchestrator_tool_prompt
 from abc import abstractmethod
@@ -31,14 +31,14 @@ class Specialist(Agent):
                 + agent_instruction_template.format(specialist_one_shot_prompt)
                 )
         self.system_prompt = system_prompt
-        self.llm = llm
+        self.llm_with_structured_output = llm.with_structured_output(AgentState) 
 
     async def __call__(self, 
-                       messages: Annotated[List[BaseMessage], "List of messages"]):
+                       messages: Annotated[List[BaseMessage], "List of messages"]) -> AgentState:
         if not isinstance(messages, list):
-            raise TypeError("❌messages must be a list of BaseMessage")
+            raise TypeError("❌messages must be a list of Messages")
         try:
-            return await self.llm.ainvoke(
+            return await self.llm_with_structured_output.ainvoke(
                 [
                     {
                         "role":"system",
@@ -51,7 +51,7 @@ class Specialist(Agent):
         
 class Orchestrator(Agent):
     """
-    Orchestrator in the system. Help orchestrate the use of tools."""
+    Orchestrator in the system. Help orchestrate the use of data analysis and data visualization tools."""
     def __init__(self, llm: BaseChatModel, 
                  system_prompt: Optional[str] = None):
         
@@ -61,10 +61,10 @@ class Orchestrator(Agent):
                 agent_tool_template.format(orchestrator_tool_prompt) + agent_instruction_template.format(orchestrator_instruction_prompt)
             )
         self.system_prompt = system_prompt
-        self.llm_with_structured_output = llm.with_structured_output(OrchestrationState) 
+        self.llm_with_structured_output = llm.with_structured_output(AgentState) 
 
     async def __call__(self, 
-                       messages: Annotated[List[BaseMessage], "List of messages"]) -> OrchestrationState:
+                       messages: Annotated[List[BaseMessage], "List of messages"]) -> AgentState:
         if not isinstance(messages, list):
             raise TypeError("❌messages need to be a list of Messages")
         

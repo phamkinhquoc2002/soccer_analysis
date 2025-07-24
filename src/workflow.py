@@ -4,8 +4,8 @@ from langgraph.graph import StateGraph, START, END
 from langgraph.types import Command
 from langgraph.prebuilt import ToolNode
 from langchain_core.language_models import BaseChatModel
-from langchain_core.messages import AIMessage
-from src.schemas import CurrentState, Done
+from langchain_core.messages import AIMessage, HumanMessage
+from src.schemas import CurrentState, Done, NextStep
 from src.prompts_template import agent_role_template
 from src.agents import Orchestrator, Specialist
 from src.utils import parse_to_message
@@ -46,15 +46,23 @@ def route_after_tool(state: CurrentState):
     If the last tool-call result is 'Done', then finish.
     """
     last = state["messages"][-1]
-    logger.info(f"🧭 Routing decision — last message: {type(last)}, content: {getattr(last, 'content', None)}")
+    logger.info(f"🧭 ROUTE — last message: {type(last)}, content: {getattr(last, 'content', None)}")
     if isinstance(last, Done):
         return END
-    if hasattr(last, "tool_calls") and last.tool_calls:
-        return "tool_result_store"
     if getattr(last, "name", None) == "Done":
         return END
     if hasattr(last, "content") and "Done" in last.content:
         return END
+    
+    if isinstance(last, NextStep):
+        return "orchestrator"
+    if getattr(last, "name", None) == "NextStep":
+        return "orchestrator"
+    if hasattr(last, "content") and "NextStep" in last.content:
+        return "orchestrator"
+    
+    if hasattr(last, "tool_calls") and last.tool_calls:
+        return "tool_result_store"
 
     return "tool_result_store"
 
@@ -76,16 +84,19 @@ class Workflow:
         graph.add_node("tool_result_store", self.tool_result_store)
         # graph edges
         graph.add_edge(START, "specialist")
-        graph.add_edge("specialist", "orchestrator")
+        graph.add_edge("specialist", "tool_call")
         graph.add_edge("orchestrator", "tool_call")
         graph.add_edge("tool_call", "tool_node")
         # After each tool_node execution, decide next step
         graph.add_conditional_edges(
             "tool_node",
             route_after_tool,
-            {"tool_result_store": "tool_result_store", END: END},
+            {
+                "tool_result_store": "tool_result_store", 
+                "orchestrator":"orchestrator",
+                END: END
+                },
         )
-        graph.add_edge("tool_result_store", "orchestrator")
         self.graph = graph.compile()
 
     @classmethod
@@ -141,10 +152,11 @@ class Workflow:
             
             if hasattr(state, "insights") == False:
                 state["insights"] = []
-            state["insights"].append(f"🔧 TOOL CALL | Tool Name: {tool_name}  Tool Result: {content}")
+            state["insights"].append(f"🔧 TOOL CALL | Tool Name: {tool_name}  Tool Result: {content}")#THIS PART NEEDS AN UPGRADE.
             logger.info(f"🔧 TOOL CALL | Tool Name: {tool_name}  Tool Result: {content}")
+            current_step = state["current_agent"]
             return Command(
-                goto="orchestrator",
+                goto=current_step,
                 update={
                     "prev_tool_name": tool_name,
                     "prev_tool_result": content,
@@ -159,16 +171,49 @@ class Workflow:
         if not state["messages"][-1].content.strip():
             raise ValueError("LLM returned empty/malformed content at specialist step — can't proceed to orchestrator_step.")
         try:
-            ai_msg = await self.specialist(state["messages"])
+            if (
+                isinstance(state.get("prev_tool_result", None), str)
+                and isinstance(state.get("prev_tool_name", None), str)
+                and isinstance(state.get("prev_tool_reasoning", None), str)
+                and isinstance(state.get("insights", None), list)
+                ):
+                tool_result = state["prev_tool_result"]
+                tool_name = state["prev_tool_name"]
+                tool_reasoning = state["prev_tool_reasoning"]
+                insights = state["insights"]
+                tool_calling_prompt = tool_calling_prompt_template.format(
+                    state["messages"][0].content,
+                    '\n'.join(insight for insight in insights),
+                    tool_reasoning,
+                    tool_name,
+                    tool_result
+                )
+            else:
+                tool_calling_prompt = tool_calling_prompt_template.format(
+                    state["messages"][0].content,
+                    "<not yet>",
+                    "<not yet>",
+                    "<not yet>",
+                    "<not yet>"
+                )
+            specialist_state = await self.specialist([AIMessage(content=tool_calling_prompt)])
+            ai_msg = parse_to_message(specialist_state)
+            state["messages"].append(ai_msg)
         except Exception as e:
             logger.exception(f"❌ {e}")
             raise ValueError(f"❌ {e}")
-        state["messages"].append(ai_msg)
-        logger.info(f"📦 SPECIALIST | Request: {ai_msg.content}")
+        
+        logger.info(f"🔧 TOOL CALL | Request: {specialist_state.get('tool_call_request', '[none]')}")
+        logger.info(f"🧠 SPECIALIST | Reasoning: {specialist_state.get('reasoning', '[none]')}")
         return Command(
-            goto="orchestrator",
-            update={"messages":state["messages"]}
-        )
+            goto="tool_call",
+            update={
+                "messages":state["messages"],
+                "current_step": "specialist",
+                "prev_tool_call_request": specialist_state["tool_call_request"],
+                "prev_tool_reasoning": specialist_state["reasoning"]
+                }
+                )
 
     async def orchestrate(self, state: CurrentState) -> Command:
         """Run the orchestrator step, append AI message, and branch."""
@@ -186,35 +231,38 @@ class Workflow:
                 tool_name = state["prev_tool_name"]
                 tool_reasoning = state["prev_tool_reasoning"]
                 insights = state["insights"]
+                file_path = state["file_path"]
                 tool_calling_prompt = tool_calling_prompt_template.format(
-                    '\n'.join(insight for insight in insights),
                     state["messages"][0].content,
-                    state["messages"][1].content,
+                    file_path,
+                    '\n'.join(insight for insight in insights),
                     tool_reasoning,
                     tool_name,
                     tool_result
                 )
             else:
                 tool_calling_prompt = tool_calling_prompt_template.format(
-                    "<not yet>",
                     state["messages"][0].content,
-                    state["messages"][1].content,
+                    "<not yet>",
+                    "<not yet>",
                     "<not yet>",
                     "<not yet>",
                     "<not yet>"
                 )
             orchestrate_state = await self.orchestrator([AIMessage(content=tool_calling_prompt)])
             ai_msg = parse_to_message(orchestrate_state)
-            logger.info(f"🔧 TOOL CALL | Request: {orchestrate_state.get('tool_call_request', '[none]')}")
-            logger.info(f"🧠 ORCHESTRATOR | Reasoning: {orchestrate_state.get('reasoning', '[none]')}")
+            state["messages"].append(ai_msg)
         except Exception as e:
             logger.exception(f"❌: {e}")
             raise e
-        state["messages"].append(ai_msg)
+
+        logger.info(f"🔧 TOOL CALL | Request: {orchestrate_state.get('tool_call_request', '[none]')}")
+        logger.info(f"🧠 ORCHESTRATOR | Reasoning: {orchestrate_state.get('reasoning', '[none]')}")
         return Command(
             goto="tool_call",
             update={
                 "messages": state["messages"],
+                "current_step": "orchestrator",
                 "prev_tool_call_request": orchestrate_state["tool_call_request"],
                 "prev_tool_reasoning": orchestrate_state["reasoning"]
                 }

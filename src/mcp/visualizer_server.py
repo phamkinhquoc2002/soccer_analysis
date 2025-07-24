@@ -54,11 +54,11 @@ class VisualizationServer:
             try:
                 df[x] = (df[x] - df[x].min()) / (df[x].max() - df[x].min())
                 df[y] = (df[y] - df[y].min()) / (df[y].max() - df[y].min())
-                percentile_70_x = df[x].max() * 0.7
-                percentile_70_y = df[y].max() * 0.7
+                percentile_70_x = df[x].quantile(0.7)
+                percentile_70_y = df[x].quantile(0.7)
                 clean_df = df[
                     (
-                        (df[x] >= percentile_70_x) | (df[y] >= percentile_70_y)
+                        (df[x] >= df[x].quantile(0.7)) | (df[y] >= df[x].quantile(0.7))
                         )
                         ]
                 plt.figure(figsize=(10, 6))
